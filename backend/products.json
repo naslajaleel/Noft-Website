@@ -28,5 +28,15 @@
     "images": [
       "https://nb.scene7.com/is/image/NB/ws327bl_nb_02_i?$dw_detail_main_lg$&bgc=f1f1f1&layer=1&bgcolor=f1f1f1&blendMode=mult&scale=10&wid=1600&hei=1600"
     ]
+  },
+  {
+    "id": "1770230345305",
+    "name": "Sample",
+    "description": "sample",
+    "price": 111,
+    "offerPrice": 11,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770230318530-product-1770230318489-img_5557.png"
+    ]
   }
 ]

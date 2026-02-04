@@ -47,6 +47,7 @@ const Admin = () => {
   const [products, setProducts] = useState([]);
   const [form, setForm] = useState(emptyForm);
   const [isSaving, setIsSaving] = useState(false);
+  const [isUploading, setIsUploading] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
   const isEditing = useMemo(() => Boolean(form.id), [form.id]);
@@ -88,17 +89,49 @@ const Admin = () => {
       window.alert("Each image must be 2MB or smaller.");
     }
 
+    const uploadImageToGithub = async (file) => {
+      const dataUrl = await fileToDataUrl(file);
+      const safeName = form.name?.trim() ? form.name.trim() : "product";
+      const filename = `${safeName}-${Date.now()}-${file.name}`;
+
+      const response = await fetch(`${API_URL}/uploads/github`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          ...getAuthHeader(),
+        },
+        body: JSON.stringify({ dataUrl, filename }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to upload image to GitHub.");
+      }
+
+      const payload = await response.json();
+      if (!payload?.url) {
+        throw new Error("Missing uploaded image URL.");
+      }
+
+      return payload.url;
+    };
+
     try {
-      const dataUrls = await Promise.all(
-        validFiles.slice(0, remaining).map((file) => fileToDataUrl(file))
-      );
+      setIsUploading(true);
+      const uploads = [];
+      for (const file of validFiles.slice(0, remaining)) {
+        // Upload sequentially to keep ordering stable
+        const url = await uploadImageToGithub(file);
+        uploads.push(url);
+      }
       setForm((prev) => ({
         ...prev,
-        images: [...prev.images, ...dataUrls].slice(0, MAX_IMAGES),
+        images: [...prev.images, ...uploads].slice(0, MAX_IMAGES),
       }));
     } catch (error) {
-      console.error("Failed to read image files", error);
+      console.error("Failed to upload image files", error);
+      window.alert("Upload failed. Please try again.");
     } finally {
+      setIsUploading(false);
       event.target.value = "";
     }
   };
@@ -281,7 +314,7 @@ const Admin = () => {
               onChange={handleImageFiles}
               className="form__input"
               required={form.images.length === 0}
-              disabled={form.images.length >= MAX_IMAGES}
+              disabled={form.images.length >= MAX_IMAGES || isUploading}
             />
             {form.images.length > 0 && (
               <div
