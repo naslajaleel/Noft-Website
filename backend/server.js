@@ -7,6 +7,12 @@ import { fileURLToPath } from "url";
 const app = express();
 const PORT = 5000;
 const ADMIN_TOKEN = process.env.ADMIN_TOKEN || "noft-admin";
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const GITHUB_OWNER = process.env.GITHUB_OWNER;
+const GITHUB_REPO = process.env.GITHUB_REPO;
+const GITHUB_BRANCH = process.env.GITHUB_BRANCH || "main";
+const GITHUB_IMAGES_PATH =
+  process.env.GITHUB_IMAGES_PATH || "frontend/public/uploads";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -15,6 +21,64 @@ const dataPath = path.join(__dirname, "products.json");
 app.use(cors());
 app.use(express.json({ limit: "15mb" }));
 app.use(express.urlencoded({ extended: true, limit: "15mb" }));
+
+const getGithubConfig = () => {
+  if (!GITHUB_TOKEN || !GITHUB_OWNER || !GITHUB_REPO) {
+    return null;
+  }
+
+  return {
+    token: GITHUB_TOKEN,
+    owner: GITHUB_OWNER,
+    repo: GITHUB_REPO,
+    branch: GITHUB_BRANCH,
+    basePath: GITHUB_IMAGES_PATH,
+  };
+};
+
+const parseImageDataUrl = (dataUrl) => {
+  if (!dataUrl) {
+    throw new Error("Missing image data.");
+  }
+
+  const match = dataUrl.match(/^data:(image\/[a-zA-Z0-9.+-]+);base64,(.+)$/);
+  if (!match) {
+    throw new Error("Invalid image data URL.");
+  }
+
+  const mimeType = match[1];
+  const base64 = match[2];
+  const extension = mimeType.split("/")[1]?.toLowerCase() || "png";
+
+  return { base64, extension, mimeType };
+};
+
+const sanitizeFilename = (filename) =>
+  filename
+    ?.toLowerCase()
+    .replace(/\s+/g, "-")
+    .replace(/[^a-z0-9._-]/g, "")
+    .replace(/-+/g, "-")
+    .replace(/^\.+/, "")
+    .replace(/^[-_]+/, "")
+    .replace(/[-_]+$/, "");
+
+const buildImagePath = (basePath, filename, extension) => {
+  const safeName = sanitizeFilename(filename) || `image-${Date.now()}`;
+  const hasExtension = safeName.includes(".");
+  const finalName = hasExtension ? safeName : `${safeName}.${extension}`;
+  const trimmedBase = basePath.replace(/\/+$/, "");
+
+  return `${trimmedBase}/${Date.now()}-${finalName}`;
+};
+
+const buildRawUrl = ({ owner, repo, branch }, filePath) => {
+  const encodedPath = filePath
+    .split("/")
+    .map((segment) => encodeURIComponent(segment))
+    .join("/");
+  return `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${encodedPath}`;
+};
 
 const requireAdmin = (req, res, next) => {
   const authHeader = req.headers.authorization || "";
@@ -57,6 +121,54 @@ app.get("/products/:id", async (req, res) => {
     res.json(product);
   } catch (error) {
     res.status(500).json({ message: "Failed to read product." });
+  }
+});
+
+app.post("/uploads/github", requireAdmin, async (req, res) => {
+  try {
+    const config = getGithubConfig();
+    if (!config) {
+      return res
+        .status(500)
+        .json({ message: "GitHub storage is not configured." });
+    }
+
+    const { dataUrl, filename } = req.body;
+    const { base64, extension } = parseImageDataUrl(dataUrl);
+    const filePath = buildImagePath(config.basePath, filename, extension);
+
+    const apiUrl = `https://api.github.com/repos/${config.owner}/${config.repo}/contents/${filePath}?branch=${config.branch}`;
+    const response = await fetch(apiUrl, {
+      method: "PUT",
+      headers: {
+        Authorization: `Bearer ${config.token}`,
+        Accept: "application/vnd.github+json",
+        "Content-Type": "application/json",
+        "User-Agent": "noft-backend",
+      },
+      body: JSON.stringify({
+        message: `Upload ${filePath}`,
+        content: base64,
+        branch: config.branch,
+      }),
+    });
+
+    if (!response.ok) {
+      const errorBody = await response.json().catch(() => ({}));
+      return res.status(response.status).json({
+        message: "Failed to upload image to GitHub.",
+        details: errorBody,
+      });
+    }
+
+    const payload = await response.json();
+    const url =
+      payload?.content?.download_url ||
+      buildRawUrl(config, payload?.content?.path || filePath);
+
+    res.status(201).json({ url, path: payload?.content?.path || filePath });
+  } catch (error) {
+    res.status(500).json({ message: "Failed to upload image." });
   }
 });
 
