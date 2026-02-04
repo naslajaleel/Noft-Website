@@ -1,15 +1,5 @@
 [
   {
-    "id": "1002",
-    "name": "Adidas Samba",
-    "description": "",
-    "price": 2499,
-    "offerPrice": 2199,
-    "images": [
-      "https://6yoeyiwlxub92how.public.blob.vercel-storage.com/Image_20260204_152915_141.jpeg"
-    ]
-  },
-  {
     "id": "1770234285466",
     "name": "Newbalance 9060 mint green",
     "description": "",
