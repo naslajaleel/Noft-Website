@@ -253,11 +253,22 @@ app.post("/uploads/github", requireAdmin, async (req, res) => {
   }
 });
 
+const sanitizeImages = (images) => {
+  if (!Array.isArray(images)) {
+    return [];
+  }
+
+  return images
+    .map((img) => (typeof img === "string" ? img.trim() : ""))
+    .filter(Boolean);
+};
+
 app.post("/products", requireAdmin, async (req, res) => {
   try {
     const { name, description, price, offerPrice, images } = req.body;
+    const sanitizedImages = sanitizeImages(images);
 
-    if (!name || !offerPrice || !Array.isArray(images)) {
+    if (!name || !offerPrice || sanitizedImages.length === 0) {
       return res
         .status(400)
         .json({ message: "Name, offerPrice, and images are required." });
@@ -270,7 +281,7 @@ app.post("/products", requireAdmin, async (req, res) => {
       description: description || "",
       price: Number(price) || Number(offerPrice),
       offerPrice: Number(offerPrice),
-      images,
+      images: sanitizedImages,
     };
 
     products.push(newProduct);
@@ -296,14 +307,13 @@ app.put("/products/:id", requireAdmin, async (req, res) => {
     }
 
     const current = products[index];
+    const updatedImages = sanitizeImages(req.body.images);
     const updated = {
       ...current,
       ...req.body,
       price: Number(req.body.price ?? current.price),
       offerPrice: Number(req.body.offerPrice ?? current.offerPrice),
-      images: Array.isArray(req.body.images)
-        ? req.body.images
-        : current.images,
+      images: updatedImages.length ? updatedImages : current.images,
     };
 
     products[index] = updated;

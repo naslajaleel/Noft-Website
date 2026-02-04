@@ -370,10 +370,16 @@ const Admin = () => {
 
           <button
             type="submit"
-            disabled={isSaving}
+            disabled={isSaving || isUploading || form.images.length === 0}
             className="button button--primary"
           >
-            {isSaving ? "Saving..." : isEditing ? "Update product" : "Add product"}
+            {isUploading
+              ? "Uploading..."
+              : isSaving
+                ? "Saving..."
+                : isEditing
+                  ? "Update product"
+                  : "Add product"}
           </button>
         </form>
 
