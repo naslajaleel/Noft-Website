@@ -10,16 +10,6 @@
     ]
   },
   {
-    "id": "1770230345305",
-    "name": "Sample",
-    "description": "sample",
-    "price": 111,
-    "offerPrice": 11,
-    "images": [
-      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770230318530-product-1770230318489-img_5557.png"
-    ]
-  },
-  {
     "id": "1770234285466",
     "name": "Newbalance 9060 mint green",
     "description": "",
