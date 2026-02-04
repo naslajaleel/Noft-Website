@@ -362,7 +362,7 @@ button {
 
 .form__input,
 .form__textarea {
-  width: 100%;
+  width: 50%;
   border-radius: 16px;
   border: 1px solid #e5e7eb;
   padding: 12px 16px;

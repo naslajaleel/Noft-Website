@@ -1,11 +1,20 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import ProductCard from "../components/ProductCard.jsx";
 
-const API_URL = "http://localhost:5000";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const filteredProducts = useMemo(() => {
+    const query = searchTerm.trim().toLowerCase();
+    if (!query) return products;
+    return products.filter((product) =>
+      product.name?.toLowerCase().includes(query)
+    );
+  }, [products, searchTerm]);
 
   useEffect(() => {
     const loadProducts = async () => {
@@ -34,14 +43,29 @@ const Home = () => {
         </p>
       </div>
 
+      <div style={{ display: "flex", justifyContent: "end",gap: "12px",marginBlock:"20px" }}>
+      {/* <h1 fontWeight={300}>All products</h1> */}
+        <input
+          type="search"
+          value={searchTerm}
+          onChange={(event) => setSearchTerm(event.target.value)}
+          className="form__input"
+          placeholder="Search by name..."
+          width={"50%"}
+          aria-label="Search products by name"
+        />
+      </div>
+
       {isLoading ? (
         <div className="loading">Loading products...</div>
-      ) : (
+      ) : filteredProducts.length ? (
         <div className="grid grid-3">
-          {products.map((product) => (
+          {filteredProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
+      ) : (
+        <p className="helper">No products match your search.</p>
       )}
     </section>
   );

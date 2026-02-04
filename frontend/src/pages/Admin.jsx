@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { clearAuthToken, getAuthHeader } from "../utils/auth.js";
 
-const API_URL = "http://localhost:5000";
+const API_URL = import.meta.env.VITE_API_URL 
 
 const emptyForm = {
   id: null,
@@ -11,6 +11,25 @@ const emptyForm = {
   price: "",
   offerPrice: "",
   images: [""],
+};
+
+const extractDriveId = (url) => {
+  if (!url) return null;
+  const match =
+    url.match(/\/file\/d\/([^/]+)/) ||
+    url.match(/\/thumbnail\/([^/]+)/) ||
+    url.match(/[?&]id=([^&]+)/);
+  return match ? match[1] : null;
+};
+
+const normalizeImageUrl = (url) => {
+  const trimmed = url?.trim();
+  if (!trimmed) return "";
+  const driveId = extractDriveId(trimmed);
+  // googleusercontent.com works reliably for public Drive images
+  return driveId
+    ? `https://drive.google.com/thumbnail?id=${driveId}&sz=w1000`
+    : trimmed;
 };
 
 const Admin = () => {
@@ -103,7 +122,9 @@ const Admin = () => {
       description: form.description.trim(),
       price: Number(form.price),
       offerPrice: Number(form.offerPrice),
-      images: form.images.map((img) => img.trim()).filter(Boolean),
+      images: form.images
+        .map((img) => normalizeImageUrl(img))
+        .filter(Boolean),
     };
 
     try {
@@ -267,9 +288,11 @@ const Admin = () => {
           {isLoading ? (
             <div className="loading">Loading products...</div>
           ) : (
-            products.map((product) => (
+            products.map((product) => {
+              const coverImage = normalizeImageUrl(product.images?.[0] || "");
+              return (
               <div key={product.id} className="list-item">
-                <img src={product.images?.[0]} alt={product.name} />
+                <img src={coverImage} alt={product.name} />
                 <div className="list-item__meta">
                   <p style={{ fontWeight: 600 }}>{product.name}</p>
                   <p className="helper">Offer {product.offerPrice}</p>
@@ -291,7 +314,8 @@ const Admin = () => {
                   </button>
                 </div>
               </div>
-            ))
+              );
+            })
           )}
         </div>
       </div>
