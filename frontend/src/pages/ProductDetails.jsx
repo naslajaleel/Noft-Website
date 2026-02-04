@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import ImageCarousel from "../components/ImageCarousel.jsx";
 
-const API_URL = "https://noft-backend.vercel.app/";
+const API_URL = "https://noft-backend.vercel.app";
 const WHATSAPP_LINK = "https://wa.me/917907607583";
 
 const formatPrice = (value) =>

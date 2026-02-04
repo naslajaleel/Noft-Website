@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ProductCard from "../components/ProductCard.jsx";
 
-const API_URL = "https://noft-backend.vercel.app/";
+const API_URL = "https://noft-backend.vercel.app";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
