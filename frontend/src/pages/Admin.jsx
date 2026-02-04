@@ -2,15 +2,14 @@ import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { clearAuthToken, getAuthHeader } from "../utils/auth.js";
 
-const API_URL = import.meta.env.VITE_API_URL 
-
+const API_URL = import.meta.env.VITE_API_URL;
 const emptyForm = {
   id: null,
   name: "",
   description: "",
   price: "",
   offerPrice: "",
-  images: [""],
+  images: [],
 };
 
 const extractDriveId = (url) => {
@@ -31,6 +30,17 @@ const normalizeImageUrl = (url) => {
     ? `https://drive.google.com/thumbnail?id=${driveId}&sz=w1000`
     : trimmed;
 };
+
+const fileToDataUrl = (file) =>
+  new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = () => reject(new Error("Failed to read file"));
+    reader.readAsDataURL(file);
+  });
+
+const MAX_IMAGES = 2;
+const MAX_IMAGE_BYTES = 2 * 1024 * 1024;
 
 const Admin = () => {
   const navigate = useNavigate();
@@ -61,16 +71,36 @@ const Admin = () => {
     setForm((prev) => ({ ...prev, [field]: value }));
   };
 
-  const updateImage = (index, value) => {
-    setForm((prev) => {
-      const updated = [...prev.images];
-      updated[index] = value;
-      return { ...prev, images: updated };
-    });
-  };
+  const handleImageFiles = async (event) => {
+    const files = Array.from(event.target.files || []);
+    if (!files.length) {
+      return;
+    }
 
-  const addImageField = () => {
-    setForm((prev) => ({ ...prev, images: [...prev.images, ""] }));
+    const remaining = MAX_IMAGES - form.images.length;
+    if (remaining <= 0) {
+      event.target.value = "";
+      return;
+    }
+
+    const validFiles = files.filter((file) => file.size <= MAX_IMAGE_BYTES);
+    if (validFiles.length < files.length) {
+      window.alert("Each image must be 2MB or smaller.");
+    }
+
+    try {
+      const dataUrls = await Promise.all(
+        validFiles.slice(0, remaining).map((file) => fileToDataUrl(file))
+      );
+      setForm((prev) => ({
+        ...prev,
+        images: [...prev.images, ...dataUrls].slice(0, MAX_IMAGES),
+      }));
+    } catch (error) {
+      console.error("Failed to read image files", error);
+    } finally {
+      event.target.value = "";
+    }
   };
 
   const removeImageField = (index) => {
@@ -91,7 +121,7 @@ const Admin = () => {
       description: product.description,
       price: product.price,
       offerPrice: product.offerPrice,
-      images: product.images?.length ? product.images : [""],
+      images: product.images?.length ? product.images : [],
     });
   };
 
@@ -242,36 +272,67 @@ const Admin = () => {
 
           <div className="image-list">
             <div style={{ display: "flex", justifyContent: "space-between" }}>
-              <p className="eyebrow">Image URLs</p>
-              <button
-                type="button"
-                onClick={addImageField}
-                className="button button--outline"
-              >
-                Add image
-              </button>
+              <p className="eyebrow">Images</p>
             </div>
-            {form.images.map((image, index) => (
-              <div key={`image-${index}`} className="image-item">
-                <input
-                  type="url"
-                  value={image}
-                  onChange={(event) => updateImage(index, event.target.value)}
-                  className="form__input"
-                  placeholder="https://..."
-                  required={index === 0}
-                />
-                {form.images.length > 1 && (
-                  <button
-                    type="button"
-                    onClick={() => removeImageField(index)}
-                    className="button button--outline"
+            <input
+              type="file"
+              accept="image/*"
+              multiple
+              onChange={handleImageFiles}
+              className="form__input"
+              required={form.images.length === 0}
+              disabled={form.images.length >= MAX_IMAGES}
+            />
+            {form.images.length > 0 && (
+              <div
+                style={{
+                  display: "flex",
+                  gap: "12px",
+                  flexWrap: "wrap",
+                  marginTop: "12px",
+                }}
+              >
+                {form.images.map((image, index) => (
+                  <div
+                    key={`image-${index}`}
+                    className="image-item"
+                    style={{
+                      position: "relative",
+                      width: "88px",
+                      height: "88px",
+                      borderRadius: "10px",
+                      overflow: "hidden",
+                      border: "1px solid #e5e7eb",
+                      background: "#f8fafc",
+                    }}
                   >
-                    Remove
-                  </button>
-                )}
+                    <img
+                      src={image}
+                      alt={`Upload ${index + 1}`}
+                      style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                    />
+                    <button
+                      type="button"
+                      onClick={() => removeImageField(index)}
+                      className="button button--outline"
+                      aria-label="Remove image"
+                      style={{
+                        position: "absolute",
+                        top: "6px",
+                        right: "6px",
+                        width: "22px",
+                        height: "22px",
+                        padding: 0,
+                        borderRadius: "999px",
+                        lineHeight: 1,
+                      }}
+                    >
+                      x
+                    </button>
+                  </div>
+                ))}
               </div>
-            ))}
+            )}
           </div>
 
           <button
