@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1001",
+    "name": "Adidas campus",
+    "description": "",
+    "price": 2499,
+    "offerPrice": 2199,
+    "images": [
+      "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/994dad947a3a49db89e5e2f02f885e2b_9366/campus-00s-comfort-closure-elastic-lace-shoes-kids.jpg"
+    ]
+  },
+  {
+    "id": "1002",
+    "name": "Adidas Samba",
+    "description": "",
+    "price": 2499,
+    "offerPrice": 2199,
+    "images": [
+      "https://assets.adidas.com/images/w_766,h_766,f_auto,q_auto,fl_lossy,c_fill,g_auto/5edd767a49424f82b7004dc38b7ff6b7_9366/samba-og-shoes.jpg"
+    ]
+  },
+  {
+    "id": "1770199719349",
+    "name": "New-balance 327",
+    "description": "",
+    "price": 3000,
+    "offerPrice": 2500,
+    "images": [
+      "https://nb.scene7.com/is/image/NB/ws327bl_nb_02_i?$dw_detail_main_lg$&bgc=f1f1f1&layer=1&bgcolor=f1f1f1&blendMode=mult&scale=10&wid=1600&hei=1600"
+    ]
+  }
+]
