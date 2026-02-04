@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { clearAuthToken, getAuthHeader } from "../utils/auth.js";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://noft-backend.vercel.app/";
 
 const emptyForm = {
   id: null,
