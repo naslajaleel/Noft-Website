@@ -13,6 +13,8 @@ const GITHUB_REPO = process.env.GITHUB_REPO;
 const GITHUB_BRANCH = process.env.GITHUB_BRANCH || "main";
 const GITHUB_IMAGES_PATH =
   process.env.GITHUB_IMAGES_PATH || "frontend/public/uploads";
+const GITHUB_PRODUCTS_PATH =
+  process.env.GITHUB_PRODUCTS_PATH || "backend/products.json";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -91,12 +93,91 @@ const requireAdmin = (req, res, next) => {
   next();
 };
 
+const readProductsFromGithub = async (config) => {
+  const apiUrl = `https://api.github.com/repos/${config.owner}/${config.repo}/contents/${GITHUB_PRODUCTS_PATH}?ref=${config.branch}`;
+  const response = await fetch(apiUrl, {
+    headers: {
+      Authorization: `Bearer ${config.token}`,
+      Accept: "application/vnd.github+json",
+      "User-Agent": "noft-backend",
+    },
+  });
+
+  if (response.status === 404) {
+    return [];
+  }
+
+  if (!response.ok) {
+    const errorBody = await response.json().catch(() => ({}));
+    throw new Error(
+      errorBody?.message || "Failed to read products from GitHub."
+    );
+  }
+
+  const payload = await response.json();
+  const content = Buffer.from(payload.content || "", "base64").toString("utf-8");
+  return JSON.parse(content || "[]");
+};
+
+const writeProductsToGithub = async (config, products) => {
+  const apiUrl = `https://api.github.com/repos/${config.owner}/${config.repo}/contents/${GITHUB_PRODUCTS_PATH}`;
+  const existingResponse = await fetch(`${apiUrl}?ref=${config.branch}`, {
+    headers: {
+      Authorization: `Bearer ${config.token}`,
+      Accept: "application/vnd.github+json",
+      "User-Agent": "noft-backend",
+    },
+  });
+
+  let sha;
+  if (existingResponse.ok) {
+    const existingPayload = await existingResponse.json();
+    sha = existingPayload?.sha;
+  }
+
+  const response = await fetch(apiUrl, {
+    method: "PUT",
+    headers: {
+      Authorization: `Bearer ${config.token}`,
+      Accept: "application/vnd.github+json",
+      "Content-Type": "application/json",
+      "User-Agent": "noft-backend",
+    },
+    body: JSON.stringify({
+      message: "Update products.json",
+      content: Buffer.from(JSON.stringify(products, null, 2)).toString(
+        "base64"
+      ),
+      branch: config.branch,
+      sha,
+    }),
+  });
+
+  if (!response.ok) {
+    const errorBody = await response.json().catch(() => ({}));
+    throw new Error(
+      errorBody?.message || "Failed to write products to GitHub."
+    );
+  }
+};
+
 const readProducts = async () => {
+  const githubConfig = getGithubConfig();
+  if (githubConfig && GITHUB_PRODUCTS_PATH) {
+    return readProductsFromGithub(githubConfig);
+  }
+
   const raw = await fs.readFile(dataPath, "utf-8");
   return JSON.parse(raw);
 };
 
 const writeProducts = async (products) => {
+  const githubConfig = getGithubConfig();
+  if (githubConfig && GITHUB_PRODUCTS_PATH) {
+    await writeProductsToGithub(githubConfig, products);
+    return;
+  }
+
   await fs.writeFile(dataPath, JSON.stringify(products, null, 2));
 };
 
@@ -197,7 +278,11 @@ app.post("/products", requireAdmin, async (req, res) => {
 
     res.status(201).json(newProduct);
   } catch (error) {
-    res.status(500).json({ message: "Failed to create product." });
+    console.error("Failed to create product.", error);
+    res.status(500).json({
+      message: "Failed to create product.",
+      details: error?.message || String(error),
+    });
   }
 });
 
@@ -226,7 +311,11 @@ app.put("/products/:id", requireAdmin, async (req, res) => {
 
     res.json(updated);
   } catch (error) {
-    res.status(500).json({ message: "Failed to update product." });
+    console.error("Failed to update product.", error);
+    res.status(500).json({
+      message: "Failed to update product.",
+      details: error?.message || String(error),
+    });
   }
 });
 
@@ -242,7 +331,11 @@ app.delete("/products/:id", requireAdmin, async (req, res) => {
     await writeProducts(filtered);
     res.json({ message: "Product deleted." });
   } catch (error) {
-    res.status(500).json({ message: "Failed to delete product." });
+    console.error("Failed to delete product.", error);
+    res.status(500).json({
+      message: "Failed to delete product.",
+      details: error?.message || String(error),
+    });
   }
 });
 
