@@ -71,6 +71,8 @@
     "description": "",
     "price": 3000,
     "offerPrice": 2799,
-    "images": []
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770234347576-newbalance-9060-mint-green-1770234343482-img_5549.jpeg"
+    ]
   }
 ]
