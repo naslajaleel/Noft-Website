@@ -260,5 +260,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770319712143",
+    "name": "NIKE AIR JORDANS JUMPMAN MVP UNIVERSITY BLUE",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770319709184-nike-air-jordans-jumpman-mvp-university-blue-1770319704559-img_5670.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
