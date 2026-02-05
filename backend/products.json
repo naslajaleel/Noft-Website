@@ -201,5 +201,25 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770319210551",
+    "name": "NEW BALANCE 9060 MUSHROOM",
+    "description": "",
+    "price": 3599,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770319204759-new-balance-9060-mushroom-1770319201093-img_5662.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770319207463-new-balance-9060-mushroom-1770319205428-img_5661.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
