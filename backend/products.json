@@ -57,5 +57,23 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770295327112",
+    "name": "ADIDAS ORIGINALS SAMBA SILVER",
+    "description": "",
+    "price": 2499,
+    "offerPrice": 1799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770295316191-adidas-originals-samba-silver-1770295313817-img_5616.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770295323418-adidas-originals-samba-silver-1770295321635-img_5617.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
