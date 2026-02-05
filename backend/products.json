@@ -75,5 +75,25 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770295451692",
+    "name": "NIKE SB DUNK DIOR 2025",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770295441477-nike-sb-dunk-dior-2025-1770295438439-img_5619.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770295448379-nike-sb-dunk-dior-2025-1770295446243-img_5620.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
