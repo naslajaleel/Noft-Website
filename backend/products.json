@@ -114,5 +114,24 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770318588372",
+    "name": "ZARA PRINT OG LEATHER CHELSEA BOOTS ART-3481",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770318579616-zara-print-og-leather-chelsea-boots-art-3481-1770318576402-img_5651.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770318583061-zara-print-og-leather-chelsea-boots-art-3481-1770318580429-img_5652.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
