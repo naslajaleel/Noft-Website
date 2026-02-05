@@ -8,6 +8,15 @@
     "images": [
       "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770234642863-nike-sb-dunk-supreme-94-ink-black-1770234637178-img_5566.jpeg",
       "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770234654913-nike-sb-dunk-supreme-94-ink-black-1770234652277-img_5567.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ]
   },
   {
