@@ -1,24 +1,5 @@
 [
   {
-    "id": "1770234285466",
-    "name": "New Balance 9060 Mint Green",
-    "description": "",
-    "price": 3299,
-    "offerPrice": 2799,
-    "images": [
-      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770234347576-newbalance-9060-mint-green-1770234343482-img_5549.jpeg"
-    ],
-    "brand": "New Balance",
-    "sizes": [
-      40,
-      41,
-      42,
-      43,
-      44,
-      45
-    ]
-  },
-  {
     "id": "1770234658680",
     "name": "NIKE SB DUNK SUPREME 94 INK BLACK",
     "description": "",
