@@ -38,5 +38,25 @@
     "images": [
       "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770234774647-new-balance-9060-black-sea-salt-1770234771967-img_5568.jpeg"
     ]
+  },
+  {
+    "id": "1770295026459",
+    "name": "NIKE SB DUNK 2023 RED PANDA",
+    "description": "",
+    "price": 3000,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770295012573-nike-sb-dunk-2023-red-panda-1770295011151-img_5605.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770295022165-nike-sb-dunk-2023-red-panda-1770295020433-img_5604.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
