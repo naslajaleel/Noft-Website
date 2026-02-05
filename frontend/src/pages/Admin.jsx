@@ -9,6 +9,8 @@ const emptyForm = {
   description: "",
   price: "",
   offerPrice: "",
+  brand: "",
+  sizes: [],
   images: [],
 };
 
@@ -41,11 +43,25 @@ const fileToDataUrl = (file) =>
 
 const MAX_IMAGES = 2;
 const MAX_IMAGE_BYTES = 2 * 1024 * 1024;
+const BASE_BRAND_OPTIONS = [
+  "Nike",
+  "New Balance",
+  "Vans",
+  "Converse",
+  "Zara",
+  "Birkenstock",
+  "Puma",
+  "Adidas",
+  "Diesel",
+];
+const SIZE_OPTIONS = Array.from({ length: 10 }, (_, idx) => 36 + idx);
 
 const Admin = () => {
   const navigate = useNavigate();
   const [products, setProducts] = useState([]);
   const [form, setForm] = useState(emptyForm);
+  const [brandOptions, setBrandOptions] = useState(BASE_BRAND_OPTIONS);
+  const [customBrand, setCustomBrand] = useState("");
   const [isSaving, setIsSaving] = useState(false);
   const [isUploading, setIsUploading] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
@@ -70,6 +86,18 @@ const Admin = () => {
 
   const updateField = (field, value) => {
     setForm((prev) => ({ ...prev, [field]: value }));
+  };
+
+  const addBrandOption = (value) => {
+    const trimmed = value?.trim();
+    if (!trimmed) return;
+
+    setBrandOptions((prev) => {
+      if (prev.includes(trimmed)) {
+        return prev;
+      }
+      return [...prev, trimmed].sort((a, b) => a.localeCompare(b));
+    });
   };
 
   const handleImageFiles = async (event) => {
@@ -148,12 +176,17 @@ const Admin = () => {
   };
 
   const handleEdit = (product) => {
+    if (product.brand) {
+      addBrandOption(product.brand);
+    }
     setForm({
       id: product.id,
       name: product.name,
       description: product.description,
       price: product.price,
       offerPrice: product.offerPrice,
+      brand: product.brand || "",
+      sizes: Array.isArray(product.sizes) ? product.sizes : [],
       images: product.images?.length ? product.images : [],
     });
   };
@@ -185,6 +218,8 @@ const Admin = () => {
       description: form.description.trim(),
       price: Number(form.price),
       offerPrice: Number(form.offerPrice),
+      brand: form.brand.trim(),
+      sizes: form.sizes,
       images: form.images
         .map((img) => normalizeImageUrl(img))
         .filter(Boolean),
@@ -262,11 +297,52 @@ const Admin = () => {
               type="text"
               value={form.name}
               onChange={(event) => updateField("name", event.target.value)}
-              className="form__input"
+              className="form__input form__input--full"
               placeholder="Sneaker name"
               required
             />
           </label>
+
+          <div className="form__label">
+            <span>Brand</span>
+            <div className="brand-control">
+              <select
+                value={form.brand}
+                onChange={(event) => updateField("brand", event.target.value)}
+                className="form__input form__input--full form__select"
+                required
+              >
+                <option value="">Select a brand</option>
+                {brandOptions.map((brand) => (
+                  <option key={brand} value={brand}>
+                    {brand}
+                  </option>
+                ))}
+              </select>
+              <div className="brand-add">
+                <input
+                  type="text"
+                  value={customBrand}
+                  onChange={(event) => setCustomBrand(event.target.value)}
+                  placeholder="Add a new brand"
+                  className="form__input form__input--full"
+                />
+                <button
+                  type="button"
+                  className="button button--outline"
+                  onClick={() => {
+                    const trimmed = customBrand.trim();
+                    if (!trimmed) return;
+                    addBrandOption(trimmed);
+                    updateField("brand", trimmed);
+                    setCustomBrand("");
+                  }}
+                >
+                  Add brand
+                </button>
+              </div>
+            </div>
+          </div>
 
           <label className="form__label">
             Description
@@ -274,7 +350,7 @@ const Admin = () => {
               rows="3"
               value={form.description}
               onChange={(event) => updateField("description", event.target.value)}
-              className="form__textarea"
+              className="form__textarea form__input--full"
               placeholder="Short product description"
             />
           </label>
@@ -286,7 +362,7 @@ const Admin = () => {
                 type="number"
                 value={form.price}
                 onChange={(event) => updateField("price", event.target.value)}
-                className="form__input"
+                className="form__input form__input--full"
                 placeholder="12999"
               />
             </label>
@@ -296,11 +372,39 @@ const Admin = () => {
                 type="number"
                 value={form.offerPrice}
                 onChange={(event) => updateField("offerPrice", event.target.value)}
-                className="form__input"
+                className="form__input form__input--full"
                 placeholder="9999"
                 required
               />
             </label>
+          </div>
+
+          <div className="form__label">
+            <p className="eyebrow">Sizes</p>
+            <div className="size-grid">
+              {SIZE_OPTIONS.map((size) => {
+                const isSelected = form.sizes.includes(size);
+                return (
+                  <label
+                    key={size}
+                    className={`size-chip${isSelected ? " is-selected" : ""}`}
+                  >
+                    <input
+                      type="checkbox"
+                      checked={isSelected}
+                      className="size-chip__input"
+                      onChange={(event) => {
+                        const next = event.target.checked
+                          ? [...form.sizes, size]
+                          : form.sizes.filter((value) => value !== size);
+                        updateField("sizes", next);
+                      }}
+                    />
+                    <span>{size}</span>
+                  </label>
+                );
+              })}
+            </div>
           </div>
 
           <div className="image-list">
@@ -312,7 +416,7 @@ const Admin = () => {
               accept="image/*"
               multiple
               onChange={handleImageFiles}
-              className="form__input"
+              className="form__input form__input--full"
               required={form.images.length === 0}
               disabled={form.images.length >= MAX_IMAGES || isUploading}
             />
@@ -370,10 +474,16 @@ const Admin = () => {
 
           <button
             type="submit"
-            disabled={isSaving}
+            disabled={isSaving || isUploading || form.images.length === 0}
             className="button button--primary"
           >
-            {isSaving ? "Saving..." : isEditing ? "Update product" : "Add product"}
+            {isUploading
+              ? "Uploading..."
+              : isSaving
+                ? "Saving..."
+                : isEditing
+                  ? "Update product"
+                  : "Add product"}
           </button>
         </form>
 

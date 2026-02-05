@@ -253,11 +253,45 @@ app.post("/uploads/github", requireAdmin, async (req, res) => {
   }
 });
 
+const sanitizeImages = (images) => {
+  if (!Array.isArray(images)) {
+    return [];
+  }
+
+  return images
+    .map((img) => (typeof img === "string" ? img.trim() : ""))
+    .filter(Boolean);
+};
+
+const sanitizeBrand = (brand) => {
+  if (typeof brand !== "string") {
+    return "";
+  }
+
+  return brand.trim();
+};
+
+const sanitizeSizes = (sizes) => {
+  if (!Array.isArray(sizes)) {
+    return [];
+  }
+
+  const normalized = sizes
+    .map((size) => Number(size))
+    .filter((size) => Number.isFinite(size));
+
+  return Array.from(new Set(normalized)).sort((a, b) => a - b);
+};
+
 app.post("/products", requireAdmin, async (req, res) => {
   try {
-    const { name, description, price, offerPrice, images } = req.body;
+    const { name, description, price, offerPrice, images, brand, sizes } =
+      req.body;
+    const sanitizedImages = sanitizeImages(images);
+    const sanitizedBrand = sanitizeBrand(brand);
+    const sanitizedSizes = sanitizeSizes(sizes);
 
-    if (!name || !offerPrice || !Array.isArray(images)) {
+    if (!name || !offerPrice || sanitizedImages.length === 0) {
       return res
         .status(400)
         .json({ message: "Name, offerPrice, and images are required." });
@@ -270,7 +304,9 @@ app.post("/products", requireAdmin, async (req, res) => {
       description: description || "",
       price: Number(price) || Number(offerPrice),
       offerPrice: Number(offerPrice),
-      images,
+      images: sanitizedImages,
+      brand: sanitizedBrand,
+      sizes: sanitizedSizes,
     };
 
     products.push(newProduct);
@@ -296,14 +332,17 @@ app.put("/products/:id", requireAdmin, async (req, res) => {
     }
 
     const current = products[index];
+    const updatedImages = sanitizeImages(req.body.images);
+    const updatedBrand = sanitizeBrand(req.body.brand);
+    const updatedSizes = sanitizeSizes(req.body.sizes);
     const updated = {
       ...current,
       ...req.body,
       price: Number(req.body.price ?? current.price),
       offerPrice: Number(req.body.offerPrice ?? current.offerPrice),
-      images: Array.isArray(req.body.images)
-        ? req.body.images
-        : current.images,
+      images: updatedImages.length ? updatedImages : current.images,
+      brand: updatedBrand || current.brand || "",
+      sizes: updatedSizes.length ? updatedSizes : current.sizes || [],
     };
 
     products[index] = updated;
