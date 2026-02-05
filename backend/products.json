@@ -179,5 +179,27 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770318956611",
+    "name": "REEBOK CLASSIC CHALK PAPER",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770318952912-reebok-classic-chalk-paper-1770318950138-img_5659.jpeg"
+    ],
+    "brand": "Reebok",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
