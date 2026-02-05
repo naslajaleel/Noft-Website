@@ -7,6 +7,15 @@
     "offerPrice": 2799,
     "images": [
       "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770234347576-newbalance-9060-mint-green-1770234343482-img_5549.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ]
   },
   {
