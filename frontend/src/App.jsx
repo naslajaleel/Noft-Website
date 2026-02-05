@@ -5,6 +5,7 @@ import ProductDetails from "./pages/ProductDetails.jsx";
 import Admin from "./pages/Admin.jsx";
 import AdminLogin from "./pages/AdminLogin.jsx";
 import { isAuthed, subscribeToAuth } from "./utils/auth.js";
+import logoWhite from "./utils/assets/noft.jpeg";
 
 const App = () => {
   const [authed, setAuthed] = useState(isAuthed());
@@ -15,10 +16,11 @@ const App = () => {
     <div className="page">
       <header className="site-header">
         <div className="container site-header__inner">
-          <Link to="/" className="brand">
-            NOFT SNEAKERS
+          <Link to="/" className="brand brand--title">
+            <span>NOFT</span>
+            <img src={logoWhite} alt="Noft logo" className="brand__logo" />
+            <span>KICKS</span>
           </Link>
-
         </div>
       </header>
 

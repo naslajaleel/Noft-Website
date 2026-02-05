@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import ImageCarousel from "../components/ImageCarousel.jsx";
 
 const API_URL = import.meta.env.VITE_API_URL;
-const WHATSAPP_LINK = "https://wa.me/917907607583";
+const WHATSAPP_BASE = "https://wa.me/917907607583";
 
 const formatPrice = (value) =>
   new Intl.NumberFormat("en-IN", {
@@ -11,6 +11,8 @@ const formatPrice = (value) =>
     currency: "INR",
     maximumFractionDigits: 0,
   }).format(value);
+
+const SIZE_OPTIONS = Array.from({ length: 10 }, (_, idx) => 36 + idx);
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -48,6 +50,10 @@ const ProductDetails = () => {
     );
   }
 
+  const whatsappLink = `${WHATSAPP_BASE}?text=${encodeURIComponent(
+    `Hi! I'm interested in this product: ${window.location.href}`
+  )}`;
+
   return (
     <section className="layout-split">
       <ImageCarousel images={product.images} />
@@ -73,8 +79,42 @@ const ProductDetails = () => {
           </div>
         </div>
 
+        {product.brand && (
+          <div>
+            <p className="eyebrow">Brand</p>
+            <p className="section-subtitle">{product.brand}</p>
+          </div>
+        )}
+
+        <div>
+          <p className="eyebrow">Sizes</p>
+          <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
+            {SIZE_OPTIONS.map((size) => {
+              const isAvailable = product.sizes?.includes(size);
+              return (
+                <span
+                  key={size}
+                  style={{
+                    position: "relative",
+                    border: "1px solid #e5e7eb",
+                    padding: "6px 10px",
+                    borderRadius: "999px",
+                    fontSize: "14px",
+                    background: isAvailable ? "#111827" : "#f8fafc",
+                    color: isAvailable ? "#ffffff" : "#9ca3af",
+                    textDecoration: isAvailable ? "none" : "line-through",
+                    textDecorationColor: "#9ca3af",
+                  }}
+                >
+                  {size}
+                </span>
+              );
+            })}
+          </div>
+        </div>
+
         <a
-          href={WHATSAPP_LINK}
+          href={whatsappLink}
           target="_blank"
           rel="noreferrer"
           className="button button--primary whatsapp"
