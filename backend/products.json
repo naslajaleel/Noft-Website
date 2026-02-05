@@ -221,5 +221,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770319385192",
+    "name": "NIKE SB DUNK STUSSY GREY ORANGE 2025",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770319365221-nike-sb-dunk-stussy-grey-orange-2025-1770319360613-img_5665.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770319369542-nike-sb-dunk-stussy-grey-orange-2025-1770319365962-img_5666.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
