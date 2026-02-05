@@ -156,5 +156,28 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770318848328",
+    "name": "NIKE AIRFORCE ONE HAMAWA",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770318843497-nike-airforce-one-hamawa-1770318837682-img_5657.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
