@@ -27,6 +27,15 @@
     "offerPrice": 2799,
     "images": [
       "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770234774647-new-balance-9060-black-sea-salt-1770234771967-img_5568.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
     ]
   },
   {
