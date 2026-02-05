@@ -241,5 +241,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770319601231",
+    "name": "NEW BALANCE 1906 A BLUE",
+    "description": "",
+    "price": 3649,
+    "offerPrice": 3149,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770319598640-new-balance-1906-a-blue-1770319595403-img_5668.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
