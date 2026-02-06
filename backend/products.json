@@ -1118,5 +1118,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770371395631",
+    "name": "NEW BALANCE 1000 INCENSE",
+    "description": "",
+    "price": 3499,
+    "offerPrice": 2999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770371391150-new-balance-1000-incense-1770371389118-img_5828.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770371393463-new-balance-1000-incense-1770371391932-img_5829.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
