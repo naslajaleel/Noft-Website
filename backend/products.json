@@ -686,5 +686,25 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770369298290",
+    "name": "NIKE SB DUNK WHAT THE DUNK",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770369293609-nike-sb-dunk-what-the-dunk-1770369291993-img_5769.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770369295660-nike-sb-dunk-what-the-dunk-1770369294485-img_5770.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
