@@ -667,5 +667,24 @@
       39,
       40
     ]
+  },
+  {
+    "id": "1770369211826",
+    "name": "CONVERSE CHUCK MID PLUS OREO",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770369207072-converse-chuck-mid-plus-oreo-1770369203873-img_5766.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770369209474-converse-chuck-mid-plus-oreo-1770369207689-img_5767.jpeg"
+    ],
+    "brand": "Converse",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
