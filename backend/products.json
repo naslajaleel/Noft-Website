@@ -2137,5 +2137,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770401720337",
+    "name": "CONVERSE CHUCK MID PLUS BLACK WHITE",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770401717397-converse-chuck-mid-plus-black-white-1770401715730-img_6091.jpeg"
+    ],
+    "brand": "Converse",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
