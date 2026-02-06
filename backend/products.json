@@ -419,5 +419,25 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770365838186",
+    "name": "NEW BALANCE 1906 A BLACK SILVER",
+    "description": "",
+    "price": 3649,
+    "offerPrice": 3149,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770365834015-new-balance-1906-a-black-silver-1770365832461-img_5714.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770365835852-new-balance-1906-a-black-silver-1770365834874-img_5715.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
