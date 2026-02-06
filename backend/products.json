@@ -515,5 +515,25 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770366452163",
+    "name": "NIKE AIR JORDANS RETRO 6 JUMPMAN MVP BLACK RED",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770366447576-nike-air-jordans-retro-6-jumpman-mvp-black-red-1770366446322-img_5731.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770366449160-nike-air-jordans-retro-6-jumpman-mvp-black-red-1770366448350-img_5732.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
