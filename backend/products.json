@@ -3544,5 +3544,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770407699540",
+    "name": "NIKE AIRFORCE CUSTOM X STUSSY WHITE 2025",
+    "description": "",
+    "price": 3179,
+    "offerPrice": 2679,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770407696852-nike-airforce-custom-x-stussy-white-2025-1770407692882-img_6191.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
