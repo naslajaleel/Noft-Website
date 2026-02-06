@@ -2986,5 +2986,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770405376561",
+    "name": "DIOR HYBRID LEATHER LOGO LOAFER",
+    "description": "",
+    "price": 2199,
+    "offerPrice": 1699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770405371844-dior-hybrid-leather-logo-loafer-1770405368163-img_6153.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770405374187-dior-hybrid-leather-logo-loafer-1770405372580-img_6154.jpeg"
+    ],
+    "brand": "Dior",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
