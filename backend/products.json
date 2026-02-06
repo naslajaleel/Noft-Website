@@ -3870,5 +3870,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770408825242",
+    "name": "NIKE SB DUNK OIL AURA GREEN",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770408822457-nike-sb-dunk-oil-aura-green-1770408820562-img_6209.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
