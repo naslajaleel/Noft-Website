@@ -1770,5 +1770,25 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770375071253",
+    "name": "NIKE AIRFORCE STUSSY X SUPREME 2025",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770375064274-nike-airforce-stussy-x-supreme-2025-1770375057990-img_5903.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770375066508-nike-airforce-stussy-x-supreme-2025-1770375065033-img_5904.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
