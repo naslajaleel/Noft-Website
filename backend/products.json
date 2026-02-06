@@ -1979,5 +1979,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770375923270",
+    "name": "NIKE AIR JORDANS RETRO 1 PATENT BRED",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770375920891-nike-air-jordans-retro-1-patent-bred-1770375919609-img_5917.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
