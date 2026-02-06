@@ -283,13 +283,24 @@ const sanitizeSizes = (sizes) => {
   return Array.from(new Set(normalized)).sort((a, b) => a - b);
 };
 
+const sanitizeBestSeller = (value) => Boolean(value);
+
 app.post("/products", requireAdmin, async (req, res) => {
   try {
-    const { name, description, price, offerPrice, images, brand, sizes } =
-      req.body;
+    const {
+      name,
+      description,
+      price,
+      offerPrice,
+      images,
+      brand,
+      sizes,
+      isBestSeller,
+    } = req.body;
     const sanitizedImages = sanitizeImages(images);
     const sanitizedBrand = sanitizeBrand(brand);
     const sanitizedSizes = sanitizeSizes(sizes);
+    const sanitizedBestSeller = sanitizeBestSeller(isBestSeller);
 
     if (!name || !offerPrice || sanitizedImages.length === 0) {
       return res
@@ -307,6 +318,7 @@ app.post("/products", requireAdmin, async (req, res) => {
       images: sanitizedImages,
       brand: sanitizedBrand,
       sizes: sanitizedSizes,
+      isBestSeller: sanitizedBestSeller,
     };
 
     products.push(newProduct);
@@ -335,6 +347,7 @@ app.put("/products/:id", requireAdmin, async (req, res) => {
     const updatedImages = sanitizeImages(req.body.images);
     const updatedBrand = sanitizeBrand(req.body.brand);
     const updatedSizes = sanitizeSizes(req.body.sizes);
+    const updatedBestSeller = sanitizeBestSeller(req.body.isBestSeller);
     const updated = {
       ...current,
       ...req.body,
@@ -343,6 +356,10 @@ app.put("/products/:id", requireAdmin, async (req, res) => {
       images: updatedImages.length ? updatedImages : current.images,
       brand: updatedBrand || current.brand || "",
       sizes: updatedSizes.length ? updatedSizes : current.sizes || [],
+      isBestSeller:
+        req.body.isBestSeller === undefined
+          ? current.isBestSeller || false
+          : updatedBestSeller,
     };
 
     products[index] = updated;

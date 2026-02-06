@@ -11,6 +11,11 @@ const ProductCard = ({ product }) => {
   return (
     <Link to={`/products/${product.id}`} className="card">
       <div className="card__media">
+        {product.isBestSeller && (
+          <span className="card__badge" aria-label="Best seller">
+            ★ Best seller
+          </span>
+        )}
         <img
           src={product.images?.[0]}
           alt={product.name}
