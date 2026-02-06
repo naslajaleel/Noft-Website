@@ -2239,5 +2239,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770402344362",
+    "name": "ADIDAS ORIGINALS SUPERSTAR DANGER",
+    "description": "",
+    "price": 3249,
+    "offerPrice": 2749,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770402341151-adidas-originals-superstar-danger-1770402338908-img_6103.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
