@@ -2784,5 +2784,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770404616156",
+    "name": "NEW BALANCE 509 WHITE GREY",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770404614172-new-balance-509-white-grey-1770404612092-img_6140.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
