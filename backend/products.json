@@ -2303,5 +2303,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770402615985",
+    "name": "ZARA T SUEDE CHELSEA BOOTS",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770402607056-zara-t-suede-chelsea-boots-1770402605355-img_6108.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
