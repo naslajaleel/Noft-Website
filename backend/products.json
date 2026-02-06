@@ -2401,5 +2401,26 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770403094747",
+    "name": "NIKE AIR JORDANS RETRO 1 VOODOO ZION",
+    "description": "",
+    "price": 2949,
+    "offerPrice": 2449,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770403082449-nike-air-jordans-retro-1-voodoo-zion-1770403078686-img_6114.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770403090958-nike-air-jordans-retro-1-voodoo-zion-1770403083670-img_6115.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
