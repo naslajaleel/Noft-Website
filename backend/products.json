@@ -965,5 +965,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770370709826",
+    "name": "ZARA LEATHER SANDALS WITH COMFORT SOFT SOLE FOR MEN",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370705171-zara-leather-sandals-with-comfort-soft-sole-for-men-1770370702450-img_5811.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370707646-zara-leather-sandals-with-comfort-soft-sole-for-men-1770370705993-img_5810.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
