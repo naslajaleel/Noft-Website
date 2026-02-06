@@ -611,5 +611,23 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770367073637",
+    "name": "NIKE CORTEZ VALENTINE",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770367066157-nike-cortez-valentine-1770367054627-img_5744.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
   }
 ]
