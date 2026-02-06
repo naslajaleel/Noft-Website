@@ -2056,5 +2056,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770376317281",
+    "name": "NEW BALANCE 9060 YELLOW BLACK",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770376307344-new-balance-9060-yellow-black-1770376305603-img_5922.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770376309106-new-balance-9060-yellow-black-1770376308063-img_5923.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
