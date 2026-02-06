@@ -1365,5 +1365,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770372935915",
+    "name": "NIKE AIRFORCE CUSTOM BEIGE UNDERSTAND UNDEFEATED 2025",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770372932461-nike-airforce-custom-beige-understand-undefeated-2025-1770372928111-img_5864.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
