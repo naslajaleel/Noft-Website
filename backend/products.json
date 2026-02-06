@@ -1441,5 +1441,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770373365230",
+    "name": "CROCS TIE CLOGS",
+    "description": "",
+    "price": 1749,
+    "offerPrice": 1249,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770373361552-crocs-tie-clogs-1770373360242-img_5872.jpeg"
+    ],
+    "brand": "Crocs",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
