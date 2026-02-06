@@ -3404,5 +3404,24 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770407194514",
+    "name": "ZARA SURPLUS DESINER COWBOY LEATHER BOOTS BROWN ART-701",
+    "description": "",
+    "price": 2499,
+    "offerPrice": 1999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770407192002-zara-surplus-desiner-cowboy-leather-boots-brown-art-701-1770407188495-img_6184.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
