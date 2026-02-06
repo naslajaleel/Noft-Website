@@ -1847,5 +1847,23 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770375380705",
+    "name": "ADIDAS ORIGINALS CAMPUS GREY GREEN",
+    "description": "",
+    "price": 2799,
+    "offerPrice": 2299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770375377982-adidas-originals-campus-grey-green-1770375375556-img_5909.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
   }
 ]
