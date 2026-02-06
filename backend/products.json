@@ -2280,5 +2280,28 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770402521792",
+    "name": "NIKE AIR JORDANS RETRO 4 MILITARY BLACK ARMY",
+    "description": "",
+    "price": 2949,
+    "offerPrice": 2449,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770402519167-nike-air-jordans-retro-4-military-black-army-1770402517350-img_6107.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
