@@ -1422,5 +1422,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770373214796",
+    "name": "NIKE AIRFORCE ONE WHITE NAVY GOLD",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770373210445-nike-airforce-one-white-navy-gold-1770373207196-img_5870.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
