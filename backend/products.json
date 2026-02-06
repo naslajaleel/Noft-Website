@@ -3385,5 +3385,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770407133765",
+    "name": "RED TAPE CHELSEA BOOTS",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770407116213-red-tape-chelsea-boots-1770407112701-img_6183.jpeg"
+    ],
+    "brand": "Red Tape",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
