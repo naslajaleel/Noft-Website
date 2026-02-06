@@ -1713,5 +1713,23 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770374855046",
+    "name": "BALMAIN PARIS SNEAKERS - UA",
+    "description": "",
+    "price": 3999,
+    "offerPrice": 3299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374852004-balmain-paris-sneakers-ua-1770374850404-img_5898.jpeg"
+    ],
+    "brand": "BALMAN",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
