@@ -496,5 +496,24 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770366345837",
+    "name": "CHRISTIAN LOUBOUTIN CHELSEA BOOTS",
+    "description": "",
+    "price": 2099,
+    "offerPrice": 1599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770366341324-christian-louboutin-chelsea-boots-1770366339762-img_5727.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770366342812-christian-louboutin-chelsea-boots-1770366342045-img_5728.jpeg"
+    ],
+    "brand": "Christian Loubotin",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
