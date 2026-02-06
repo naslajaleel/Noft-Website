@@ -2442,5 +2442,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770403221427",
+    "name": "NIKE P-6000 TRAINER METALLIC GEEEN",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770403218851-nike-p-6000-trainer-metallic-geeen-1770403215973-img_6117.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
