@@ -3930,5 +3930,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770409029342",
+    "name": "BIRKENSTOCK ARIZONA COMFORT SOFT SOLE",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770409024100-birkenstock-arizona-comfort-soft-sole-1770409022063-img_6213.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770409026370-birkenstock-arizona-comfort-soft-sole-1770409025098-img_6214.jpeg"
+    ],
+    "brand": "Birkenstock",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
