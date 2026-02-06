@@ -2542,5 +2542,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770403601497",
+    "name": "NIKE SB DUNK STUSSY S WHITE GREEN 2025",
+    "description": "",
+    "price": 3049,
+    "offerPrice": 2549,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770403598605-nike-sb-dunk-stussy-s-white-green-2025-1770403596853-img_6124.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
