@@ -3007,5 +3007,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770405454396",
+    "name": "DIOR AESTHETIC MULES",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770405452038-dior-aesthetic-mules-1770405448629-img_6155.jpeg"
+    ],
+    "brand": "Dior",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
