@@ -2116,5 +2116,26 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770401635600",
+    "name": "NIKE SB DUNK CHINESE DRAGON NEW YEAR PUPPET 2024",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770401626103-nike-sb-dunk-chinese-dragon-new-year-puppet-2024-1770401621756-img_6089.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770401632318-nike-sb-dunk-chinese-dragon-new-year-puppet-2024-1770401626821-img_6090.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
