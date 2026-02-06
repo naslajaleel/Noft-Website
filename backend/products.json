@@ -2764,5 +2764,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770404549283",
+    "name": "NIKE SB DUNK JARRITOES",
+    "description": "",
+    "price": 2949,
+    "offerPrice": 2449,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770404546910-nike-sb-dunk-jarritoes-1770404544721-img_6139.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
