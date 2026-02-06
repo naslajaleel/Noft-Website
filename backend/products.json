@@ -2804,5 +2804,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770404671581",
+    "name": "NIKE AIRMAX TERASCAPE SAIL WHITE",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770404668777-nike-airmax-terascape-sail-white-1770404666539-img_6141.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
