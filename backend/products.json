@@ -1557,5 +1557,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770374201234",
+    "name": "NIKE ZOOM VOMERO PREMIUM WHITE",
+    "description": "",
+    "price": 3849,
+    "offerPrice": 3249,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374198725-nike-zoom-vomero-premium-white-1770374196565-img_5884.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
