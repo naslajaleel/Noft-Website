@@ -1865,5 +1865,24 @@
       39,
       40
     ]
+  },
+  {
+    "id": "1770375454499",
+    "name": "NIKE AIRMAX 90 ESSENTIAL",
+    "description": "",
+    "price": 2799,
+    "offerPrice": 2299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770375451468-nike-airmax-90-essential-1770375450054-img_5910.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
