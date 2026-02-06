@@ -3264,5 +3264,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770406689599",
+    "name": "NIKE AIRFORCE AMBUSH BLACK TICK",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770406683426-nike-airforce-ambush-black-tick-1770406680535-img_6173.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770406686607-nike-airforce-ambush-black-tick-1770406684080-img_6174.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
