@@ -1615,5 +1615,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770374435758",
+    "name": "BROOKS GLYCERINE",
+    "description": "",
+    "price": 3375,
+    "offerPrice": 2875,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374431052-brooks-glycerine-1770374428721-img_5889.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374433655-brooks-glycerine-1770374431816-img_5890.jpeg"
+    ],
+    "brand": "Brooks",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
