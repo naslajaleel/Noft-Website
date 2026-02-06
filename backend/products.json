@@ -1326,5 +1326,24 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770372337348",
+    "name": "ADIDAS SAMBA X WALES BONER SILVER",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770372330346-adidas-samba-x-wales-boner-silver-1770372328168-img_5858.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770372332197-adidas-samba-x-wales-boner-silver-1770372331037-img_5859.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
