@@ -629,5 +629,25 @@
       39,
       40
     ]
+  },
+  {
+    "id": "1770368151427",
+    "name": "NIKE AIRFORCE ONE CACAO WOW 2025",
+    "description": "",
+    "price": 3349,
+    "offerPrice": 2849,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770368142566-nike-airforce-one-cacao-wow-2025-1770368140311-img_5747.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770368144818-nike-airforce-one-cacao-wow-2025-1770368143417-img_5746.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
