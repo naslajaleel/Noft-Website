@@ -886,5 +886,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770370377187",
+    "name": "NIKE AIRFORCE ONE VENOM SUEDE - 7A",
+    "description": "",
+    "price": 2299,
+    "offerPrice": 1799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370372311-nike-airforce-one-venom-suede-7a-1770370370687-img_5800.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370374724-nike-airforce-one-venom-suede-7a-1770370373047-img_5799.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
