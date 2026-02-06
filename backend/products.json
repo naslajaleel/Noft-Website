@@ -1303,5 +1303,28 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770372265301",
+    "name": "ADIDAS ORIGINALS SAMBA WHITE BASIC",
+    "description": "",
+    "price": 2599,
+    "offerPrice": 2099,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770372259791-adidas-originals-samba-white-basic-1770372257961-img_5855.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770372263258-adidas-originals-samba-white-basic-1770372260588-img_5856.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
