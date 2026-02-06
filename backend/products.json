@@ -3990,5 +3990,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770409305373",
+    "name": "NIKE SB DUNK SQUIDS GAME 2025",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770409302229-nike-sb-dunk-squids-game-2025-1770409300580-img_6218.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
