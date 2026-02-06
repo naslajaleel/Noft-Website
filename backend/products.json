@@ -3365,5 +3365,25 @@
       43
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770407051698",
+    "name": "NIKE BLAZER JUMBO WHITE",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770407049665-nike-blazer-jumbo-white-1770407047210-img_6181.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
