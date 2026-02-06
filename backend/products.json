@@ -317,5 +317,24 @@
       42,
       43
     ]
+  },
+  {
+    "id": "1770359025900",
+    "name": "NIKE P-6000 TRAINER MILK WHITE",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770359022217-nike-p-6000-trainer-milk-white-1770359017415-img_5683.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
