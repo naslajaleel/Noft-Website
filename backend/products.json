@@ -1884,5 +1884,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770375538795",
+    "name": "NIKE AIR JORDANS RETRO 6 JUMPMAN  MVP BROWN",
+    "description": "",
+    "price": 2649,
+    "offerPrice": 2149,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770375536408-nike-air-jordans-retro-6-jumpman-mvp-brown-1770375534993-img_5911.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
