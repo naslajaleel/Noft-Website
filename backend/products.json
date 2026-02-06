@@ -3347,5 +3347,23 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770406998250",
+    "name": "VANS OLD SKOOL BLACK WHITE - 7A",
+    "description": "",
+    "price": 1849,
+    "offerPrice": 1349,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770406995976-vans-old-skool-black-white-7a-1770406992349-img_6180.jpeg"
+    ],
+    "brand": "Vans",
+    "sizes": [
+      40,
+      41,
+      42,
+      43
+    ],
+    "isBestSeller": false
   }
 ]
