@@ -4052,5 +4052,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770409517003",
+    "name": "PUMA SPEED CAT X BALENCIAGA",
+    "description": "",
+    "price": 3349,
+    "offerPrice": 2849,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770409512097-puma-speed-cat-x-balenciaga-1770409510162-img_6222.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770409513866-puma-speed-cat-x-balenciaga-1770409512776-img_6221.jpeg"
+    ],
+    "brand": "Puma",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
