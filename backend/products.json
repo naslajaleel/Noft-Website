@@ -1022,5 +1022,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770370941059",
+    "name": "NIKE P-6000 TRAINER BLACK MAROON",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370936544-nike-p-6000-trainer-black-maroon-1770370934881-img_5817.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370938071-nike-p-6000-trainer-black-maroon-1770370937173-img_5818.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
