@@ -2500,5 +2500,26 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770403459503",
+    "name": "NIKE AIRFORCE ONE PARIS 2025",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770403453989-nike-airforce-one-paris-2025-1770403451806-img_6120.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770403456336-nike-airforce-one-paris-2025-1770403454698-img_6121.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
