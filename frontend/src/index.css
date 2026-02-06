@@ -111,11 +111,11 @@ button {
 }
 
 .site-footer__inner {
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .section {
-  padding: 40px 0;
+  padding: 40px 16px;
 }
 
 .section-title {
@@ -155,7 +155,9 @@ button {
   border: 1px solid #e5e7eb;
   background-color: #ffffff;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .card:hover {
@@ -536,28 +538,32 @@ button {
 }
 
 @media (max-width: 640px) {
-  .container {
-    padding: 0 16px;
+  .brand {
+    font-size: 40px;
   }
 
-  .site-header__inner {
+  /* .site-header__inner {
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
-  }
+  } */
 
   .nav {
     gap: 12px;
     font-size: 11px;
   }
 
+  .grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .section-title {
     font-size: 28px;
   }
 
-  .section {
-    padding: 24px 0;
-  }
+  /* .section {
+    padding: 24px ;
+  } */
 
   .card__body {
     padding: 16px;
@@ -581,6 +587,14 @@ button {
   }
 }
 
+@media (max-width: 640px) {
+  .grid-3 {
+    gap: 12px;
+  }
+  .section {
+    padding-inline: 12px;
+  }
+}
 ::-webkit-scrollbar {
   width: 10px;
 }

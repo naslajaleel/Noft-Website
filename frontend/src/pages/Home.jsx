@@ -13,7 +13,7 @@ const Home = () => {
       products
         .map((product) => product.brand)
         .filter((brand) => typeof brand === "string" && brand.trim())
-        .map((brand) => brand.trim())
+        .map((brand) => brand.trim()),
     );
 
     return ["All", ...Array.from(available).sort()];
@@ -26,13 +26,12 @@ const Home = () => {
         ? products
         : products.filter(
             (product) =>
-              product.brand?.trim().toLowerCase() ===
-              brandFilter.toLowerCase()
+              product.brand?.trim().toLowerCase() === brandFilter.toLowerCase(),
           );
 
     if (!query) return filteredByBrand;
     return filteredByBrand.filter((product) =>
-      product.name?.toLowerCase().includes(query)
+      product.name?.toLowerCase().includes(query),
     );
   }, [products, searchTerm, brandFilter]);
 
@@ -72,7 +71,7 @@ const Home = () => {
           flexWrap: "wrap",
         }}
       >
-      {/* <h1 fontWeight={300}>All products</h1> */}
+        {/* <h1 fontWeight={300}>All products</h1> */}
         <select
           value={brandFilter}
           onChange={(event) => setBrandFilter(event.target.value)}
@@ -92,7 +91,7 @@ const Home = () => {
           onChange={(event) => setSearchTerm(event.target.value)}
           className="form__input"
           placeholder="Search by name..."
-          width={"50%"}
+          style={{ minWidth: "180px" }}
           aria-label="Search products by name"
         />
       </div>
