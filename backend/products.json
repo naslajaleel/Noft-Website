@@ -2481,5 +2481,24 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770403387331",
+    "name": "ADIDAS ORIGINALS SUPERSTAR WHITE METALLIC SILVER",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770403384616-adidas-originals-superstar-white-metallic-silver-1770403382678-img_6119.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
