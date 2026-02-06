@@ -336,5 +336,29 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770359178785",
+    "name": "ADIDAS ORIGINALS SAMBA WHITE MAROON",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770359172174-adidas-originals-samba-white-maroon-1770359167047-img_5685.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770359174925-adidas-originals-samba-white-maroon-1770359172899-img_5686.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
