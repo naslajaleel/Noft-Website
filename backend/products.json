@@ -706,5 +706,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770369412573",
+    "name": "NIKE AIR JORDANS 1 LOW HALLOWEEN BLACK CAT",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770369409086-nike-air-jordans-1-low-halloween-black-cat-1770369407041-img_5774.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
