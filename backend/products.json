@@ -945,5 +945,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770370637974",
+    "name": "NIKE SB DUNK COCA COLA",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370632948-nike-sb-dunk-coca-cola-1770370631150-img_5807.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370635068-nike-sb-dunk-coca-cola-1770370633652-img_5808.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
