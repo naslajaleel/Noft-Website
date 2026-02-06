@@ -824,5 +824,28 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770370118934",
+    "name": "ADIDAS ORIGINALS HANDBALL SPEZIAL NAVY",
+    "description": "",
+    "price": 2949,
+    "offerPrice": 2449,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370113455-adidas-originals-handball-spezial-navy-1770370110832-img_5792.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370115547-adidas-originals-handball-spezial-navy-1770370114180-img_5791.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
