@@ -3501,5 +3501,28 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770407533078",
+    "name": "NIKE ZOOM VOMERO PHOTON DUST",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770407531112-nike-zoom-vomero-photon-dust-1770407528157-img_6189.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
