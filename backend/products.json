@@ -439,5 +439,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770365937219",
+    "name": "ADIDAS ORIGINALS SUPERSTAR ATMOS BLACK",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770365931406-adidas-originals-superstar-atmos-black-1770365929892-img_5717.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770365933178-adidas-originals-superstar-atmos-black-1770365932153-img_5718.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
