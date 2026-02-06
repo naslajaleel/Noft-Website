@@ -380,5 +380,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770365553828",
+    "name": "NIKE SB DUNK SUPREME 94 BLUE BLACK",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770365544949-nike-sb-dunk-supreme-94-blue-black-1770365542742-img_5708.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770365546959-nike-sb-dunk-supreme-94-blue-black-1770365545788-img_5707.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
