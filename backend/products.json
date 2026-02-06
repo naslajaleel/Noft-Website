@@ -1138,5 +1138,28 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770371505779",
+    "name": "ADIDAS ORIGINALS CAMPUS BLACK BASIC",
+    "description": "",
+    "price": 2849,
+    "offerPrice": 2349,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770371499114-adidas-originals-campus-black-basic-1770371495128-img_5831.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770371502817-adidas-originals-campus-black-basic-1770371499865-img_5832.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
