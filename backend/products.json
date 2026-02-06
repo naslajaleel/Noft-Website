@@ -2602,5 +2602,26 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770403802398",
+    "name": "CONVERSE CHUCK 70 BLUE",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770403798551-converse-chuck-70-blue-1770403796704-img_6128.jpeg"
+    ],
+    "brand": "Converse",
+    "sizes": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
