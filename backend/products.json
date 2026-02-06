@@ -1673,5 +1673,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770374691426",
+    "name": "NIKE AIR JORDANS RETRO 1 LOW PARIS SAINT GERMAN",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374686346-nike-air-jordans-retro-1-low-paris-saint-german-1770374684426-img_5893.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374688267-nike-air-jordans-retro-1-low-paris-saint-german-1770374687044-img_5894.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
