@@ -1061,5 +1061,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770371148061",
+    "name": "NIKE P-6000 TRAINER GREY WHITE BLUE",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770371144950-nike-p-6000-trainer-grey-white-blue-1770371142528-img_5822.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
