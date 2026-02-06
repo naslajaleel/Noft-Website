@@ -3950,5 +3950,24 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770409149498",
+    "name": "ADIDAS ORIGINALS SUPERSTAR OFF WHITE",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770409146665-adidas-originals-superstar-off-white-1770409144910-img_6215.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
