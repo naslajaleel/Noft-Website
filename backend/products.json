@@ -3065,5 +3065,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770405670022",
+    "name": "NIKE AIR JORDANS RETRO 1 LOW TRAVIS SCOTT FRAGMENT",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770405666771-nike-air-jordans-retro-1-low-travis-scott-fragment-1770405664146-img_6159.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
