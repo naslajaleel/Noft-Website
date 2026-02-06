@@ -4010,5 +4010,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770409370317",
+    "name": "ADIDAS ORIGINALS SUPERSTAR WHITE RED SUPREME",
+    "description": "",
+    "price": 3249,
+    "offerPrice": 2749,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770409363839-adidas-originals-superstar-white-red-supreme-1770409361934-img_6219.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
