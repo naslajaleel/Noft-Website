@@ -2076,5 +2076,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770376405286",
+    "name": "NEW BALANCE 9060 CHROME BLUE",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770376401264-new-balance-9060-chrome-blue-1770376399948-img_5924.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770376402995-new-balance-9060-chrome-blue-1770376401959-img_5925.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
