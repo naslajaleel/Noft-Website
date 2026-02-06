@@ -3085,5 +3085,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770405722886",
+    "name": "NIKE AIRMAX 90 WHITE BLUE GREY",
+    "description": "",
+    "price": 2799,
+    "offerPrice": 2299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770405718132-nike-airmax-90-white-blue-grey-1770405715675-img_6160.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
