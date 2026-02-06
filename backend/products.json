@@ -2342,5 +2342,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770402836531",
+    "name": "NEW BALANCE 1906 A CONCRETE SILVER METALLIC",
+    "description": "",
+    "price": 3649,
+    "offerPrice": 3149,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770402834406-new-balance-1906-a-concrete-silver-metallic-1770402832074-img_6111.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
