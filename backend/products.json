@@ -649,5 +649,23 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770369139321",
+    "name": "NEW BALANCE 530 GREY",
+    "description": "",
+    "price": 2975,
+    "offerPrice": 2475,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770369135644-new-balance-530-grey-1770369133164-img_5763.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
   }
 ]
