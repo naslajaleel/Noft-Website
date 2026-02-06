@@ -3742,5 +3742,29 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770408421713",
+    "name": "CONVERSE CHUCK 70 BLACK",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770408418987-converse-chuck-70-black-1770408416648-img_6202.jpeg"
+    ],
+    "brand": "Converse",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
