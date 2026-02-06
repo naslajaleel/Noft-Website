@@ -2743,5 +2743,26 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770404487129",
+    "name": "HERMES PARIS  FOR MEN",
+    "description": "",
+    "price": 1899,
+    "offerPrice": 1399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770404481606-hermes-paris-for-men-1770404478874-img_6138.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770404484304-hermes-paris-for-men-1770404482193-img_6137.jpeg"
+    ],
+    "brand": "HERMES",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
