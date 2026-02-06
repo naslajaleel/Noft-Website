@@ -3890,5 +3890,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770408886207",
+    "name": "ADIDAS ORIGINALS SUPERSTAR WHITE BLACK RED STUSSY X  SUPREME",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770408883146-adidas-originals-superstar-white-black-red-stussy-x-supreme-1770408881426-img_6210.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
