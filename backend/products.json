@@ -2322,5 +2322,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770402736619",
+    "name": "ZARA CROCO T CHELSEA BOOTS ART-8742",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770402731268-zara-croco-t-chelsea-boots-art-8742-1770402727596-img_6109.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770402733653-zara-croco-t-chelsea-boots-art-8742-1770402732224-img_6110.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
