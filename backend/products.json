@@ -3786,5 +3786,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770408590047",
+    "name": "NEW BALANCE 9060 BLACK AND WHITE OREO",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770408585147-new-balance-9060-black-and-white-oreo-1770408583233-img_6204.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770408586939-new-balance-9060-black-and-white-oreo-1770408585785-img_6205.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
