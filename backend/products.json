@@ -2664,5 +2664,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770404192804",
+    "name": "NIKE AIR JORDANS RETRO 1 REVERSE SUPREME GUCCI",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770404182810-nike-air-jordans-retro-1-reverse-supreme-gucci-1770404180629-img_6132.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
