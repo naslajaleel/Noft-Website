@@ -3603,5 +3603,24 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770407900557",
+    "name": "PUMA SPEED CAT BLACK PINK",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770407898480-puma-speed-cat-black-pink-1770407895273-img_6195.jpeg"
+    ],
+    "brand": "Puma",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
