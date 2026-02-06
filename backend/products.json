@@ -3306,5 +3306,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770406840638",
+    "name": "NEW BALANCE 9060 SKY LOGO",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770406832973-new-balance-9060-sky-logo-1770406828766-img_6177.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770406837444-new-balance-9060-sky-logo-1770406833712-img_6178.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
