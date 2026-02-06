@@ -3909,5 +3909,26 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770408963635",
+    "name": "ASICS GEL NYC MOCHA",
+    "description": "",
+    "price": 3499,
+    "offerPrice": 2999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770408958549-asics-gel-nyc-mocha-1770408956474-img_6211.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770408960629-asics-gel-nyc-mocha-1770408959487-img_6212.jpeg"
+    ],
+    "brand": "Asics",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
