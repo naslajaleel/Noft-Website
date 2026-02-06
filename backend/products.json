@@ -2883,5 +2883,25 @@
       40
     ],
     "isBestSeller": true
+  },
+  {
+    "id": "1770404975220",
+    "name": "NEW BALANCE 9060 NORI GREEN",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770404957922-new-balance-9060-nori-green-1770404955354-img_6146.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
