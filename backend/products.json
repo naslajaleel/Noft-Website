@@ -1199,5 +1199,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770371829629",
+    "name": "ADIDAS ORIGINALS CAMPUS YELLOW",
+    "description": "",
+    "price": 2699,
+    "offerPrice": 2199,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770371824812-adidas-originals-campus-yellow-1770371822703-img_5840.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770371827017-adidas-originals-campus-yellow-1770371825624-img_5841.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
   }
 ]
