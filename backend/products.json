@@ -847,5 +847,24 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770370218453",
+    "name": "NIKE AIRFORCE ONE KAWS LTD EDITION",
+    "description": "",
+    "price": 3175,
+    "offerPrice": 2675,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370215649-nike-airforce-one-kaws-ltd-edition-1770370214342-img_5794.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
