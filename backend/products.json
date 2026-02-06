@@ -299,5 +299,23 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770358762499",
+    "name": "*HARLEY DAVIDSON STEEL TOE BOOTS HD-7*",
+    "description": "",
+    "price": 3499,
+    "offerPrice": 2999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770358755415-harley-davidson-steel-toe-boots-hd-7-1770358750400-img_5679.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770358759102-harley-davidson-steel-toe-boots-hd-7-1770358756246-img_5678.jpeg"
+    ],
+    "brand": "Harley Davidson",
+    "sizes": [
+      40,
+      41,
+      42,
+      43
+    ]
   }
 ]
