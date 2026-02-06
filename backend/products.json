@@ -2017,5 +2017,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770376075568",
+    "name": "NIKE SB DUNK NYC PIGEON 3 PANDA",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770376065964-nike-sb-dunk-nyc-pigeon-3-panda-1770376063954-img_5919.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
