@@ -1922,5 +1922,24 @@
       39,
       40
     ]
+  },
+  {
+    "id": "1770375739521",
+    "name": "NIKE AIR JORDANS RETRO 1 LOW BLACK CROC",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770375736970-nike-air-jordans-retro-1-low-black-croc-1770375734284-img_5914.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
