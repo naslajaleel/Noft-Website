@@ -3026,5 +3026,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770405548382",
+    "name": "PUMA SPEED CAT BLACK WHITE",
+    "description": "",
+    "price": 3049,
+    "offerPrice": 2549,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770405542261-puma-speed-cat-black-white-1770405537655-img_6156.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770405545749-puma-speed-cat-black-white-1770405542825-img_6157.jpeg"
+    ],
+    "brand": "Puma",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
