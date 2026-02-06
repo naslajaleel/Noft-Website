@@ -1479,5 +1479,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770373583359",
+    "name": "AIR JORDANS RETRO 1 HIGH SHATTERED BACKBOARD",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770373579196-air-jordans-retro-1-high-shattered-backboard-1770373577521-img_5876.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
