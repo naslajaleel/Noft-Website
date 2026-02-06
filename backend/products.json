@@ -1345,5 +1345,25 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770372427350",
+    "name": "NIKE SB DUNK STUSSY BLACK BLUE KEYCHAIN",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770372422029-nike-sb-dunk-stussy-black-blue-keychain-1770372419867-img_5862.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770372423881-nike-sb-dunk-stussy-black-blue-keychain-1770372422686-img_5861.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
