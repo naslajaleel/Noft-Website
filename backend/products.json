@@ -2156,5 +2156,26 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770401792422",
+    "name": "NIKE SB DUNK SUPREME GREY 2025",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770401785555-nike-sb-dunk-supreme-grey-2025-1770401783589-img_6092.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770401787474-nike-sb-dunk-supreme-grey-2025-1770401786382-img_6093.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
