@@ -3184,5 +3184,24 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770406337055",
+    "name": "ADIDAS ORIGINALS SAMBA MOCHA",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770406334505-adidas-originals-samba-mocha-1770406331815-img_6167.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
