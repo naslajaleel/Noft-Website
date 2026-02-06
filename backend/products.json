@@ -2965,5 +2965,26 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770405309677",
+    "name": "ROBERTO CAVALI SLIPPERS WITH COMFORT SOFT SOLE  FOR MEN",
+    "description": "",
+    "price": 1899,
+    "offerPrice": 1399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770405303857-roberto-cavali-slippers-with-comfort-soft-sole-for-men-1770405298117-img_6152.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770405307399-roberto-cavali-slippers-with-comfort-soft-sole-for-men-1770405304729-img_6151.jpeg"
+    ],
+    "brand": "Roberto Cavali",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
