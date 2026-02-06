@@ -3105,5 +3105,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770405891324",
+    "name": "NIKE AIR JORDANS RETRO 4 FEAR PACK",
+    "description": "",
+    "price": 2949,
+    "offerPrice": 2449,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770405886154-nike-air-jordans-retro-4-fear-pack-1770405883132-img_6163.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770405889134-nike-air-jordans-retro-4-fear-pack-1770405886913-img_6161.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
