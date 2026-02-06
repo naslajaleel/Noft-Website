@@ -1693,5 +1693,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770374772324",
+    "name": "NIKE BLAZER CITY LOW",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374767620-nike-blazer-city-low-1770374765531-img_5896.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374769571-nike-blazer-city-low-1770374768326-img_5895.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
