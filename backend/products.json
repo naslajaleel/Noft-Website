@@ -2644,5 +2644,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770404113815",
+    "name": "NIKE AIR JORDANS RETRO 4 FLYKNIT HYPER - UA",
+    "description": "",
+    "price": 3599,
+    "offerPrice": 3099,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770404110090-nike-air-jordans-retro-4-flyknit-hyper-ua-1770404108226-img_6131.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
