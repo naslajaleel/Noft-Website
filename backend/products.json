@@ -360,5 +360,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770360642054",
+    "name": "NIKE AIRFORCE 07 LTD PANDAPRANK",
+    "description": "",
+    "price": 3499,
+    "offerPrice": 2999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770360635897-nike-airforce-07-ltd-pandaprank-1770360631136-img_5688.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770360638390-nike-airforce-07-ltd-pandaprank-1770360636676-img_5689.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
