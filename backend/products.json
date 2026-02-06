@@ -1998,5 +1998,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770375992931",
+    "name": "NIKE AIR JORDANS RETRO 1 PATENT BLUE BLACK",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770375989858-nike-air-jordans-retro-1-patent-blue-black-1770375987946-img_5918.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
