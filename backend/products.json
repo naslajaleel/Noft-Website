@@ -1161,5 +1161,24 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770371655988",
+    "name": "YSL-SAINT LAURENT OPYUM MAROON GOLD AND TRIPPLE BLACK SIGNATURE HEELS",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770371650723-ysl-saint-laurent-opyum-maroon-gold-and-tripple-black-signature-heels-1770371649210-img_5835.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770371652819-ysl-saint-laurent-opyum-maroon-gold-and-tripple-black-signature-heels-1770371651316-img_5836.jpeg"
+    ],
+    "brand": "YSL",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
   }
 ]
