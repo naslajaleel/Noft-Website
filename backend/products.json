@@ -573,5 +573,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770366838237",
+    "name": "NEW BALANCE 9060 DRIFTWOOD SEASALT",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770366834710-new-balance-9060-driftwood-seasalt-1770366823870-img_5740.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
