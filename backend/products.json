@@ -906,5 +906,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770370478467",
+    "name": "NIKE AIRFORCE CUSTOM UNDEFEATED GREY BLUE KEY CHAIN 2025",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370467486-nike-airforce-custom-undefeated-grey-blue-key-chain-2025-1770370464951-img_5802.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370475258-nike-airforce-custom-undefeated-grey-blue-key-chain-2025-1770370468182-img_5803.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
