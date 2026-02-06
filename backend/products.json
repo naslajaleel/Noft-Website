@@ -3564,5 +3564,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770407763611",
+    "name": "CONVERSE CHUCK MID PLUS MULTI",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770407761379-converse-chuck-mid-plus-multi-1770407758857-img_6192.jpeg"
+    ],
+    "brand": "Converse",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
