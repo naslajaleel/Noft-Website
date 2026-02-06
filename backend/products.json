@@ -4029,5 +4029,28 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770409442095",
+    "name": "ADIDAS ORIGINALS SAMBA NAVY",
+    "description": "",
+    "price": 2799,
+    "offerPrice": 2299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770409439848-adidas-originals-samba-navy-1770409438455-img_6220.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
