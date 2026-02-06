@@ -866,5 +866,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770370297547",
+    "name": "NIKE AIR JORDANS RETRO 1 ROYAL BLUE",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370289485-nike-air-jordans-retro-1-royal-blue-1770370287312-img_5796.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370291994-nike-air-jordans-retro-1-royal-blue-1770370290308-img_5797.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
