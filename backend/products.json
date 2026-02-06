@@ -1654,5 +1654,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770374567730",
+    "name": "NIKE AIR JORDANS RETRO 1 REVERSE X SUPREME KEYCHAIN",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374564739-nike-air-jordans-retro-1-reverse-x-supreme-keychain-1770374562845-img_5892.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
