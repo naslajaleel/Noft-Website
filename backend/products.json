@@ -2218,5 +2218,26 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770402282634",
+    "name": "NIKE SB DUNK X NORTH FACE",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770402278268-nike-sb-dunk-x-north-face-1770402276348-img_6102.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770402280274-nike-sb-dunk-x-north-face-1770402278920-img_6101.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
