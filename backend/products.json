@@ -4112,5 +4112,29 @@
       40
     ],
     "isBestSeller": true
+  },
+  {
+    "id": "1770409900310",
+    "name": "NEW BALANCE 9060 BLACK GREY",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770409897347-new-balance-9060-black-grey-1770409895691-img_6237.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
