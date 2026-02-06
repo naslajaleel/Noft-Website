@@ -3203,5 +3203,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770406415246",
+    "name": "ADIDAS ORIGINALS SUPERSTAR BROWNI",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770406408522-adidas-originals-superstar-browni-1770406404947-img_6168.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770406411603-adidas-originals-superstar-browni-1770406409341-img_6169.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
