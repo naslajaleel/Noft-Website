@@ -11,6 +11,7 @@ const emptyForm = {
   offerPrice: "",
   brand: "",
   sizes: [],
+  isBestSeller: false,
   images: [],
 };
 
@@ -187,6 +188,7 @@ const Admin = () => {
       offerPrice: product.offerPrice,
       brand: product.brand || "",
       sizes: Array.isArray(product.sizes) ? product.sizes : [],
+      isBestSeller: Boolean(product.isBestSeller),
       images: product.images?.length ? product.images : [],
     });
   };
@@ -220,6 +222,7 @@ const Admin = () => {
       offerPrice: Number(form.offerPrice),
       brand: form.brand.trim(),
       sizes: form.sizes,
+      isBestSeller: form.isBestSeller,
       images: form.images
         .map((img) => normalizeImageUrl(img))
         .filter(Boolean),
@@ -406,6 +409,20 @@ const Admin = () => {
               })}
             </div>
           </div>
+
+          <label className="form__label best-seller-toggle">
+            <span>Best seller</span>
+            <span style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+              <input
+                type="checkbox"
+                checked={form.isBestSeller}
+                onChange={(event) =>
+                  updateField("isBestSeller", event.target.checked)
+                }
+              />
+              Mark this product as a best seller
+            </span>
+          </label>
 
           <div className="image-list">
             <div style={{ display: "flex", justifyContent: "space-between" }}>

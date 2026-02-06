@@ -7,6 +7,7 @@ const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
   const [brandFilter, setBrandFilter] = useState("All");
+  const [sortOption, setSortOption] = useState("best");
 
   const brandOptions = useMemo(() => {
     const available = new Set(
@@ -29,11 +30,34 @@ const Home = () => {
               product.brand?.trim().toLowerCase() === brandFilter.toLowerCase(),
           );
 
-    if (!query) return filteredByBrand;
-    return filteredByBrand.filter((product) =>
-      product.name?.toLowerCase().includes(query),
-    );
-  }, [products, searchTerm, brandFilter]);
+    const filteredBySearch = !query
+      ? filteredByBrand
+      : filteredByBrand.filter((product) =>
+          product.name?.toLowerCase().includes(query),
+        );
+
+    if (sortOption === "random") {
+      return [...filteredBySearch].sort(() => Math.random() - 0.5);
+    }
+
+    const compareNewest = (a, b) => Number(b.id || 0) - Number(a.id || 0);
+    const compareOldest = (a, b) => Number(a.id || 0) - Number(b.id || 0);
+    const compareBest = (a, b) => {
+      const bestDiff =
+        Number(Boolean(b.isBestSeller)) - Number(Boolean(a.isBestSeller));
+      if (bestDiff !== 0) return bestDiff;
+      return compareNewest(a, b);
+    };
+
+    if (sortOption === "oldest") {
+      return [...filteredBySearch].sort(compareOldest);
+    }
+    if (sortOption === "newest") {
+      return [...filteredBySearch].sort(compareNewest);
+    }
+
+    return [...filteredBySearch].sort(compareBest);
+  }, [products, searchTerm, brandFilter, sortOption]);
 
   useEffect(() => {
     const loadProducts = async () => {
@@ -84,6 +108,18 @@ const Home = () => {
               {brand}
             </option>
           ))}
+        </select>
+        <select
+          value={sortOption}
+          onChange={(event) => setSortOption(event.target.value)}
+          className="form__input"
+          aria-label="Sort products"
+          style={{ minWidth: "180px" }}
+        >
+          <option value="best">Best sellers (default)</option>
+          <option value="newest">Recently added</option>
+          <option value="oldest">Older first</option>
+          <option value="random">Random</option>
         </select>
         <input
           type="search"
