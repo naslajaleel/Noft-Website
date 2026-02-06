@@ -745,5 +745,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770369609113",
+    "name": "NEW BALANCE 1906 BLACK",
+    "description": "",
+    "price": 3499,
+    "offerPrice": 2999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770369600996-new-balance-1906-black-1770369596526-img_5779.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770369603881-new-balance-1906-black-1770369601869-img_5780.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
