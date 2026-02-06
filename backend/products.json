@@ -1731,5 +1731,25 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770374918467",
+    "name": "NIKE AIRFORCE CHARCOAL GREY BIG BANG",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374913603-nike-airforce-charcoal-grey-big-bang-1770374907679-img_5899.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374915781-nike-airforce-charcoal-grey-big-bang-1770374914414-img_5900.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
