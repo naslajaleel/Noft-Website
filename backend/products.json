@@ -3165,5 +3165,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770406283900",
+    "name": "NIKE AIRFORCE ONE VENOM SUEDE BLACK - UA",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770406279841-nike-airforce-one-venom-suede-black-ua-1770406276936-img_6166.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
