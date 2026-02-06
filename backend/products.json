@@ -2684,5 +2684,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770404264881",
+    "name": "NIKE P-6000 TRAINER TRIPPLE WHITE SKY",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770404262147-nike-p-6000-trainer-tripple-white-sky-1770404260486-img_6133.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
