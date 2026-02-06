@@ -725,5 +725,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770369507553",
+    "name": "NIKE MK2 TEKNO CREAM",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770369493997-nike-mk2-tekno-cream-1770369483241-img_5776.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770369504032-nike-mk2-tekno-cream-1770369494820-img_5777.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
