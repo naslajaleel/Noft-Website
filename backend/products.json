@@ -1498,5 +1498,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770373719642",
+    "name": "NIKE AIRFORCE FOAMPOSITE  PRO RED",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770373713563-nike-airforce-foamposite-pro-red-1770373711647-img_5877.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770373716234-nike-airforce-foamposite-pro-red-1770373714680-img_5878.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
