@@ -805,5 +805,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770370022139",
+    "name": "ADIDAS ORIGINALS SUPERSTAR X LOUIS VUITTON EMBOSSED",
+    "description": "",
+    "price": 3349,
+    "offerPrice": 2849,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370007459-adidas-originals-superstar-x-louis-vuitton-embossed-1770369993735-img_5788.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370018207-adidas-originals-superstar-x-louis-vuitton-embossed-1770370008169-img_5789.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
