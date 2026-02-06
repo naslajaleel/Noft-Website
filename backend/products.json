@@ -1537,5 +1537,25 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770374140373",
+    "name": "NIKE AIR JORDANS RETRO 1 LOW STUSSY OG GREY KEYCHAIN",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374135678-nike-air-jordans-retro-1-low-stussy-og-grey-keychain-1770374133939-img_5883.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374137400-nike-air-jordans-retro-1-low-stussy-og-grey-keychain-1770374136364-img_5882.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
