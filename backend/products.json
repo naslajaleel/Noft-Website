@@ -3285,5 +3285,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770406762846",
+    "name": "NIKE SB DUNK WHAT THE DUCK",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770406758369-nike-sb-dunk-what-the-duck-1770406755536-img_6175.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770406760529-nike-sb-dunk-what-the-duck-1770406759100-img_6176.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
