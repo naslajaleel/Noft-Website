@@ -554,5 +554,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770366671186",
+    "name": "ADIDAS ORIGINALS SAMBA ATMOS BLACK SILVER",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770366667580-adidas-originals-samba-atmos-black-silver-1770366660460-img_5737.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
