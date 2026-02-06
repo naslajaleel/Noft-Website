@@ -2562,5 +2562,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770403664370",
+    "name": "NIKE SB DUNK STUSSY DARK GREEN 2025",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770403661302-nike-sb-dunk-stussy-dark-green-2025-1770403658997-img_6125.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
