@@ -2922,5 +2922,24 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770405113541",
+    "name": "ZARA SURPLUS CHUKKA BOOTS ART-Z-2 WHITE N BLACK",
+    "description": "",
+    "price": 2349,
+    "offerPrice": 1849,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770405111211-zara-surplus-chukka-boots-art-z-2-white-n-black-1770405107049-img_6148.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
