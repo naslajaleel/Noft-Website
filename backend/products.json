@@ -985,5 +985,23 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770370774386",
+    "name": "CONVERSE CHUCK TAYLOR PAINT SPLATTER ORIGINAL",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370771878-converse-chuck-taylor-paint-splatter-original-1770370769888-img_5813.jpeg"
+    ],
+    "brand": "Converse",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
