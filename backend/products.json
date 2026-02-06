@@ -1518,5 +1518,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770373997573",
+    "name": "NIKE SB DUNK J PACK SHADOW",
+    "description": "",
+    "price": 2949,
+    "offerPrice": 2449,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770373993807-nike-sb-dunk-j-pack-shadow-1770373991196-img_5879.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
