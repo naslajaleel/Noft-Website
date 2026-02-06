@@ -2177,5 +2177,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770402122652",
+    "name": "ADIDAS SAMBA X STUSSY BLACK BLUE",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770402117128-adidas-samba-x-stussy-black-blue-1770402113546-img_6095.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770402119532-adidas-samba-x-stussy-black-blue-1770402117797-img_6096.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
