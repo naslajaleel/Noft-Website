@@ -3831,5 +3831,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770408710959",
+    "name": "ADIDAS SL 72 BLUE",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770408707830-adidas-sl-72-blue-1770408706708-img_6207.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
