@@ -1218,5 +1218,24 @@
       39,
       40
     ]
+  },
+  {
+    "id": "1770371912519",
+    "name": "NIKE ZOOM VOMERO CUSTOM OFF WHITE",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770371907577-nike-zoom-vomero-custom-off-white-1770371905251-img_5843.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770371910663-nike-zoom-vomero-custom-off-white-1770371908230-img_5844.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
