@@ -3046,5 +3046,24 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770405607842",
+    "name": "ZARA SURPLUS METALLIC BOOTS",
+    "description": "",
+    "price": 2799,
+    "offerPrice": 2299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770405605563-zara-surplus-metallic-boots-1770405601729-img_6158.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
