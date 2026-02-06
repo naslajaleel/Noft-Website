@@ -1180,5 +1180,24 @@
       39,
       40
     ]
+  },
+  {
+    "id": "1770371735653",
+    "name": "NIKE SB DUNK STUSSY GREEN BLACK YELLOW KEY CHAIN",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770371732915-nike-sb-dunk-stussy-green-black-yellow-key-chain-1770371729980-img_5838.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
