@@ -1809,5 +1809,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770375201402",
+    "name": "NIKE SB DUNK LOW OTOMO GREY RED",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770375199019-nike-sb-dunk-low-otomo-grey-red-1770375197382-img_5907.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
