@@ -1576,5 +1576,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770374277039",
+    "name": "ZARA AESTHETIC DESIGNER BOOTS ART-3491",
+    "description": "",
+    "price": 2199,
+    "offerPrice": 1699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374272826-zara-aesthetic-designer-boots-art-3491-1770374271403-img_5885.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374274774-zara-aesthetic-designer-boots-art-3491-1770374273581-img_5886.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
