@@ -3622,5 +3622,24 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770407974921",
+    "name": "ADIDAS ORIGINALS SAMBA WHITE - 7A",
+    "description": "",
+    "price": 2099,
+    "offerPrice": 1599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770407972281-adidas-originals-samba-white-7a-1770407969367-img_6196.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
