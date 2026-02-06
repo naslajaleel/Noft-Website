@@ -3327,5 +3327,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770406923274",
+    "name": "NEW BALANCE 9060 GREY MATTERS",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770406919328-new-balance-9060-grey-matters-1770406916310-img_6179.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
