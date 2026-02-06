@@ -1042,5 +1042,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770370998673",
+    "name": "NIKE P-6000 TRAINER WHITE SUMMIT",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370996318-nike-p-6000-trainer-white-summit-1770370994607-img_5820.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
