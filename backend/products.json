@@ -2382,5 +2382,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770402983834",
+    "name": "NIKE AIR JORDANS RETRO 1 LOW TRAVIS SCOTT MOCHA",
+    "description": "",
+    "price": 2949,
+    "offerPrice": 2449,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770402965580-nike-air-jordans-retro-1-low-travis-scott-mocha-1770402963541-img_6113.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
