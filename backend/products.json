@@ -458,5 +458,24 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770366036220",
+    "name": "ZARA SURPLUS CHELSEA BOOTS WITH OG SOLE",
+    "description": "",
+    "price": 2349,
+    "offerPrice": 1749,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770366031822-zara-surplus-chelsea-boots-with-og-sole-1770366030310-img_5720.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770366033766-zara-surplus-chelsea-boots-with-og-sole-1770366032607-img_5721.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
