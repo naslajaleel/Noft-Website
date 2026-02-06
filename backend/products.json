@@ -3126,5 +3126,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770406079795",
+    "name": "ADIDAS ORIGINALS SUPERSTAR BASIC BLACK",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770406077090-adidas-originals-superstar-basic-black-1770406073719-img_6164.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
