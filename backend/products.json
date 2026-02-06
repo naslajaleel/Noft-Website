@@ -535,5 +535,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770366527623",
+    "name": "NEW BALANCE 9060 PANELLED",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770366524876-new-balance-9060-panelled-1770366523399-img_5734.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
