@@ -1790,5 +1790,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770375132491",
+    "name": "NIKE SB DUNK SUPREME 84 BLUE",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770375129700-nike-sb-dunk-supreme-84-blue-1770375127217-img_5905.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
