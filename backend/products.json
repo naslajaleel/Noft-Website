@@ -3684,5 +3684,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770408171555",
+    "name": "NEW BALANCE 509 WHITE BLACK",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770408168688-new-balance-509-white-black-1770408166625-img_6199.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
