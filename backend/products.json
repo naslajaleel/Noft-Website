@@ -2259,5 +2259,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770402446853",
+    "name": "ZARA LEATHER SLIPPERS WITH COMFORT SOFT SOLE  FOR MEN",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770402439760-zara-leather-slippers-with-comfort-soft-sole-for-men-1770402438044-img_6105.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770402442020-zara-leather-slippers-with-comfort-soft-sole-for-men-1770402440426-img_6106.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
