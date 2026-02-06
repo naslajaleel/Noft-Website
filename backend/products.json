@@ -2362,5 +2362,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770402902276",
+    "name": "NIKE SB DUNK SUPREME BRED BLACK RED 2025",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770402897935-nike-sb-dunk-supreme-bred-black-red-2025-1770402895855-img_6112.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
