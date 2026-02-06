@@ -3704,5 +3704,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770408238513",
+    "name": "NIKE AIRFORCE ONE WHITE BLACK SWOOSH",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770408235889-nike-airforce-one-white-black-swoosh-1770408233554-img_6200.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
