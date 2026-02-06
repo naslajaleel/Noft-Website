@@ -1595,5 +1595,25 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770374359940",
+    "name": "NIKE SB DUNK SUPREME WOLF GREY",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374354350-nike-sb-dunk-supreme-wolf-grey-1770374352311-img_5887.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770374356280-nike-sb-dunk-supreme-wolf-grey-1770374355051-img_5888.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
