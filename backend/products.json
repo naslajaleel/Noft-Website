@@ -2521,5 +2521,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770403534282",
+    "name": "NIKE AIRFORCE NORTH FACE X SUPREME",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770403530023-nike-airforce-north-face-x-supreme-1770403527887-img_6123.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770403532061-nike-airforce-north-face-x-supreme-1770403530693-img_6122.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
