@@ -400,5 +400,24 @@
       44,
       45
     ]
+  },
+  {
+    "id": "1770365742772",
+    "name": "CONVERSE CHUCK MID PLUS WHITE",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770365721825-converse-chuck-mid-plus-white-1770365719927-img_5711.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770365723808-converse-chuck-mid-plus-white-1770365722541-img_5712.jpeg"
+    ],
+    "brand": "Converse",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
   }
 ]
