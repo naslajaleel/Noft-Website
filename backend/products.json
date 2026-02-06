@@ -1003,5 +1003,24 @@
       43,
       44
     ]
+  },
+  {
+    "id": "1770370843927",
+    "name": "NIKE P-6000 TRAINER METALLIC GOLD",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770370837918-nike-p-6000-trainer-metallic-gold-1770370835997-img_5815.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
   }
 ]
