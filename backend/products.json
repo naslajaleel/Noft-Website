@@ -4276,5 +4276,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770467550756",
+    "name": "ZARA METALLIC BLOCK HEELS BOOTS",
+    "description": "",
+    "price": 2699,
+    "offerPrice": 2099,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770467542013-zara-metallic-block-heels-boots-1770467539610-img_6267.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770467547703-zara-metallic-block-heels-boots-1770467542820-img_6266.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
