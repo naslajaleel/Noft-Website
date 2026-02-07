@@ -4164,5 +4164,29 @@
       45
     ],
     "isBestSeller": true
+  },
+  {
+    "id": "1770443346196",
+    "name": "NIKE AIRFORCE ONE BROWN SWOOSH",
+    "description": "",
+    "price": 2799,
+    "offerPrice": 2299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770443334239-nike-airforce-one-brown-swoosh-1770443332414-img_6239.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770443335858-nike-airforce-one-brown-swoosh-1770443334888-img_6240.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
