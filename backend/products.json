@@ -4217,5 +4217,24 @@
       40
     ],
     "isBestSeller": true
+  },
+  {
+    "id": "1770460868230",
+    "name": "ADIDAS ORIGINALS SUPERSTAR SHELLTOE NINJA TURTLES",
+    "description": "",
+    "price": 2599,
+    "offerPrice": 2099,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770460848706-adidas-originals-superstar-shelltoe-ninja-turtles-1770460837344-img_6261.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
