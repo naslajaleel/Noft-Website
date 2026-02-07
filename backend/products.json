@@ -4296,5 +4296,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770467631717",
+    "name": "ZARA SURPLUS CASUAL BACK ZIPPER BOOTS",
+    "description": "",
+    "price": 2599,
+    "offerPrice": 2099,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770467617990-zara-surplus-casual-back-zipper-boots-1770467611568-img_6269.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770467628419-zara-surplus-casual-back-zipper-boots-1770467618490-img_6268.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
