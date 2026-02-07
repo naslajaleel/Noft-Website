@@ -4208,5 +4208,29 @@
       40
     ],
     "isBestSeller": true
+  },
+  {
+    "id": "1770443581290",
+    "name": "NIKE AIRMAX 90 TRIPPLE WHITE",
+    "description": "",
+    "price": 2849,
+    "offerPrice": 2349,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770443578968-nike-airmax-90-tripple-white-1770443577447-img_6243.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
