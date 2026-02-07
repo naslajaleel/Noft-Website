@@ -4336,5 +4336,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770467800592",
+    "name": "NIKE SHOX TL ALL BLACK",
+    "description": "",
+    "price": 3499,
+    "offerPrice": 2999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770467796094-nike-shox-tl-all-black-1770467794429-img_6272.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
