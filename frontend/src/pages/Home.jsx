@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import ProductCard from "../components/ProductCard.jsx";
+import { useNavigate } from "react-router-dom";
 
 const API_URL = import.meta.env.VITE_API_URL;
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [brandFilter, setBrandFilter] = useState("All");
   const [sortOption, setSortOption] = useState("best");
+  const navigate = useNavigate();
 
   const brandOptions = useMemo(() => {
     const available = new Set(
@@ -83,7 +85,22 @@ const Home = () => {
 
     loadProducts();
   }, []);
+  useEffect(() => {
+  if (!isLoading) {
+    const savedPosition = sessionStorage.getItem("homeScrollPosition");
 
+    if (savedPosition) {
+      window.scrollTo(0, Number(savedPosition));
+      sessionStorage.removeItem("homeScrollPosition");
+    }
+  }
+}, [isLoading]);
+
+  const handleProductClick = (product) => {
+       // Save current scroll position before navigating
+    sessionStorage.setItem("homeScrollPosition", window.scrollY);
+    navigate(`/products/${product.id}`);
+  }
   return (
     <section className="section">
       <div>
@@ -148,7 +165,7 @@ const Home = () => {
       ) : filteredProducts.length ? (
         <div className="grid grid-3">
           {filteredProducts.map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <ProductCard key={product.id} product={product} onClick={handleProductClick} />
           ))}
         </div>
       ) : (

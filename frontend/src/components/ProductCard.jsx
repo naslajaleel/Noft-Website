@@ -7,9 +7,9 @@ const formatPrice = (value) =>
     maximumFractionDigits: 0,
   }).format(value);
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product ,onClick}) => {
   return (
-    <Link to={`/products/${product.id}`} className="card">
+    <div className="card" onClick={() => onClick(product)}>
       <div className="card__media">
         {product.isBestSeller && (
           <span className="card__badge" aria-label="Best seller">
@@ -36,7 +36,7 @@ const ProductCard = ({ product }) => {
           )}
         </div>
       </div>
-    </Link>
+    </div>
   );
 };
 
