@@ -4236,5 +4236,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770467380486",
+    "name": "JW ANDERSON STRASS BALLERINA INSPIRED ZARA FLATS",
+    "description": "",
+    "price": 2499,
+    "offerPrice": 1999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770467370695-jw-anderson-strass-ballerina-inspired-zara-flats-1770467366164-img_6262.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770467377524-jw-anderson-strass-ballerina-inspired-zara-flats-1770467371322-img_6263.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
