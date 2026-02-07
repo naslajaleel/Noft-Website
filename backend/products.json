@@ -221,7 +221,8 @@
       43,
       44,
       45
-    ]
+    ],
+    "isBestSeller": true
   },
   {
     "id": "1770319385192",
@@ -4135,7 +4136,7 @@
       44,
       45
     ],
-    "isBestSeller": false
+    "isBestSeller": true
   },
   {
     "id": "1770410046344",

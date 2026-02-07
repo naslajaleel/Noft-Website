@@ -55,10 +55,19 @@ const Home = () => {
     if (sortOption === "newest") {
       return [...filteredBySearch].sort(compareNewest);
     }
+    if (sortOption === "price-low") {
+      return [...filteredBySearch].sort(
+        (a, b) => Number(a.offerPrice || 0) - Number(b.offerPrice || 0),
+      );
+    }
+    if (sortOption === "price-high") {
+      return [...filteredBySearch].sort(
+        (a, b) => Number(b.offerPrice || 0) - Number(a.offerPrice || 0),
+      );
+    }
 
     return [...filteredBySearch].sort(compareBest);
   }, [products, searchTerm, brandFilter, sortOption]);
-
   useEffect(() => {
     const loadProducts = async () => {
       try {
@@ -119,6 +128,8 @@ const Home = () => {
           <option value="best">Best sellers (default)</option>
           <option value="newest">Recently added</option>
           <option value="oldest">Older first</option>
+          <option value="price-low">Price: low to high</option>
+          <option value="price-high">Price: high to low</option>
           <option value="random">Random</option>
         </select>
         <input

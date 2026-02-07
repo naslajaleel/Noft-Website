@@ -66,8 +66,23 @@ const Admin = () => {
   const [isSaving, setIsSaving] = useState(false);
   const [isUploading, setIsUploading] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [searchTerm, setSearchTerm] = useState("");
 
   const isEditing = useMemo(() => Boolean(form.id), [form.id]);
+  const filteredProducts = useMemo(() => {
+    const query = searchTerm.trim().toLowerCase();
+    const filtered = !query
+      ? products
+      : products.filter((product) => {
+          const name = product.name?.toLowerCase() || "";
+          const brand = product.brand?.toLowerCase() || "";
+          return name.includes(query) || brand.includes(query);
+        });
+
+    return [...filtered].sort(
+      (a, b) => Number(b.id || 0) - Number(a.id || 0),
+    );
+  }, [products, searchTerm]);
 
   const loadProducts = async () => {
     try {
@@ -505,38 +520,59 @@ const Admin = () => {
         </form>
 
         <div className="list">
-          <h2>Current products</h2>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              gap: "12px",
+              flexWrap: "wrap",
+            }}
+          >
+            <h2>Current products</h2>
+            <input
+              type="search"
+              value={searchTerm}
+              onChange={(event) => setSearchTerm(event.target.value)}
+              className="form__input"
+              placeholder="Search products..."
+              aria-label="Search products"
+              style={{ minWidth: "220px" }}
+            />
+          </div>
           {isLoading ? (
             <div className="loading">Loading products...</div>
-          ) : (
-            products.map((product) => {
+          ) : filteredProducts.length ? (
+            filteredProducts.map((product) => {
               const coverImage = normalizeImageUrl(product.images?.[0] || "");
               return (
-              <div key={product.id} className="list-item">
-                <img src={coverImage} alt={product.name} />
-                <div className="list-item__meta">
-                  <p style={{ fontWeight: 600 }}>{product.name}</p>
-                  <p className="helper">Offer {product.offerPrice}</p>
+                <div key={product.id} className="list-item">
+                  <img src={coverImage} alt={product.name} />
+                  <div className="list-item__meta">
+                    <p style={{ fontWeight: 600 }}>{product.name}</p>
+                    <p className="helper">Offer {product.offerPrice}</p>
+                  </div>
+                  <div style={{ display: "flex", gap: "8px" }}>
+                    <button
+                      type="button"
+                      onClick={() => handleEdit(product)}
+                      className="button button--outline"
+                    >
+                      Edit
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => handleDelete(product.id)}
+                      className="button button--outline button--danger"
+                    >
+                      Delete
+                    </button>
+                  </div>
                 </div>
-                <div style={{ display: "flex", gap: "8px" }}>
-                  <button
-                    type="button"
-                    onClick={() => handleEdit(product)}
-                    className="button button--outline"
-                  >
-                    Edit
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => handleDelete(product.id)}
-                    className="button button--outline button--danger"
-                  >
-                    Delete
-                  </button>
-                </div>
-              </div>
               );
             })
+          ) : (
+            <p className="helper">No products match your search.</p>
           )}
         </div>
       </div>
