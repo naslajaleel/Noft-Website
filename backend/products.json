@@ -4256,5 +4256,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770467469416",
+    "name": "ZARA FLORAL PATTERN MARY JANE FLATS",
+    "description": "",
+    "price": 2299,
+    "offerPrice": 1799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770467455199-zara-floral-pattern-mary-jane-flats-1770467441452-img_6264.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770467466338-zara-floral-pattern-mary-jane-flats-1770467455747-img_6265.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
