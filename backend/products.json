@@ -4188,5 +4188,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770443488527",
+    "name": "ONITSUKA TIGER TOKUTEN GUM WHITE GOLD",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770443471086-onitsuka-tiger-tokuten-gum-white-gold-1770443469584-img_6241.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770443472538-onitsuka-tiger-tokuten-gum-white-gold-1770443471690-img_6242.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": true
   }
 ]
