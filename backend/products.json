@@ -4232,5 +4232,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770443938634",
+    "name": "PUMA SPEEDCAT BALLETS RED",
+    "description": "",
+    "price": 3100,
+    "offerPrice": 2600,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770443935667-puma-speedcat-ballets-red-1770443932980-img_6245.jpeg"
+    ],
+    "brand": "Puma",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
