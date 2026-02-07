@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { isAuthed, setAuthToken } from "../utils/auth.js";
 
-const ADMIN_TOKEN = "noft-admin";
+const ADMIN_TOKEN = import.meta.env.VITE_ADMIN_TOKEN || "";
 
 const AdminLogin = () => {
   const navigate = useNavigate();
@@ -17,6 +17,10 @@ const AdminLogin = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    if (!ADMIN_TOKEN) {
+      setError("Admin token is not configured.");
+      return;
+    }
     if (password.trim() !== ADMIN_TOKEN) {
       setError("Invalid access code.");
       return;
