@@ -4462,5 +4462,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770534153667",
+    "name": "NIKE AIR JORDANS RETRO 1 LOW TRAVIS SCOTT PHANTOM",
+    "description": "",
+    "price": 2925,
+    "offerPrice": 2425,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770534133288-nike-air-jordans-retro-1-low-travis-scott-phantom-1770534128302-img_6293.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
