@@ -4441,5 +4441,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770533991720",
+    "name": "NEW BALANCE 1000 MALLARD GREEN",
+    "description": "",
+    "price": 3599,
+    "offerPrice": 2999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770533980428-new-balance-1000-mallard-green-1770533976166-img_6291.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770533985423-new-balance-1000-mallard-green-1770533981287-img_6292.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
