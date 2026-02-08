@@ -103,7 +103,7 @@
     "name": "ZARA AESTHETIC CHELSEA BOOTS ART-3481",
     "description": "",
     "price": 1999,
-    "offerPrice": 1699,
+    "offerPrice": 1299,
     "images": [
       "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770318473414-zara-aesthetic-chelsea-boots-art-3481-1770318470972-img_5648.jpeg",
       "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770318479785-zara-aesthetic-chelsea-boots-art-3481-1770318478146-img_5649.jpeg"
@@ -115,7 +115,8 @@
       42,
       43,
       44
-    ]
+    ],
+    "isBestSeller": false
   },
   {
     "id": "1770318588372",
