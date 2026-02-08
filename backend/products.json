@@ -4565,5 +4565,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770534917217",
+    "name": "NIKE AIRFORCE CUSTOM STUSSY GREEN WHITE",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770534907695-nike-airforce-custom-stussy-green-white-1770534896615-img_6300.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770534913550-nike-airforce-custom-stussy-green-white-1770534908343-img_6301.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
