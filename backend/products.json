@@ -4400,5 +4400,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770533791906",
+    "name": "NEW BALANCE 1000 NAVY BLUE",
+    "description": "",
+    "price": 3599,
+    "offerPrice": 2999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770533784618-new-balance-1000-navy-blue-1770533781368-img_6288.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770533789219-new-balance-1000-navy-blue-1770533785398-img_6289.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
