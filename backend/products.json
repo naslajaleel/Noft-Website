@@ -4544,5 +4544,26 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770534824417",
+    "name": "NIKE SB DUNK GHOSTRIDER",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770534814114-nike-sb-dunk-ghostrider-1770534805117-img_6298.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770534821136-nike-sb-dunk-ghostrider-1770534814746-img_6299.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
