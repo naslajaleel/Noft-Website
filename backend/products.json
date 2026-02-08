@@ -4482,5 +4482,28 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770534255034",
+    "name": "CONVERSE CHUCK 70 MID",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770534251784-converse-chuck-70-mid-1770534243108-img_6294.jpeg"
+    ],
+    "brand": "Converse",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
