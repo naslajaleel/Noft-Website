@@ -4421,5 +4421,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770533890549",
+    "name": "NIKE SB DUNK THE BORNE X RAISED",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770533887047-nike-sb-dunk-the-borne-x-raised-1770533881436-img_6290.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
