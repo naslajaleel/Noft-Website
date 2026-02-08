@@ -4525,5 +4525,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770534668547",
+    "name": "CONVERSE CHUCK 70 ARMY GREEN",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2389,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770534588993-converse-chuck-70-army-green-1770534581079-img_6297.jpeg"
+    ],
+    "brand": "Converse",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
