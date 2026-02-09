@@ -4770,5 +4770,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770625011688",
+    "name": "ADIDAS ORIGINALS SUPERSTAR ADV FELIPE",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770624997278-adidas-originals-superstar-adv-felipe-1770624984910-img_6379.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770625008450-adidas-originals-superstar-adv-felipe-1770624998160-img_6380.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
