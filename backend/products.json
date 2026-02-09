@@ -4610,5 +4610,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770620599463",
+    "name": "BIRKENSTOCK BOSTON BLACK",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770620582581-birkenstock-boston-black-1770620577139-7d248d28-8e90-4303-acf1-a3a7fad548b0.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770620589548-birkenstock-boston-black-1770620583453-50b16c4c-ff9a-4136-8f15-14469dbde9e7.jpeg"
+    ],
+    "brand": "Birkenstock",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
