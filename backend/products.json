@@ -4730,5 +4730,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770624807645",
+    "name": "PUMA CLASSIC SUEDE",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770624787418-puma-classic-suede-1770624779693-img_6376.jpeg"
+    ],
+    "brand": "Puma",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
