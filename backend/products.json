@@ -4650,5 +4650,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770620705449",
+    "name": "BIRKENSTOCK BOSTON DARK BROWN",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770620694360-birkenstock-boston-dark-brown-1770620686393-593134a7-af8d-45f5-b911-22dd15b59949.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770620701093-birkenstock-boston-dark-brown-1770620694985-d0e74a72-f231-4734-be46-b64070706768.jpeg"
+    ],
+    "brand": "Birkenstock",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
