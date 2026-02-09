@@ -4790,5 +4790,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770625259899",
+    "name": "NEW BALANCE 1000 NAVY GREY",
+    "description": "",
+    "price": 3599,
+    "offerPrice": 2999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770625225135-new-balance-1000-navy-grey-1770625212155-img_6381.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
