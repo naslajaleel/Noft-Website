@@ -4710,5 +4710,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770620854899",
+    "name": "BIRKENSTOCK BOSTON GREY",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770620844607-birkenstock-boston-grey-1770620838610-d8a282ec-6a03-4b42-8266-92c8a4f7d52c.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770620852387-birkenstock-boston-grey-1770620845313-1d9b41ca-6039-48ea-8925-f715a3f39240.jpeg"
+    ],
+    "brand": "Birkenstock",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
