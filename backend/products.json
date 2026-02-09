@@ -4690,5 +4690,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770620804264",
+    "name": "BIRKENSTOCK BOSTON GREEN",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770620795131-birkenstock-boston-green-1770620789048-73484bb5-e331-471a-9dae-eb1a26d3a913.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770620801353-birkenstock-boston-green-1770620795805-272799ec-3eef-4912-9367-ace762ff8fcb.jpeg"
+    ],
+    "brand": "Birkenstock",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
