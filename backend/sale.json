@@ -1,0 +1,10 @@
+{
+  "current": {
+    "name": "Valentine's Super Sale",
+    "description": "Love at first lace! Grab your pair before they're gone!",
+    "price": 700,
+    "startDate": "2026-02-09",
+    "endDate": "2026-02-15",
+    "enabled": true
+  }
+}

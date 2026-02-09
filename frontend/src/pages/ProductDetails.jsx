@@ -18,6 +18,7 @@ const ProductDetails = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [saleConfig, setSaleConfig] = useState(null);
 
   useEffect(() => {
     const loadProduct = async () => {
@@ -34,6 +35,20 @@ const ProductDetails = () => {
 
     loadProduct();
   }, [id]);
+
+  useEffect(() => {
+    const loadSale = async () => {
+      try {
+        const response = await fetch(`${API_URL}/sale`);
+        const data = await response.json();
+        setSaleConfig(data);
+      } catch (error) {
+        console.error("Failed to load sale config", error);
+      }
+    };
+
+    loadSale();
+  }, []);
 
   if (isLoading) {
     return <div className="loading">Loading product...</div>;
@@ -54,6 +69,24 @@ const ProductDetails = () => {
     `Hi! I'm interested in this product: ${window.location.href}`
   )}`;
 
+  const currentSale = saleConfig?.current || saleConfig || null;
+  const isSaleActive =
+    Boolean(
+      currentSale?.enabled &&
+        currentSale?.price &&
+        currentSale?.startDate &&
+        currentSale?.endDate,
+    ) &&
+    new Date() >= new Date(`${currentSale.startDate}T00:00:00`) &&
+    new Date() <= new Date(`${currentSale.endDate}T23:59:59`);
+
+  const originalBase = Number(product.price || product.offerPrice || 0);
+  const discount = isSaleActive ? Number(currentSale.price || 0) : 0;
+  const effectivePrice = isSaleActive
+    ? Math.max(0, originalBase - discount)
+    : Number(product.offerPrice || 0);
+  const showSaleStrike = isSaleActive && discount > 0 && originalBase > 0;
+
   return (
     <section className="layout-split">
       <ImageCarousel images={product.images} />
@@ -62,6 +95,11 @@ const ProductDetails = () => {
         <div>
           <p className="eyebrow">Limited release</p>
           <h1 className="section-title">{product.name}</h1>
+          {isSaleActive && (
+            <p className="helper" style={{ color: "#ef4444", fontWeight: 600 }}>
+              {currentSale?.name || "Sale"} is live
+            </p>
+          )}
           <p className="section-subtitle">{product.description}</p>
         </div>
 
@@ -69,12 +107,19 @@ const ProductDetails = () => {
           <p className="eyebrow">Offer price</p>
           <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
             <span className="section-title" style={{ fontSize: "28px" }}>
-              {formatPrice(product.offerPrice)}
+              {formatPrice(effectivePrice)}
             </span>
-            {product.price && product.price !== product.offerPrice && (
+            {showSaleStrike ? (
+              <span className="price--strike">
+              {formatPrice(originalBase)}
+              </span>
+            ) : (
+              product.price &&
+              product.price !== product.offerPrice && (
               <span className="price--strike">
                 {formatPrice(product.price)}
               </span>
+              )
             )}
           </div>
         </div>
