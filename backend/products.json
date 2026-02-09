@@ -4630,5 +4630,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770620653801",
+    "name": "BIRKENSTOCK BOSTON BROWN",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770620643926-birkenstock-boston-brown-1770620637453-b7c135e9-23b9-4d48-9138-6d4ec5b04c22.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770620650606-birkenstock-boston-brown-1770620644620-653abb83-83f2-477f-940a-9c1aca2ad3ca.jpeg"
+    ],
+    "brand": "Birkenstock",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
