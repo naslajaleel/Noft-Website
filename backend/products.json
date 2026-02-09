@@ -4590,5 +4590,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770620552050",
+    "name": "BIRKENSTOCK BOSTON WHITE",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770620541606-birkenstock-boston-white-1770620535612-86028413-9581-4425-a8ac-c5473628e390.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770620548985-birkenstock-boston-white-1770620542492-585b5097-86d3-42de-8cde-0ae29316036f.jpeg"
+    ],
+    "brand": "Birkenstock",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
