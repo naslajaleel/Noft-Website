@@ -10,6 +10,7 @@ const Home = () => {
   const [brandFilter, setBrandFilter] = useState("All");
   const [sortOption, setSortOption] = useState("best");
   const navigate = useNavigate();
+  const [saleConfig, setSaleConfig] = useState(null);
 
   const brandOptions = useMemo(() => {
     const available = new Set(
@@ -21,6 +22,28 @@ const Home = () => {
 
     return ["All", ...Array.from(available).sort()];
   }, [products]);
+
+  const currentSale = saleConfig?.current || saleConfig || null;
+  const isSaleActive = useMemo(() => {
+    if (
+      !currentSale?.enabled ||
+      !currentSale?.price ||
+      !currentSale?.startDate ||
+      !currentSale?.endDate
+    ) {
+      return false;
+    }
+    const start = new Date(`${currentSale.startDate}T00:00:00`);
+    const end = new Date(`${currentSale.endDate}T23:59:59`);
+    const now = new Date();
+    return now >= start && now <= end;
+  }, [currentSale]);
+
+  const getEffectivePrice = (product) => {
+    const originalBase = Number(product.price || product.offerPrice || 0);
+    if (!isSaleActive) return Number(product.offerPrice || 0);
+    return Math.max(0, originalBase - Number(currentSale.price || 0));
+  };
 
   const filteredProducts = useMemo(() => {
     const query = searchTerm.trim().toLowerCase();
@@ -59,17 +82,24 @@ const Home = () => {
     }
     if (sortOption === "price-low") {
       return [...filteredBySearch].sort(
-        (a, b) => Number(a.offerPrice || 0) - Number(b.offerPrice || 0),
+        (a, b) => getEffectivePrice(a) - getEffectivePrice(b),
       );
     }
     if (sortOption === "price-high") {
       return [...filteredBySearch].sort(
-        (a, b) => Number(b.offerPrice || 0) - Number(a.offerPrice || 0),
+        (a, b) => getEffectivePrice(b) - getEffectivePrice(a),
       );
     }
 
     return [...filteredBySearch].sort(compareBest);
-  }, [products, searchTerm, brandFilter, sortOption]);
+  }, [
+    products,
+    searchTerm,
+    brandFilter,
+    sortOption,
+    isSaleActive,
+    currentSale,
+  ]);
   useEffect(() => {
     const loadProducts = async () => {
       try {
@@ -84,6 +114,19 @@ const Home = () => {
     };
 
     loadProducts();
+  }, []);
+  useEffect(() => {
+    const loadSale = async () => {
+      try {
+        const response = await fetch(`${API_URL}/sale`);
+        const data = await response.json();
+        setSaleConfig(data);
+      } catch (error) {
+        console.error("Failed to load sale config", error);
+      }
+    };
+
+    loadSale();
   }, []);
   useEffect(() => {
   if (!isLoading) {
@@ -112,13 +155,33 @@ const Home = () => {
         </p>
       </div>
 
-      <div
+      {isSaleActive && (
+        <div className="sale-banner">
+          <div>
+            <p className="sale-banner__eyebrow">Limited time offer</p>
+            <h2 className="sale-banner__title">
+              {currentSale?.name || "Sale"} is live
+            </h2>
+            {currentSale?.description && (
+              <p className="sale-banner__quote">“{currentSale.description}”</p>
+            )}
+            <p className="sale-banner__subtitle">
+              Flat ₹{Number(currentSale?.price || 0).toLocaleString("en-IN")} off
+              on all products
+            </p>
+          </div>
+          <div className="sale-banner__chip">
+            Save ₹{Number(currentSale?.price || 0).toLocaleString("en-IN")}
+          </div>
+        </div>
+      )}
+
+      <div className="filter-media"
         style={{
           display: "flex",
           justifyContent: "end",
           gap: "12px",
           marginBlock: "20px",
-          flexWrap: "wrap",
         }}
       >
         {/* <h1 fontWeight={300}>All products</h1> */}
@@ -165,7 +228,20 @@ const Home = () => {
       ) : filteredProducts.length ? (
         <div className="grid grid-3">
           {filteredProducts.map((product) => (
-            <ProductCard key={product.id} product={product} onClick={handleProductClick} />
+            <ProductCard
+              key={product.id}
+              product={product}
+              onClick={handleProductClick}
+              sale={
+                isSaleActive
+                  ? {
+                      name: currentSale?.name || "",
+                      price: currentSale?.price,
+                      isActive: true,
+                    }
+                  : { isActive: false }
+              }
+            />
           ))}
         </div>
       ) : (

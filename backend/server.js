@@ -15,10 +15,12 @@ const GITHUB_IMAGES_PATH =
   process.env.GITHUB_IMAGES_PATH || "frontend/public/uploads";
 const GITHUB_PRODUCTS_PATH =
   process.env.GITHUB_PRODUCTS_PATH || "backend/products.json";
+const GITHUB_SALE_PATH = process.env.GITHUB_SALE_PATH || "backend/sale.json";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const dataPath = path.join(__dirname, "products.json");
+const salePath = path.join(__dirname, "sale.json");
 
 app.use(cors());
 app.use(express.json({ limit: "15mb" }));
@@ -119,6 +121,32 @@ const readProductsFromGithub = async (config) => {
   return JSON.parse(content || "[]");
 };
 
+const readSaleFromGithub = async (config) => {
+  const apiUrl = `https://api.github.com/repos/${config.owner}/${config.repo}/contents/${GITHUB_SALE_PATH}?ref=${config.branch}`;
+  const response = await fetch(apiUrl, {
+    headers: {
+      Authorization: `Bearer ${config.token}`,
+      Accept: "application/vnd.github+json",
+      "User-Agent": "noft-backend",
+    },
+  });
+
+  if (response.status === 404) {
+    return null;
+  }
+
+  if (!response.ok) {
+    const errorBody = await response.json().catch(() => ({}));
+    throw new Error(
+      errorBody?.message || "Failed to read sale config from GitHub."
+    );
+  }
+
+  const payload = await response.json();
+  const content = Buffer.from(payload.content || "", "base64").toString("utf-8");
+  return JSON.parse(content || "null");
+};
+
 const writeProductsToGithub = async (config, products) => {
   const apiUrl = `https://api.github.com/repos/${config.owner}/${config.repo}/contents/${GITHUB_PRODUCTS_PATH}`;
   const existingResponse = await fetch(`${apiUrl}?ref=${config.branch}`, {
@@ -161,6 +189,46 @@ const writeProductsToGithub = async (config, products) => {
   }
 };
 
+const writeSaleToGithub = async (config, sale) => {
+  const apiUrl = `https://api.github.com/repos/${config.owner}/${config.repo}/contents/${GITHUB_SALE_PATH}`;
+  const existingResponse = await fetch(`${apiUrl}?ref=${config.branch}`, {
+    headers: {
+      Authorization: `Bearer ${config.token}`,
+      Accept: "application/vnd.github+json",
+      "User-Agent": "noft-backend",
+    },
+  });
+
+  let sha;
+  if (existingResponse.ok) {
+    const existingPayload = await existingResponse.json();
+    sha = existingPayload?.sha;
+  }
+
+  const response = await fetch(apiUrl, {
+    method: "PUT",
+    headers: {
+      Authorization: `Bearer ${config.token}`,
+      Accept: "application/vnd.github+json",
+      "Content-Type": "application/json",
+      "User-Agent": "noft-backend",
+    },
+    body: JSON.stringify({
+      message: "Update sale.json",
+      content: Buffer.from(JSON.stringify(sale, null, 2)).toString("base64"),
+      branch: config.branch,
+      sha,
+    }),
+  });
+
+  if (!response.ok) {
+    const errorBody = await response.json().catch(() => ({}));
+    throw new Error(
+      errorBody?.message || "Failed to write sale config to GitHub."
+    );
+  }
+};
+
 const readProducts = async () => {
   const githubConfig = getGithubConfig();
   if (githubConfig && GITHUB_PRODUCTS_PATH) {
@@ -171,6 +239,40 @@ const readProducts = async () => {
   return JSON.parse(raw);
 };
 
+const normalizeSaleConfig = (sale) => {
+  if (!sale) {
+    return { current: null, history: [] };
+  }
+  if (sale.current || Array.isArray(sale.history)) {
+    return {
+      current: sale.current || null,
+      history: Array.isArray(sale.history) ? sale.history : [],
+    };
+  }
+  return {
+    current: sale,
+    history: [],
+  };
+};
+
+const readSale = async () => {
+  const githubConfig = getGithubConfig();
+  if (githubConfig && GITHUB_SALE_PATH) {
+    const sale = await readSaleFromGithub(githubConfig);
+    return normalizeSaleConfig(sale);
+  }
+
+  try {
+    const raw = await fs.readFile(salePath, "utf-8");
+    return normalizeSaleConfig(JSON.parse(raw));
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      return normalizeSaleConfig(null);
+    }
+    throw error;
+  }
+};
+
 const writeProducts = async (products) => {
   const githubConfig = getGithubConfig();
   if (githubConfig && GITHUB_PRODUCTS_PATH) {
@@ -179,6 +281,16 @@ const writeProducts = async (products) => {
   }
 
   await fs.writeFile(dataPath, JSON.stringify(products, null, 2));
+};
+
+const writeSale = async (sale) => {
+  const githubConfig = getGithubConfig();
+  if (githubConfig && GITHUB_SALE_PATH) {
+    await writeSaleToGithub(githubConfig, sale);
+    return;
+  }
+
+  await fs.writeFile(salePath, JSON.stringify(sale, null, 2));
 };
 
 app.get("/products", async (_req, res) => {
@@ -202,6 +314,54 @@ app.get("/products/:id", async (req, res) => {
     res.json(product);
   } catch (error) {
     res.status(500).json({ message: "Failed to read product." });
+  }
+});
+
+app.get("/sale", async (_req, res) => {
+  try {
+    const sale = await readSale();
+    res.json(sale);
+  } catch (error) {
+    res.status(500).json({ message: "Failed to read sale config." });
+  }
+});
+
+app.put("/sale", requireAdmin, async (req, res) => {
+  try {
+    const payload = req.body || {};
+    const existing = await readSale();
+    const nextCurrent = payload.current || null;
+    const history = Array.isArray(existing.history) ? existing.history : [];
+
+    if (nextCurrent?.enabled && nextCurrent?.name) {
+      const alreadyTracked = history.some(
+        (entry) =>
+          entry.name === nextCurrent.name &&
+          entry.startDate === nextCurrent.startDate &&
+          entry.endDate === nextCurrent.endDate &&
+          Number(entry.price) === Number(nextCurrent.price),
+      );
+      if (!alreadyTracked) {
+        history.push({
+          id: `${Date.now()}`,
+          name: nextCurrent.name,
+          description: nextCurrent.description || "",
+          price: nextCurrent.price,
+          startDate: nextCurrent.startDate,
+          endDate: nextCurrent.endDate,
+          enabledAt: new Date().toISOString(),
+        });
+      }
+    }
+
+    const sale = {
+      current: nextCurrent,
+      history,
+    };
+    await writeSale(sale);
+    res.status(200).json(sale);
+  } catch (error) {
+    res.status(500).json({ message: "Failed to update sale config." });
   }
 });
 

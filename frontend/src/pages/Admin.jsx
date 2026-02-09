@@ -67,6 +67,16 @@ const Admin = () => {
   const [isUploading, setIsUploading] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
+  const [sale, setSale] = useState({
+    name: "",
+    description: "",
+    price: "",
+    startDate: "",
+    endDate: "",
+    enabled: false,
+  });
+  const [saleHistory, setSaleHistory] = useState([]);
+  const [isSavingSale, setIsSavingSale] = useState(false);
 
   const isEditing = useMemo(() => Boolean(form.id), [form.id]);
   const filteredProducts = useMemo(() => {
@@ -96,8 +106,30 @@ const Admin = () => {
     }
   };
 
+  const loadSale = async () => {
+    try {
+      const response = await fetch(`${API_URL}/sale`);
+      const data = await response.json();
+      const current = data?.current || data || null;
+      if (current) {
+        setSale({
+          name: current.name || "",
+          description: current.description || "",
+          price: current.price ?? "",
+          startDate: current.startDate || "",
+          endDate: current.endDate || "",
+          enabled: Boolean(current.enabled),
+        });
+      }
+      setSaleHistory(Array.isArray(data?.history) ? data.history : []);
+    } catch (error) {
+      console.error("Failed to load sale config", error);
+    }
+  };
+
   useEffect(() => {
     loadProducts();
+    loadSale();
   }, []);
 
   const updateField = (field, value) => {
@@ -270,6 +302,87 @@ const Admin = () => {
       console.error("Failed to save product", error);
     } finally {
       setIsSaving(false);
+    }
+  };
+
+  const handleSaleUpdate = async (event) => {
+    event.preventDefault();
+    setIsSavingSale(true);
+    try {
+      const payload = {
+        current: {
+          name: sale.name.trim(),
+          description: sale.description.trim(),
+          price: sale.price === "" ? "" : Number(sale.price),
+          startDate: sale.startDate,
+          endDate: sale.endDate,
+          enabled: Boolean(sale.enabled),
+        },
+      };
+      const response = await fetch(`${API_URL}/sale`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+          ...getAuthHeader(),
+        },
+        body: JSON.stringify(payload),
+      });
+      const updated = await response.json().catch(() => null);
+      if (updated?.current) {
+        setSale({
+          name: updated.current.name || "",
+          description: updated.current.description || "",
+          price: updated.current.price ?? "",
+          startDate: updated.current.startDate || "",
+          endDate: updated.current.endDate || "",
+          enabled: Boolean(updated.current.enabled),
+        });
+      }
+      if (Array.isArray(updated?.history)) {
+        setSaleHistory(updated.history);
+      }
+    } catch (error) {
+      console.error("Failed to update sale config", error);
+    } finally {
+      setIsSavingSale(false);
+    }
+  };
+
+  const deactivateSale = async () => {
+    setIsSavingSale(true);
+    try {
+      const payload = {
+        current: {
+          ...sale,
+          enabled: false,
+        },
+      };
+      const response = await fetch(`${API_URL}/sale`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+          ...getAuthHeader(),
+        },
+        body: JSON.stringify(payload),
+      });
+      const updated = await response.json().catch(() => null);
+      if (updated?.current) {
+        setSale({
+          name: updated.current.name || "",
+          description: updated.current.description || "",
+          price: updated.current.price ?? "",
+          startDate: updated.current.startDate || "",
+          endDate: updated.current.endDate || "",
+          enabled: Boolean(updated.current.enabled),
+        });
+      }
+      if (Array.isArray(updated?.history)) {
+        setSaleHistory(updated.history);
+      }
+    } catch (error) {
+      console.error("Failed to deactivate sale", error);
+    } finally {
+      setIsSavingSale(false);
     }
   };
 
@@ -518,6 +631,126 @@ const Admin = () => {
                   : "Add product"}
           </button>
         </form>
+
+        <form onSubmit={handleSaleUpdate} className="form">
+          <div className="form__title">
+            <h2>Sale offer</h2>
+          </div>
+          <label className="form__label">
+            Sale name
+            <input
+              type="text"
+              value={sale.name}
+              onChange={(event) =>
+                setSale((prev) => ({ ...prev, name: event.target.value }))
+              }
+              className="form__input form__input--full"
+              placeholder="Valentine's offer"
+            />
+          </label>
+          <label className="form__label">
+            Sale description
+            <input
+              type="text"
+              value={sale.description}
+              onChange={(event) =>
+                setSale((prev) => ({ ...prev, description: event.target.value }))
+              }
+              className="form__input form__input--full"
+              placeholder="Love at first step."
+            />
+          </label>
+          <label className="form__label">
+            Discount amount
+            <input
+              type="number"
+              value={sale.price}
+              onChange={(event) =>
+                setSale((prev) => ({ ...prev, price: event.target.value }))
+              }
+              className="form__input form__input--full"
+              placeholder="1000"
+            />
+          </label>
+          <div className="form__row">
+            <label className="form__label">
+              Start date
+              <input
+                type="date"
+                value={sale.startDate}
+                onChange={(event) =>
+                  setSale((prev) => ({ ...prev, startDate: event.target.value }))
+                }
+                className="form__input form__input--full"
+              />
+            </label>
+            <label className="form__label">
+              End date
+              <input
+                type="date"
+                value={sale.endDate}
+                onChange={(event) =>
+                  setSale((prev) => ({ ...prev, endDate: event.target.value }))
+                }
+                className="form__input form__input--full"
+              />
+            </label>
+          </div>
+          <label className="form__label best-seller-toggle">
+            <span>Sale active</span>
+            <span style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+              <input
+                type="checkbox"
+                checked={sale.enabled}
+                onChange={(event) =>
+                  setSale((prev) => ({ ...prev, enabled: event.target.checked }))
+                }
+              />
+              Apply discount to all products
+            </span>
+          </label>
+          <button
+            type="submit"
+            disabled={isSavingSale}
+            className="button button--primary"
+          >
+            {isSavingSale ? "Saving..." : "Save sale"}
+          </button>
+          {sale.enabled && (
+            <button
+              type="button"
+              className="button button--outline button--danger"
+              onClick={deactivateSale}
+              disabled={isSavingSale}
+            >
+              Deactivate sale
+            </button>
+          )}
+        </form>
+
+        <div className="list">
+          <h2>Sale history</h2>
+          {saleHistory.length ? (
+            saleHistory
+              .slice()
+              .reverse()
+              .map((entry) => (
+                <div key={entry.id || entry.name} className="list-item">
+                  <div className="list-item__meta">
+                    <p style={{ fontWeight: 600 }}>
+                      {entry.name || "Sale"}
+                    </p>
+                    <p className="helper">
+                      Discount {entry.price} · {entry.startDate} →{" "}
+                      {entry.endDate}
+                    </p>
+                  </div>
+                </div>
+              ))
+          ) : (
+            <p className="helper">No sales created yet.</p>
+          )}
+        </div>
 
         <div className="list">
           <div

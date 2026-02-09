@@ -7,7 +7,14 @@ const formatPrice = (value) =>
     maximumFractionDigits: 0,
   }).format(value);
 
-const ProductCard = ({ product ,onClick}) => {
+const ProductCard = ({ product, onClick, sale }) => {
+  const isSaleActive = Boolean(sale?.isActive && sale?.price);
+  const originalBase = Number(product.price || product.offerPrice || 0);
+  const discount = isSaleActive ? Number(sale.price) : 0;
+  const effectivePrice = isSaleActive
+    ? Math.max(0, originalBase - discount)
+    : Number(product.offerPrice || 0);
+  const showSaleStrike = isSaleActive && discount > 0 && originalBase > 0;
   return (
     <div className="card" onClick={() => onClick(product)}>
       <div className="card__media">
@@ -28,11 +35,18 @@ const ProductCard = ({ product ,onClick}) => {
           <h3 className="card__title">{product.name}</h3>
         </div>
         <div className="card__price">
-          <span>{formatPrice(product.offerPrice)}</span>
-          {product.price && product.price !== product.offerPrice && (
+          <span>{formatPrice(effectivePrice)}</span>
+          {showSaleStrike ? (
+            <span className="price--strike">
+              {formatPrice(originalBase)}
+            </span>
+          ) : (
+            product.price &&
+            product.price !== product.offerPrice && (
             <span className="price--strike">
               {formatPrice(product.price)}
             </span>
+            )
           )}
         </div>
       </div>
