@@ -4670,5 +4670,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770620744481",
+    "name": "BIRKENSTOCK BOSTON BLUE",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770620733201-birkenstock-boston-blue-1770620728056-6646e17a-0757-43d2-9200-8783f03b93b7.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770620742011-birkenstock-boston-blue-1770620733971-a2c0fb4b-b143-4b18-bafe-d37cfbe41fe2.jpeg"
+    ],
+    "brand": "Birkenstock",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
