@@ -4830,5 +4830,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770697366952",
+    "name": "PUMA SPEEDCAT 6A",
+    "description": "",
+    "price": 1699,
+    "offerPrice": 1299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770697354414-puma-speedcat-6a-1770697352041-79a5c504-4636-4548-a144-6b85678f202e.jpeg"
+    ],
+    "brand": "Puma",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
