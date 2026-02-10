@@ -4849,5 +4849,24 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770719437464",
+    "name": "REEBOK PREMIER ROAD SOFT SNEAKERS - Original",
+    "description": "",
+    "price": 4199,
+    "offerPrice": 3500,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770719433600-reebok-premier-road-soft-sneakers-original-1770719421885-img_6443.jpeg"
+    ],
+    "brand": "Reebok",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
