@@ -5012,5 +5012,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770831014526",
+    "name": "NIKE SB DUNK SUPREME 94 CAMPER GREEN 2025",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770831010834-nike-sb-dunk-supreme-94-camper-green-2025-1770830997150-img_6648.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
