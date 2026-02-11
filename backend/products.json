@@ -5261,5 +5261,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770832676510",
+    "name": "ONITSUKA TIGER MEXICO 66 CREAME GREEN ORANGE",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770832673640-onitsuka-tiger-mexico-66-creame-green-orange-1770832666599-img_6676.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
