@@ -5147,5 +5147,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770831783512",
+    "name": "ONITSUKA TIGER VINTAGE MEXICO 66 CREAME MACKO BLUE",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770831777685-onitsuka-tiger-vintage-mexico-66-creame-macko-blue-1770831776096-img_6659.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
