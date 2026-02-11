@@ -4909,5 +4909,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770830433159",
+    "name": "NEW BALANCE 9060 WHITE GREY",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770830415046-new-balance-9060-white-grey-1770830413437-img_6637.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770830417098-new-balance-9060-white-grey-1770830415761-img_6638.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
