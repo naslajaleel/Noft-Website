@@ -5204,5 +5204,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770832260378",
+    "name": "ONITSUKA TIGER MEXICO 66 CREAME SAGE",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770832257544-onitsuka-tiger-mexico-66-creame-sage-1770832255735-img_6667.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
