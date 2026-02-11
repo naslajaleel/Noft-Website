@@ -4889,5 +4889,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770830330033",
+    "name": "NIKE SB DUNK SKATEBOARD",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770830326179-nike-sb-dunk-skateboard-1770830322173-2dd68fd0-12fc-40fe-a167-ce796a22ef5d.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
