@@ -5299,5 +5299,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770832844087",
+    "name": "ONITSUKA TIGER MEXICO 66 BLACK BLACK",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770832841590-onitsuka-tiger-mexico-66-black-black-1770832840100-img_6678.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
