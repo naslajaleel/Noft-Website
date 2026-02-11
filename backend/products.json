@@ -5166,5 +5166,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770832086863",
+    "name": "ONITSUKA TIGER VINTAGE MEXICO 66 BLUE GREEN",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770832083903-onitsuka-tiger-vintage-mexico-66-blue-green-1770832081834-img_6660.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
