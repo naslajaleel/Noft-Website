@@ -4992,5 +4992,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770830909566",
+    "name": "NIKE BLAZER MID 77 VINTAGE",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770830906227-nike-blazer-mid-77-vintage-1770830898075-img_6647.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
