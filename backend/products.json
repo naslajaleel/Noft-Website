@@ -5242,5 +5242,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770832447526",
+    "name": "ONITSUKA TIGER MEXICO 66 BIRCH KALE",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770832444443-onitsuka-tiger-mexico-66-birch-kale-1770832442165-img_6670.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
