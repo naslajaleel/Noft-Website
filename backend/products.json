@@ -5091,5 +5091,23 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770831587639",
+    "name": "ONITSUKA TIGER MEXICO 66 BIRCH CREAME",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770831585293-onitsuka-tiger-mexico-66-birch-creame-1770831583604-img_6654.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "sizes": [
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
