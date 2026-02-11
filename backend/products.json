@@ -5223,5 +5223,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770832320579",
+    "name": "ONITSUKA TIGER MEXICO 66 BEIGE GRASS GREEN",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770832303954-product-1770832301051-img_6669.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
