@@ -5318,5 +5318,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770833177051",
+    "name": "ONITSUKA TIGER MEXICO 66 AIRY GREEN GREEN",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770833174771-onitsuka-tiger-mexico-66-airy-green-green-1770833172222-img_6683.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
