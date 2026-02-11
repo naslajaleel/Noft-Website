@@ -5051,5 +5051,26 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770831236032",
+    "name": "NIKE SB DUNK HAYLEY WILSON",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770831223209-nike-sb-dunk-hayley-wilson-1770831216288-img_6650.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770831233327-nike-sb-dunk-hayley-wilson-1770831224086-img_6651.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
