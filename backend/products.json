@@ -5185,5 +5185,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770832177625",
+    "name": "ONITSUKA TIGER MEXICO 66 BIRCH PEACOAT",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770832151438-onitsuka-tiger-mexico-66-birch-peacoat-1770832149531-img_6664.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
