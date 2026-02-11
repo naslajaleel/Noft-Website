@@ -4972,5 +4972,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770830826177",
+    "name": "REEBOK CLASSIC WHITE WINE",
+    "description": "",
+    "price": 3249,
+    "offerPrice": 2749,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770830813836-reebok-classic-white-wine-1770830801841-img_6645.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770830822678-reebok-classic-white-wine-1770830814509-img_6646.jpeg"
+    ],
+    "brand": "Reebok",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
