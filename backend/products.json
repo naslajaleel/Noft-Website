@@ -5128,5 +5128,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770831708609",
+    "name": "ONITSUKA TIGER VINTAGE MEXICO 66 BLACK WHITE",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770831705572-onitsuka-tiger-vintage-mexico-66-black-white-1770831704114-img_6657.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
