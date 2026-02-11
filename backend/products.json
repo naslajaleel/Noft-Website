@@ -5280,5 +5280,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770832748245",
+    "name": "ONITSUKA TIGER MEXICO 66 CREAM BLACK GOLD",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770832744965-onitsuka-tiger-mexico-66-cream-black-gold-1770832742415-img_6677.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
