@@ -5109,5 +5109,24 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770831623242",
+    "name": "ONITSUKA TIGER VINTAGE MEXICO 66 BIRCH METROPOLIS",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770831620947-onitsuka-tiger-vintage-mexico-66-birch-metropolis-1770831619421-img_6655.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
