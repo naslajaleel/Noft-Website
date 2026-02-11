@@ -5032,5 +5032,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770831092663",
+    "name": "ADIDAS ORIGINALS SAMBA BEIGE",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770831082806-adidas-originals-samba-beige-1770831072876-img_6649.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
