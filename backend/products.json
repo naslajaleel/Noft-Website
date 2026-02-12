@@ -5518,5 +5518,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770909175049",
+    "name": "ZARA TWISTED STRAP MAROON HEELS",
+    "description": "",
+    "price": 1849,
+    "offerPrice": 1349,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770909158196-zara-twisted-strap-maroon-heels-1770909156860-img_6756.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770909159845-zara-twisted-strap-maroon-heels-1770909158957-img_6757.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
