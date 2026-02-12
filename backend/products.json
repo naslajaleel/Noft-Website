@@ -5558,5 +5558,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770910516269",
+    "name": "ZARA STREETSTYLE CHELSEA BOOTS 707",
+    "description": "",
+    "price": 2099,
+    "offerPrice": 1599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770910513130-zara-streetstyle-chelsea-boots-707-1770910511554-img_6762.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
