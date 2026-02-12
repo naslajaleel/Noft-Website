@@ -5697,5 +5697,26 @@
       43
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770914746292",
+    "name": "ON RUNNING CLOUDBOOM STRIKE",
+    "description": "",
+    "price": 3499,
+    "offerPrice": 2999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770914742009-on-running-cloudboom-strike-1770914740529-img_6777.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770914743712-on-running-cloudboom-strike-1770914742703-img_6778.jpeg"
+    ],
+    "brand": "On",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
