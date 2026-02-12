@@ -5377,5 +5377,26 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770876289623",
+    "name": "NIKE AIRFORCE REIGN CHAMP OLD GREY -UA",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770876284586-nike-airforce-reign-champ-old-grey-ua-1770876282080-img_6700.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770876286990-nike-airforce-reign-champ-old-grey-ua-1770876285182-img_6701.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
