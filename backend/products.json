@@ -5659,5 +5659,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770911187491",
+    "name": "ADIDAS ORIGINALS SUPERSTAR WINE WHITE CHERRY",
+    "description": "",
+    "price": 3249,
+    "offerPrice": 2749,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770911182928-adidas-originals-superstar-wine-white-cherry-1770911181227-img_6771.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770911184808-adidas-originals-superstar-wine-white-cherry-1770911183737-img_6772.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
