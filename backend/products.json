@@ -5639,5 +5639,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770911110384",
+    "name": "ADIDAS ORIGINALS SUPERSTAR DENIM SKY SECOND GENERATION 2025",
+    "description": "",
+    "price": 3249,
+    "offerPrice": 2749,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770911105851-adidas-originals-superstar-denim-sky-second-generation-2025-1770911104255-img_6769.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770911107682-adidas-originals-superstar-denim-sky-second-generation-2025-1770911106632-img_6770.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
