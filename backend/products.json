@@ -5439,5 +5439,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770908512766",
+    "name": "SAINT LAURENT CASSANDRA - PLAQUE LEATHER FLAT - BLACK, BROWN AND TAN",
+    "description": "",
+    "price": 2099,
+    "offerPrice": 1599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770908497571-saint-laurent-cassandra-plaque-leather-flat-black-brown-and-tan-1770908496073-img_6747.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770908499614-saint-laurent-cassandra-plaque-leather-flat-black-brown-and-tan-1770908498472-img_6746.jpeg"
+    ],
+    "brand": "YSL",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
