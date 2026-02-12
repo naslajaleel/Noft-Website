@@ -5398,5 +5398,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770881949844",
+    "name": "NIKE SB DUNK STRANGER THINGS 2026",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770881935376-nike-sb-dunk-stranger-things-2026-1770881928088-img_6709.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770881946676-nike-sb-dunk-stranger-things-2026-1770881935937-img_6710.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
