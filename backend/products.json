@@ -5498,5 +5498,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770908959831",
+    "name": "ZARA EMBROIDERED CARROT HEELS",
+    "description": "",
+    "price": 1849,
+    "offerPrice": 1349,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770908928683-zara-embroidered-carrot-heels-1770908926355-img_6754.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770908930430-zara-embroidered-carrot-heels-1770908929478-img_6755.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
