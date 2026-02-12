@@ -5358,5 +5358,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770876064491",
+    "name": "CONVERSE CHUCK 70 SOOTHING CRAFTED STITCH",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770876049397-product-1770876045384-img_6699.jpeg"
+    ],
+    "brand": "Converse",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
