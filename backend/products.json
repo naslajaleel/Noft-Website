@@ -5538,5 +5538,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770909416445",
+    "name": "BIRKENSTOCK MADRID SANDAL - SILVER",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770909412343-birkenstock-madrid-sandal-silver-1770909410705-img_6758.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770909414117-birkenstock-madrid-sandal-silver-1770909413322-img_6759.jpeg"
+    ],
+    "brand": "Birkenstock",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
