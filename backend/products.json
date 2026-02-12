@@ -5419,5 +5419,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770908340739",
+    "name": "ZARA PLATFORM  SANDALS RHINESTONE ESPRADILLE SOLE",
+    "description": "",
+    "price": 2299,
+    "offerPrice": 1799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770908335682-zara-platform-sandals-rhinestone-espradille-sole-1770908333906-img_6743.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770908337471-zara-platform-sandals-rhinestone-espradille-sole-1770908336469-img_6745.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
