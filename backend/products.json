@@ -5459,5 +5459,24 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1770908677114",
+    "name": "COACH USA BLACK HEELS",
+    "description": "",
+    "price": 2099,
+    "offerPrice": 1599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770908669580-coach-usa-black-heels-1770908667822-img_6748.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1770908671497-coach-usa-black-heels-1770908670514-img_6749.jpeg"
+    ],
+    "brand": "Coach",
+    "sizes": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "isBestSeller": false
   }
 ]
