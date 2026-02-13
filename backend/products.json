@@ -5718,5 +5718,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771005600750",
+    "name": "ZARA OG LEATHER OSG SOLE ZIPPY BOOTS",
+    "description": "",
+    "price": 2349,
+    "offerPrice": 1849,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771005596136-zara-og-leather-osg-sole-zippy-boots-1771005594047-img_6963.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771005597962-zara-og-leather-osg-sole-zippy-boots-1771005596823-img_6964.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
