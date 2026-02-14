@@ -5902,5 +5902,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771095004303",
+    "name": "DIOR PRINT HYBRID LEATHER LOAFER ART-2231",
+    "description": "",
+    "price": 2199,
+    "offerPrice": 1699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771094998586-dior-print-hybrid-leather-loafer-art-2231-1771094995021-img_7052.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771095001513-dior-print-hybrid-leather-loafer-art-2231-1771094999342-img_7051.jpeg"
+    ],
+    "brand": "Dior",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
