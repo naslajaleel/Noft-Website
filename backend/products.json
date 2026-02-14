@@ -5779,5 +5779,26 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771094357705",
+    "name": "NEW BALANCE 1906 A GREEN OLIVE SEA SALT",
+    "description": "",
+    "price": 3699,
+    "offerPrice": 3199,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771094353640-new-balance-1906-a-green-olive-sea-salt-1771094352264-img_7041.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771094355306-new-balance-1906-a-green-olive-sea-salt-1771094354328-img_7042.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
