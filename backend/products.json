@@ -5922,5 +5922,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771095441629",
+    "name": "NEW BALANCE 9060 green black - 7A",
+    "description": "",
+    "price": 2499,
+    "offerPrice": 1999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771095436336-new-balance-9060-green-black-7a-1771095434468-img_7054.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771095438722-new-balance-9060-green-black-7a-1771095436897-img_7055.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
