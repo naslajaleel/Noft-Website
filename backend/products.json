@@ -5800,5 +5800,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771094514105",
+    "name": "ADIDAS ORIGINALS SAMBA X STUSSY WHITE BLUE - UA",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771094510353-adidas-originals-samba-x-stussy-white-blue-ua-1771094508691-img_7043.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
