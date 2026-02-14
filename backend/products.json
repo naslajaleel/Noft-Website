@@ -5863,5 +5863,24 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771094796843",
+    "name": "ZARA CHELSEA  BOOTS ART-840",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771094793975-zara-chelsea-boots-art-840-1771094792193-img_7048.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
