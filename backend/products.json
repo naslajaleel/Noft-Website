@@ -5843,5 +5843,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771094727768",
+    "name": "NIKE SB DUNK SUPREME ZEBRA 2025",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771094725770-nike-sb-dunk-supreme-zebra-2025-1771094724005-img_7047.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
