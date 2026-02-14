@@ -5759,5 +5759,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771094254841",
+    "name": "ADIDAS ORIGINALS HANDBALL SPEZIAL ALLUMINIUM",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771094249168-adidas-originals-handball-spezial-alluminium-1771094247847-img_7039.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771094250598-adidas-originals-handball-spezial-alluminium-1771094249779-img_7040.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
