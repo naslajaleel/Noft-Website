@@ -5819,5 +5819,29 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771094625113",
+    "name": "ADIDAS ORIGINALS SUPERSTAR PARLEY",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771094613562-adidas-originals-superstar-parley-1771094611669-img_7044.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771094615312-adidas-originals-superstar-parley-1771094614221-img_7046.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
