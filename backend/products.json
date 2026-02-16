@@ -6225,5 +6225,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771252791275",
+    "name": "ADIDAS ORIGINALS SUPERSTAR NAVY BLUE RED- UA",
+    "description": "",
+    "price": 3249,
+    "offerPrice": 2749,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771252787732-adidas-originals-superstar-navy-blue-red-ua-1771252786031-img_7643.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771252789430-adidas-originals-superstar-navy-blue-red-ua-1771252788452-img_7644.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
