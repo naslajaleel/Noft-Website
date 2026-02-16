@@ -6003,5 +6003,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771251643144",
+    "name": "CONVERSE CHUCK 70 MID BURGUNDY*",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771251638968-converse-chuck-70-mid-burgundy-1771251637428-img_7626.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771251640787-converse-chuck-70-mid-burgundy-1771251639635-img_7628.jpeg"
+    ],
+    "brand": "Converse",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
