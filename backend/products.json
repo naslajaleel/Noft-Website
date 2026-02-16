@@ -6044,5 +6044,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771251798216",
+    "name": "ZARA OG LEATHER T SHAPED CEOCO SNAKE CHELSEA BOOTS",
+    "description": "",
+    "price": 2249,
+    "offerPrice": 1749,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771251766973-zara-og-leather-t-shaped-ceoco-snake-chelsea-boots-1771251765305-img_7631.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771251769160-zara-og-leather-t-shaped-ceoco-snake-chelsea-boots-1771251768350-img_7632.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
