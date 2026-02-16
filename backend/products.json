@@ -6163,5 +6163,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771252438410",
+    "name": "ASICS KAYANO 14 WHITE SKY",
+    "description": "",
+    "price": 3649,
+    "offerPrice": 3249,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771252420501-asics-kayano-14-white-sky-1771252419172-img_7637.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771252422330-asics-kayano-14-white-sky-1771252421253-img_7638.jpeg"
+    ],
+    "brand": "Asics",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
