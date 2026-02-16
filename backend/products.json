@@ -6184,5 +6184,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771252538949",
+    "name": "NEW BALANCE 1000 ANGORA MOONROCK",
+    "description": "",
+    "price": 3499,
+    "offerPrice": 2999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771252534426-new-balance-1000-angora-moonrock-1771252532855-img_7639.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771252536080-new-balance-1000-angora-moonrock-1771252535084-img_7640.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
