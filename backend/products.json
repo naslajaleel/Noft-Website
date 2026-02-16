@@ -6143,5 +6143,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771252354643",
+    "name": "NIKE SB DUNK DIOR X KAWS 2025",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771252351858-nike-sb-dunk-dior-x-kaws-2025-1771252350191-img_7636.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
