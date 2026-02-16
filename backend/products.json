@@ -5983,5 +5983,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771251431716",
+    "name": "REEBOK CLASSIC SUEDE BLACK",
+    "description": "",
+    "price": 3249,
+    "offerPrice": 2749,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771251426938-reebok-classic-suede-black-1771251425169-img_7623.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771251428749-reebok-classic-suede-black-1771251427794-img_7624.jpeg"
+    ],
+    "brand": "Reebok",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
