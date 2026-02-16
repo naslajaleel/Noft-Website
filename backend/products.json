@@ -6064,5 +6064,24 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771251926025",
+    "name": "ADIDAS ORIGINALS SUPERSTAR REIGN CHAMP SUEDE BLACK",
+    "description": "",
+    "price": 3249,
+    "offerPrice": 2749,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771251915465-adidas-originals-superstar-reign-champ-suede-1771251914153-img_7633.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
