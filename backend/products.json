@@ -6103,5 +6103,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771252127563",
+    "name": "NIKE P-6000 TRAINER GREY BROWN",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771252125322-nike-p-6000-trainer-grey-brown-1771252123813-img_7635.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
