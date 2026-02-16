@@ -5942,5 +5942,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771251209104",
+    "name": "NEW BALANCE 1906 A DRAGON BERRY",
+    "description": "",
+    "price": 3749,
+    "offerPrice": 3249,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771251206062-new-balance-1906-a-dragon-berry-1771251204582-img_7620.jpeg"
+    ],
+    "brand": "New Balance",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
