@@ -5962,5 +5962,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771251336095",
+    "name": "NIKE AIR JORDANS RETRO 1 LOUIS VUITTON - UA",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771251332281-nike-air-jordans-retro-1-louis-vuitton-ua-1771251330764-img_7621.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771251333974-nike-air-jordans-retro-1-louis-vuitton-ua-1771251332980-img_7622.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
