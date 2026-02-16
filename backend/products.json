@@ -6205,5 +6205,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771252677086",
+    "name": "ADIDAS SL 72 BLACK",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771252672551-adidas-sl-72-black-1771252670771-img_7641.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771252674042-adidas-sl-72-black-1771252673254-img_7642.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
