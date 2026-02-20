@@ -6610,5 +6610,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771579488099",
+    "name": "PUMA SPEEDCAT QUILTED BLACK",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579483824-puma-speedcat-quilted-black-1771579482242-img_8025.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579485551-puma-speedcat-quilted-black-1771579484592-img_8026.jpeg"
+    ],
+    "brand": "Puma",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
