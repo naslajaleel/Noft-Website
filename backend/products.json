@@ -6490,5 +6490,21 @@
       39
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771578806660",
+    "name": "DIOR PRINTED SADDLE BAG - BLACK AND ALL BLACK",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771578800290-dior-printed-saddle-bag-black-and-all-black-1771578796891-img_8011.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771578803531-dior-printed-saddle-bag-black-and-all-black-1771578800955-img_8009.jpeg"
+    ],
+    "brand": "Dior",
+    "sizes": [
+      39
+    ],
+    "isBestSeller": false
   }
 ]
