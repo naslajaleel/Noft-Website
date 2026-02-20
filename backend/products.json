@@ -6554,5 +6554,21 @@
       39
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771579283106",
+    "name": "J’ADIOR CHAIN BAG - BLACK AND BLUE",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579278088-jadior-chain-bag-black-and-blue-1771579275896-img_8019.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579280362-jadior-chain-bag-black-and-blue-1771579278873-img_8020.jpeg"
+    ],
+    "brand": "J'Adior",
+    "sizes": [
+      39
+    ],
+    "isBestSeller": false
   }
 ]
