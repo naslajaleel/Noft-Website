@@ -6474,5 +6474,21 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771578717108",
+    "name": "LV CHRISTOPHER MM MENS BACKPACK - BLACK AND RED",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771578709634-lv-christopher-mm-mens-backpack-black-and-red-1771578705440-img_8006.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771578714048-lv-christopher-mm-mens-backpack-black-and-red-1771578710325-img_8007.jpeg"
+    ],
+    "brand": "Louis Vuitton",
+    "sizes": [
+      39
+    ],
+    "isBestSeller": false
   }
 ]
