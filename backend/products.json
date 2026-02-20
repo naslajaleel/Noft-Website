@@ -6506,5 +6506,21 @@
       39
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771578938372",
+    "name": "COACH SET OF 3 - SIGNATURE POPPY CROSS BODY BAG WITH COIN PURSE AND CARD CASE - 4 AMAZING DESIGN",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771578933007-coach-set-of-3-signature-poppy-cross-body-bag-with-coin-purse-and-card-case-4-amazing-design-1771578930137-img_8013.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771578935905-coach-set-of-3-signature-poppy-cross-body-bag-with-coin-purse-and-card-case-4-amazing-design-1771578933887-img_8012.jpeg"
+    ],
+    "brand": "Coach",
+    "sizes": [
+      39
+    ],
+    "isBestSeller": false
   }
 ]
