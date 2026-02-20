@@ -6372,5 +6372,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771578093809",
+    "name": "NIKE AIR JORDANS RETRO 1 MID CMFT ZOOM",
+    "description": "",
+    "price": 3499,
+    "offerPrice": 2999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771578091276-nike-air-jordans-retro-1-mid-cmft-zoom-1771578088317-img_7996.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
