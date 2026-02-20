@@ -6570,5 +6570,25 @@
       39
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771579365419",
+    "name": "ADIDAS SAMBA JANE PINK WHITE",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579360905-adidas-samba-jane-pink-white-1771579358940-img_8021.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579362805-adidas-samba-jane-pink-white-1771579361818-img_8022.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
