@@ -6413,5 +6413,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771578307951",
+    "name": "ADIDAS ORIGINALS SUPERSTAR WHITE BLACK NORTH FACE - UA",
+    "description": "",
+    "price": 3249,
+    "offerPrice": 2749,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771578303757-adidas-originals-superstar-white-black-north-face-ua-1771578301796-img_7999.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771578305963-adidas-originals-superstar-white-black-north-face-ua-1771578304420-img_8001.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
