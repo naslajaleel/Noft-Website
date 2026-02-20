@@ -6454,5 +6454,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771578450027",
+    "name": "CONVERSE CHUCK TAYLOR X TODD SNYDER",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771578444595-converse-chuck-taylor-x-todd-snyder-1771578442132-img_8004.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771578446932-converse-chuck-taylor-x-todd-snyder-1771578445350-img_8005.jpeg"
+    ],
+    "brand": "Converse",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
