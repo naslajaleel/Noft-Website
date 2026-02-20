@@ -6630,5 +6630,21 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771579675592",
+    "name": "GUCCI JUMBO CANVAS MENS BACKPACK - BLACK AND BROWN",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579670119-gucci-jumbo-canvas-mens-backpack-black-and-brown-1771579668436-img_8029.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579672394-gucci-jumbo-canvas-mens-backpack-black-and-brown-1771579670853-img_8028.jpeg"
+    ],
+    "brand": "Gucci",
+    "sizes": [
+      39
+    ],
+    "isBestSeller": false
   }
 ]
