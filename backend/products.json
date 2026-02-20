@@ -6538,5 +6538,21 @@
       39
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771579171063",
+    "name": "HERMES KELLY BAG - BLACK, COFFEE AND  BROWN",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579165794-hermes-kelly-bag-black-coffee-and-brown-1771579163415-img_8017.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579167959-hermes-kelly-bag-black-coffee-and-brown-1771579166555-img_8018.jpeg"
+    ],
+    "brand": "Hermes",
+    "sizes": [
+      39
+    ],
+    "isBestSeller": false
   }
 ]
