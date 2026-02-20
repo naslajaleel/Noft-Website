@@ -6245,5 +6245,26 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771577508871",
+    "name": "NIKE SB DUNK OG GREY X SUPREME - UA",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771577503067-nike-sb-dunk-og-grey-x-supreme-ua-1771577498424-img_7985.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771577506510-nike-sb-dunk-og-grey-x-supreme-ua-1771577503796-img_7986.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
