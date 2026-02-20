@@ -6522,5 +6522,21 @@
       39
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771579086886",
+    "name": "COACH LAUREL SHOULDER BAG WITH PEARL CHARM - BLACK, COFFEE, BROWN AND CHERRY BROWN",
+    "description": "",
+    "price": 2799,
+    "offerPrice": 2299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579081148-coach-laurel-shoulder-bag-with-pearl-charm-black-coffee-brown-and-cherry-brown-1771579078982-img_8015.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579083503-coach-laurel-shoulder-bag-with-pearl-charm-black-coffee-brown-and-cherry-brown-1771579082130-img_8016.jpeg"
+    ],
+    "brand": "Coach",
+    "sizes": [
+      39
+    ],
+    "isBestSeller": false
   }
 ]
