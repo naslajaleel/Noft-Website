@@ -6266,5 +6266,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771577656738",
+    "name": "ZARA SURPLUS DESINER COWBOY LEATHER BOOTS BLACK ART-901",
+    "description": "",
+    "price": 2499,
+    "offerPrice": 1999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771577645958-product-1771577644319-img_7987.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771577647218-product-1771577646625-img_7988.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
