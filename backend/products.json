@@ -6326,5 +6326,30 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771577893792",
+    "name": "NIKE AIR JORDANS RETRO 4 PINE GREEN",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771577887923-nike-air-jordans-retro-4-pine-green-1771577884525-img_7993.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771577890899-nike-air-jordans-retro-4-pine-green-1771577888545-img_7992.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
