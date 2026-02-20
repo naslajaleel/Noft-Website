@@ -6646,5 +6646,21 @@
       39
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771579771101",
+    "name": "DIOR HANDHELD POUCH BAG WITH RIBBON- ALL BLACK, BLACK AND BLUE",
+    "description": "",
+    "price": 2799,
+    "offerPrice": 2299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579767012-dior-handheld-pouch-bag-with-ribbon-all-black-black-and-blue-1771579765360-img_8030.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579768882-dior-handheld-pouch-bag-with-ribbon-all-black-black-and-blue-1771579767721-img_8031.jpeg"
+    ],
+    "brand": "Dior",
+    "sizes": [
+      39
+    ],
+    "isBestSeller": false
   }
 ]
