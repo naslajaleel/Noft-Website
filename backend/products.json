@@ -6662,5 +6662,26 @@
       39
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771865539415",
+    "name": "NIKE SHOX X PEGASUS",
+    "description": "",
+    "price": 3699,
+    "offerPrice": 3199,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771865530697-nike-shox-x-pegasus-1771865528943-img_8271.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771865533505-nike-shox-x-pegasus-1771865531655-img_8272.jpeg"
+    ],
+    "brand": "Nike",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
