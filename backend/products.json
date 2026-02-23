@@ -6683,5 +6683,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771865649782",
+    "name": "PUMA SUEDE 180 YELLOW",
+    "description": "",
+    "price": 2649,
+    "offerPrice": 2149,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771865645790-puma-suede-180-yellow-1771865644482-img_8275.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771865647437-puma-suede-180-yellow-1771865646541-img_8274.jpeg"
+    ],
+    "brand": "Puma",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
