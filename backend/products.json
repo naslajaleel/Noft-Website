@@ -6744,5 +6744,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771866049627",
+    "name": "ADIDAS ORIGINALS SAMBA JANE BEIGE",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771866008630-adidas-originals-samba-jane-beige-1771866003718-32d53247-5baf-4c5e-84f4-fbb0c86cd4d5.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771866012182-adidas-originals-samba-jane-beige-1771866009756-8f66e3d2-6087-4c6d-987a-41add805ef94.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
