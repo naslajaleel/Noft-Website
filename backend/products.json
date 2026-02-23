@@ -6724,5 +6724,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1771865838138",
+    "name": "ADIDAS ORIGINALS SAMBA JANE GREEN",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771865808767-adidas-originals-samba-jane-green-1771865796793-c9bcfb80-85d7-4c1e-953e-452ca7ff714d.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771865813917-adidas-originals-samba-jane-green-1771865809665-5f2e6816-1c3f-40e6-b7f1-40cf9d776a5a.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
