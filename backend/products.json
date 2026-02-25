@@ -6784,5 +6784,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772043002740",
+    "name": "PUMA XL SUEDE CEUSH",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772042997305-puma-xl-suede-ceush-1772042995832-img_8373.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772042999016-puma-xl-suede-ceush-1772042998025-img_8372.jpeg"
+    ],
+    "brand": "Puma",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
