@@ -7042,5 +7042,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772045411314",
+    "name": "BIRKENSTOCK LEATHER CORK SOLE SLIDES WHITE",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772045407085-birkenstock-leather-cork-sole-slides-white-1772045405787-img_8398.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772045409067-birkenstock-leather-cork-sole-slides-white-1772045408003-img_8399.jpeg"
+    ],
+    "brand": "Birkenstock",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
