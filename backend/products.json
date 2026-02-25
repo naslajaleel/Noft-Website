@@ -6922,5 +6922,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772044106195",
+    "name": "ZARA EMBROIDERED PEARLS BALLET FLATS",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772044101666-zara-embroidered-pearls-ballet-flats-1772044100190-img_8386.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772044103388-zara-embroidered-pearls-ballet-flats-1772044102319-img_8387.jpeg"
+    ],
+    "brand": "Zara",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
