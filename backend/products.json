@@ -6764,5 +6764,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772042921911",
+    "name": "DOLCE AND GABBANA SNEAKERS",
+    "description": "",
+    "price": 3999,
+    "offerPrice": 3499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772042916840-dolce-and-gabbana-sneakers-1772042915545-img_8371.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772042918731-dolce-and-gabbana-sneakers-1772042917773-img_8370.jpeg"
+    ],
+    "brand": "DG",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
