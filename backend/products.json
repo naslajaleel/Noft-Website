@@ -6804,5 +6804,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772043073851",
+    "name": "PUMA XL SUEDE CEUSH GREEN",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772043069288-puma-xl-suede-ceush-green-1772043068144-img_8374.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772043071177-puma-xl-suede-ceush-green-1772043070127-img_8375.jpeg"
+    ],
+    "brand": "Puma",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
