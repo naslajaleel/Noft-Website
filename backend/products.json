@@ -6902,5 +6902,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772044010969",
+    "name": "PUMA SPEED CAT ROYAL BLUE",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772044005969-puma-speed-cat-royal-blue-1772044004396-img_8385.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772044007971-puma-speed-cat-royal-blue-1772044006602-img_8384.jpeg"
+    ],
+    "brand": "Puma",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
