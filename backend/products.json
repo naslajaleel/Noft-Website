@@ -6942,5 +6942,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772044199350",
+    "name": "ADIDAS SL 72 GREEN",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772044195315-adidas-sl-72-green-1772044194025-img_8389.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772044197215-adidas-sl-72-green-1772044196228-img_8388.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
