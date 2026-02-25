@@ -6882,5 +6882,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772043898074",
+    "name": "ADIDAS ORIGINALS SAMBA JANE WHITE BLACK",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772043893552-adidas-originals-samba-jane-white-black-1772043892090-img_8382.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772043895219-adidas-originals-samba-jane-white-black-1772043894221-img_8383.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
