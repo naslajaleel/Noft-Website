@@ -6962,5 +6962,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772044273909",
+    "name": "BIRKENSTOCK COMFORTABLE THONG",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772044269551-birkenstock-comfortable-thong-1772044267966-img_8390.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772044271433-birkenstock-comfortable-thong-1772044270431-img_8391.jpeg"
+    ],
+    "brand": "Birkenstock",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
