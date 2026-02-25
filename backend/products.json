@@ -6862,5 +6862,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772043669871",
+    "name": "ADIDAS ORIGINALS SAMBA JANE WHITE SKY",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772043665510-adidas-originals-samba-jane-white-sky-1772043663912-img_8380.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772043667313-adidas-originals-samba-jane-white-sky-1772043666249-img_8381.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
