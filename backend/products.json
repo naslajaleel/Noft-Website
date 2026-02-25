@@ -6982,5 +6982,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772044340481",
+    "name": "BIRKENSTOCK LEATHER CORK SOLE SLIDES",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772044336049-birkenstock-leather-cork-sole-slides-1772044334338-img_8392.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772044337571-birkenstock-leather-cork-sole-slides-1772044336699-img_8393.jpeg"
+    ],
+    "brand": "Birkenstock",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
