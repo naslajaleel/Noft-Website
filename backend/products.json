@@ -7002,5 +7002,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772045163079",
+    "name": "PAKHTUN HANDMADE HARD SOLE OG LEATHER UPPER PESHAWARI SANDALS",
+    "description": "",
+    "price": 2349,
+    "offerPrice": 1849,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772045158753-pakhtun-handmade-hard-sole-og-leather-upper-peshawari-sandals-1772045157387-img_8394.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772045160274-pakhtun-handmade-hard-sole-og-leather-upper-peshawari-sandals-1772045159439-img_8395.jpeg"
+    ],
+    "brand": "Pakhtun",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
