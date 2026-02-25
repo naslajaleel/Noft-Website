@@ -7022,5 +7022,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772045235305",
+    "name": "BIRKENSTOCK COMFORTABLE SOLE MULES",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772045230142-birkenstock-comfortable-sole-mules-1772045228654-img_8396.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772045231841-birkenstock-comfortable-sole-mules-1772045230890-img_8397.jpeg"
+    ],
+    "brand": "Birkenstock",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
