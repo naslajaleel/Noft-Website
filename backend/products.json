@@ -6843,5 +6843,24 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772043219347",
+    "name": "ADIDAS ORIGINALS SUPERSTAR PHANTOM",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772043216579-adidas-originals-superstar-phantom-1772043215059-img_8377.jpeg"
+    ],
+    "brand": "Adidas",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
