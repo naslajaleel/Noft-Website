@@ -1,18 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
 import ProductCard from "../components/ProductCard.jsx";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 
 const API_URL = import.meta.env.VITE_API_URL;
 const Home = () => {
-  const [products, setProducts] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
-  const [searchTerm, setSearchTerm] = useState("");
-  const [categoryFilter, setCategoryFilter] = useState("Shoes");
-  const [brandFilter, setBrandFilter] = useState("All");
-  const [sortOption, setSortOption] = useState("best");
-  const navigate = useNavigate();
-  const [saleConfig, setSaleConfig] = useState(null);
-
   const normalizeCategory = (value) => {
     const trimmed = value?.trim().toLowerCase();
     if (trimmed === "bags" || trimmed === "bag") {
@@ -20,6 +11,34 @@ const Home = () => {
     }
     return "Shoes";
   };
+
+  const parseSortOption = (value) => {
+    const allowed = new Set([
+      "best",
+      "newest",
+      "oldest",
+      "price-low",
+      "price-high",
+      "random",
+    ]);
+    return allowed.has(value) ? value : "best";
+  };
+
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [products, setProducts] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [searchTerm, setSearchTerm] = useState(searchParams.get("q") || "");
+  const [categoryFilter, setCategoryFilter] = useState(
+    normalizeCategory(searchParams.get("category") || "Shoes"),
+  );
+  const [brandFilter, setBrandFilter] = useState(
+    searchParams.get("brand") || "All",
+  );
+  const [sortOption, setSortOption] = useState(
+    parseSortOption(searchParams.get("sort") || "best"),
+  );
+  const navigate = useNavigate();
+  const [saleConfig, setSaleConfig] = useState(null);
 
   const brandOptions = useMemo(() => {
     const available = new Set(
@@ -39,6 +58,18 @@ const Home = () => {
         .map((brand) => ({ value: brand, label: brand })),
     ];
   }, [products, categoryFilter]);
+  useEffect(() => {
+    const params = new URLSearchParams();
+    params.set("category", categoryFilter);
+    params.set("sort", sortOption);
+    if (brandFilter && brandFilter !== "All") {
+      params.set("brand", brandFilter);
+    }
+    if (searchTerm.trim()) {
+      params.set("q", searchTerm.trim());
+    }
+    setSearchParams(params, { replace: true });
+  }, [brandFilter, categoryFilter, searchTerm, setSearchParams, sortOption]);
 
   const currentSale = saleConfig?.current || saleConfig || null;
   const isSaleActive = useMemo(() => {
@@ -137,7 +168,7 @@ const Home = () => {
     loadProducts();
   }, []);
   useEffect(() => {
-    if (brandFilter === "All") {
+    if (isLoading || brandFilter === "All") {
       return;
     }
 
@@ -147,7 +178,7 @@ const Home = () => {
     if (!isStillAvailable) {
       setBrandFilter("All");
     }
-  }, [brandOptions, brandFilter]);
+  }, [brandOptions, brandFilter, isLoading]);
   useEffect(() => {
     const loadSale = async () => {
       try {
@@ -162,21 +193,21 @@ const Home = () => {
     loadSale();
   }, []);
   useEffect(() => {
-  if (!isLoading) {
-    const savedPosition = sessionStorage.getItem("homeScrollPosition");
+    if (!isLoading) {
+      const savedPosition = sessionStorage.getItem("homeScrollPosition");
 
-    if (savedPosition) {
-      window.scrollTo(0, Number(savedPosition));
-      sessionStorage.removeItem("homeScrollPosition");
+      if (savedPosition) {
+        window.scrollTo(0, Number(savedPosition));
+        sessionStorage.removeItem("homeScrollPosition");
+      }
     }
-  }
-}, [isLoading]);
+  }, [isLoading]);
 
   const handleProductClick = (product) => {
-       // Save current scroll position before navigating
+    // Save current scroll position before navigating
     sessionStorage.setItem("homeScrollPosition", window.scrollY);
     navigate(`/products/${product.id}`);
-  }
+  };
   return (
     <section className="section">
       <div>
@@ -199,8 +230,8 @@ const Home = () => {
               <p className="sale-banner__quote">“{currentSale.description}”</p>
             )}
             <p className="sale-banner__subtitle">
-              Flat ₹{Number(currentSale?.price || 0).toLocaleString("en-IN")} off
-              on all products
+              Flat ₹{Number(currentSale?.price || 0).toLocaleString("en-IN")}{" "}
+              off on all products
             </p>
           </div>
           <div className="sale-banner__chip">
@@ -209,7 +240,8 @@ const Home = () => {
         </div>
       )}
 
-      <div className="filter-media"
+      <div
+        className="filter-media"
         style={{
           display: "flex",
           justifyContent: "end",
@@ -249,6 +281,7 @@ const Home = () => {
             </option>
           ))}
         </select>
+
         <select
           value={sortOption}
           onChange={(event) => setSortOption(event.target.value)}
@@ -272,6 +305,24 @@ const Home = () => {
           style={{ minWidth: "180px" }}
           aria-label="Search products by name"
         />
+        <button
+          type="button"
+          onClick={() => {
+            setCategoryFilter("Shoes");
+            setBrandFilter("All");
+            setSortOption("best");
+            setSearchTerm("");
+          }}
+          className="button button--outline"
+          style={{
+            padding: "12px",
+            whiteSpace: "nowrap",
+            background: "#111827",
+            color: "#ffffff",
+          }}
+        >
+          Reset
+        </button>
       </div>
 
       {isLoading ? (
