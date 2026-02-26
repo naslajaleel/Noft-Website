@@ -1,27 +1,75 @@
 import { useEffect, useMemo, useState } from "react";
 import ProductCard from "../components/ProductCard.jsx";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 
 const API_URL = import.meta.env.VITE_API_URL;
 const Home = () => {
+  const normalizeCategory = (value) => {
+    const trimmed = value?.trim().toLowerCase();
+    if (trimmed === "bags" || trimmed === "bag") {
+      return "Bags";
+    }
+    return "Shoes";
+  };
+
+  const parseSortOption = (value) => {
+    const allowed = new Set([
+      "best",
+      "newest",
+      "oldest",
+      "price-low",
+      "price-high",
+      "random",
+    ]);
+    return allowed.has(value) ? value : "best";
+  };
+
+  const [searchParams, setSearchParams] = useSearchParams();
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [searchTerm, setSearchTerm] = useState("");
-  const [brandFilter, setBrandFilter] = useState("All");
-  const [sortOption, setSortOption] = useState("best");
+  const [searchTerm, setSearchTerm] = useState(searchParams.get("q") || "");
+  const [categoryFilter, setCategoryFilter] = useState(
+    normalizeCategory(searchParams.get("category") || "Shoes"),
+  );
+  const [brandFilter, setBrandFilter] = useState(
+    searchParams.get("brand") || "All",
+  );
+  const [sortOption, setSortOption] = useState(
+    parseSortOption(searchParams.get("sort") || "best"),
+  );
   const navigate = useNavigate();
   const [saleConfig, setSaleConfig] = useState(null);
 
   const brandOptions = useMemo(() => {
     const available = new Set(
       products
+        .filter(
+          (product) => normalizeCategory(product.category) === categoryFilter,
+        )
         .map((product) => product.brand)
         .filter((brand) => typeof brand === "string" && brand.trim())
         .map((brand) => brand.trim()),
     );
 
-    return ["All", ...Array.from(available).sort()];
-  }, [products]);
+    return [
+      { value: "All", label: "All Brands" },
+      ...Array.from(available)
+        .sort()
+        .map((brand) => ({ value: brand, label: brand })),
+    ];
+  }, [products, categoryFilter]);
+  useEffect(() => {
+    const params = new URLSearchParams();
+    params.set("category", categoryFilter);
+    params.set("sort", sortOption);
+    if (brandFilter && brandFilter !== "All") {
+      params.set("brand", brandFilter);
+    }
+    if (searchTerm.trim()) {
+      params.set("q", searchTerm.trim());
+    }
+    setSearchParams(params, { replace: true });
+  }, [brandFilter, categoryFilter, searchTerm, setSearchParams, sortOption]);
 
   const currentSale = saleConfig?.current || saleConfig || null;
   const isSaleActive = useMemo(() => {
@@ -47,10 +95,13 @@ const Home = () => {
 
   const filteredProducts = useMemo(() => {
     const query = searchTerm.trim().toLowerCase();
+    const filteredByCategory = products.filter(
+      (product) => normalizeCategory(product.category) === categoryFilter,
+    );
     const filteredByBrand =
       brandFilter === "All"
-        ? products
-        : products.filter(
+        ? filteredByCategory
+        : filteredByCategory.filter(
             (product) =>
               product.brand?.trim().toLowerCase() === brandFilter.toLowerCase(),
           );
@@ -95,6 +146,7 @@ const Home = () => {
   }, [
     products,
     searchTerm,
+    categoryFilter,
     brandFilter,
     sortOption,
     isSaleActive,
@@ -116,6 +168,18 @@ const Home = () => {
     loadProducts();
   }, []);
   useEffect(() => {
+    if (isLoading || brandFilter === "All") {
+      return;
+    }
+
+    const isStillAvailable = brandOptions.some(
+      (option) => option.value === brandFilter,
+    );
+    if (!isStillAvailable) {
+      setBrandFilter("All");
+    }
+  }, [brandOptions, brandFilter, isLoading]);
+  useEffect(() => {
     const loadSale = async () => {
       try {
         const response = await fetch(`${API_URL}/sale`);
@@ -129,21 +193,21 @@ const Home = () => {
     loadSale();
   }, []);
   useEffect(() => {
-  if (!isLoading) {
-    const savedPosition = sessionStorage.getItem("homeScrollPosition");
+    if (!isLoading) {
+      const savedPosition = sessionStorage.getItem("homeScrollPosition");
 
-    if (savedPosition) {
-      window.scrollTo(0, Number(savedPosition));
-      sessionStorage.removeItem("homeScrollPosition");
+      if (savedPosition) {
+        window.scrollTo(0, Number(savedPosition));
+        sessionStorage.removeItem("homeScrollPosition");
+      }
     }
-  }
-}, [isLoading]);
+  }, [isLoading]);
 
   const handleProductClick = (product) => {
-       // Save current scroll position before navigating
+    // Save current scroll position before navigating
     sessionStorage.setItem("homeScrollPosition", window.scrollY);
     navigate(`/products/${product.id}`);
-  }
+  };
   return (
     <section className="section">
       <div>
@@ -166,8 +230,8 @@ const Home = () => {
               <p className="sale-banner__quote">“{currentSale.description}”</p>
             )}
             <p className="sale-banner__subtitle">
-              Flat ₹{Number(currentSale?.price || 0).toLocaleString("en-IN")} off
-              on all products
+              Flat ₹{Number(currentSale?.price || 0).toLocaleString("en-IN")}{" "}
+              off on all products
             </p>
           </div>
           <div className="sale-banner__chip">
@@ -176,7 +240,8 @@ const Home = () => {
         </div>
       )}
 
-      <div className="filter-media"
+      <div
+        className="filter-media"
         style={{
           display: "flex",
           justifyContent: "end",
@@ -185,6 +250,24 @@ const Home = () => {
         }}
       >
         {/* <h1 fontWeight={300}>All products</h1> */}
+        <div className="toggle-group" role="group" aria-label="Category filter">
+          {["Shoes", "Bags"].map((category) => (
+            <button
+              key={category}
+              type="button"
+              onClick={() => {
+                setCategoryFilter(category);
+                setBrandFilter("All");
+              }}
+              className={`toggle-button${
+                categoryFilter === category ? " is-active" : ""
+              }`}
+              aria-pressed={categoryFilter === category}
+            >
+              {category}
+            </button>
+          ))}
+        </div>
         <select
           value={brandFilter}
           onChange={(event) => setBrandFilter(event.target.value)}
@@ -193,11 +276,12 @@ const Home = () => {
           style={{ minWidth: "180px" }}
         >
           {brandOptions.map((brand) => (
-            <option key={brand} value={brand}>
-              {brand}
+            <option key={brand.value} value={brand.value}>
+              {brand.label}
             </option>
           ))}
         </select>
+
         <select
           value={sortOption}
           onChange={(event) => setSortOption(event.target.value)}
@@ -221,6 +305,24 @@ const Home = () => {
           style={{ minWidth: "180px" }}
           aria-label="Search products by name"
         />
+        <button
+          type="button"
+          onClick={() => {
+            setCategoryFilter("Shoes");
+            setBrandFilter("All");
+            setSortOption("best");
+            setSearchTerm("");
+          }}
+          className="button button--outline"
+          style={{
+            padding: "12px",
+            whiteSpace: "nowrap",
+            background: "#111827",
+            color: "#ffffff",
+          }}
+        >
+          Reset
+        </button>
       </div>
 
       {isLoading ? (

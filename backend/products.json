@@ -6482,10 +6482,9 @@
       "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771578803531-dior-printed-saddle-bag-black-and-all-black-1771578800955-img_8009.jpeg"
     ],
     "brand": "Dior",
-    "sizes": [
-      39
-    ],
-    "isBestSeller": false
+    "sizes": [],
+    "isBestSeller": false,
+    "category": "Bags"
   },
   {
     "id": "1771578938372",
@@ -6498,10 +6497,9 @@
       "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771578935905-coach-set-of-3-signature-poppy-cross-body-bag-with-coin-purse-and-card-case-4-amazing-design-1771578933887-img_8012.jpeg"
     ],
     "brand": "Coach",
-    "sizes": [
-      39
-    ],
-    "isBestSeller": false
+    "sizes": [],
+    "isBestSeller": false,
+    "category": "Bags"
   },
   {
     "id": "1771579086886",
@@ -6514,10 +6512,9 @@
       "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579083503-coach-laurel-shoulder-bag-with-pearl-charm-black-coffee-brown-and-cherry-brown-1771579082130-img_8016.jpeg"
     ],
     "brand": "Coach",
-    "sizes": [
-      39
-    ],
-    "isBestSeller": false
+    "sizes": [],
+    "isBestSeller": false,
+    "category": "Bags"
   },
   {
     "id": "1771579171063",
@@ -6530,10 +6527,9 @@
       "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579167959-hermes-kelly-bag-black-coffee-and-brown-1771579166555-img_8018.jpeg"
     ],
     "brand": "Hermes",
-    "sizes": [
-      39
-    ],
-    "isBestSeller": false
+    "sizes": [],
+    "isBestSeller": false,
+    "category": "Bags"
   },
   {
     "id": "1771579283106",
@@ -6546,10 +6542,9 @@
       "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579280362-jadior-chain-bag-black-and-blue-1771579278873-img_8020.jpeg"
     ],
     "brand": "J'Adior",
-    "sizes": [
-      39
-    ],
-    "isBestSeller": false
+    "sizes": [],
+    "isBestSeller": false,
+    "category": "Bags"
   },
   {
     "id": "1771579365419",
@@ -6658,10 +6653,9 @@
       "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1771579768882-dior-handheld-pouch-bag-with-ribbon-all-black-black-and-blue-1771579767721-img_8031.jpeg"
     ],
     "brand": "Dior",
-    "sizes": [
-      39
-    ],
-    "isBestSeller": false
+    "sizes": [],
+    "isBestSeller": false,
+    "category": "Bags"
   },
   {
     "id": "1771865539415",

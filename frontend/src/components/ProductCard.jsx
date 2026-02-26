@@ -15,6 +15,8 @@ const ProductCard = ({ product, onClick, sale }) => {
     ? Math.max(0, originalBase - discount)
     : Number(product.offerPrice || 0);
   const showSaleStrike = isSaleActive && discount > 0 && originalBase > 0;
+  const normalizedCategory =
+    product.category?.trim().toLowerCase() === "bags" ? "Bag" : "Sneaker";
   return (
     <div className="card" onClick={() => onClick(product)}>
       <div className="card__media">
@@ -31,7 +33,7 @@ const ProductCard = ({ product, onClick, sale }) => {
       </div>
       <div className="card__body">
         <div>
-          <p className="eyebrow">Sneaker</p>
+          <p className="eyebrow">{normalizedCategory}</p>
           <h3 className="card__title">{product.name}</h3>
         </div>
         <div className="card__price">
