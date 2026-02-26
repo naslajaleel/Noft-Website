@@ -431,6 +431,21 @@ const sanitizeBrand = (brand) => {
   return brand.trim();
 };
 
+const sanitizeCategory = (category) => {
+  if (typeof category !== "string") {
+    return "";
+  }
+
+  const normalized = category.trim().toLowerCase();
+  if (normalized === "bags" || normalized === "bag") {
+    return "Bags";
+  }
+  if (normalized === "shoes" || normalized === "shoe") {
+    return "Shoes";
+  }
+  return "";
+};
+
 const sanitizeSizes = (sizes) => {
   if (!Array.isArray(sizes)) {
     return [];
@@ -454,11 +469,13 @@ app.post("/products", requireAdmin, async (req, res) => {
       offerPrice,
       images,
       brand,
+    category,
       sizes,
       isBestSeller,
     } = req.body;
     const sanitizedImages = sanitizeImages(images);
     const sanitizedBrand = sanitizeBrand(brand);
+  const sanitizedCategory = sanitizeCategory(category);
     const sanitizedSizes = sanitizeSizes(sizes);
     const sanitizedBestSeller = sanitizeBestSeller(isBestSeller);
 
@@ -477,6 +494,7 @@ app.post("/products", requireAdmin, async (req, res) => {
       offerPrice: Number(offerPrice),
       images: sanitizedImages,
       brand: sanitizedBrand,
+      category: sanitizedCategory,
       sizes: sanitizedSizes,
       isBestSeller: sanitizedBestSeller,
     };
@@ -506,7 +524,9 @@ app.put("/products/:id", requireAdmin, async (req, res) => {
     const current = products[index];
     const updatedImages = sanitizeImages(req.body.images);
     const updatedBrand = sanitizeBrand(req.body.brand);
+    const updatedCategory = sanitizeCategory(req.body.category);
     const updatedSizes = sanitizeSizes(req.body.sizes);
+    const sizesProvided = Array.isArray(req.body.sizes);
     const updatedBestSeller = sanitizeBestSeller(req.body.isBestSeller);
     const updated = {
       ...current,
@@ -515,7 +535,11 @@ app.put("/products/:id", requireAdmin, async (req, res) => {
       offerPrice: Number(req.body.offerPrice ?? current.offerPrice),
       images: updatedImages.length ? updatedImages : current.images,
       brand: updatedBrand || current.brand || "",
-      sizes: updatedSizes.length ? updatedSizes : current.sizes || [],
+      category:
+        typeof req.body.category === "string"
+          ? updatedCategory || current.category || ""
+          : current.category || "",
+      sizes: sizesProvided ? updatedSizes : current.sizes || [],
       isBestSeller:
         req.body.isBestSeller === undefined
           ? current.isBestSeller || false

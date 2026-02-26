@@ -19,6 +19,8 @@ const ProductDetails = () => {
   const [product, setProduct] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [saleConfig, setSaleConfig] = useState(null);
+  const normalizedCategory = product?.category?.trim().toLowerCase() || "";
+  const isBag = normalizedCategory === "bags" || normalizedCategory === "bag";
 
   useEffect(() => {
     const loadProduct = async () => {
@@ -131,32 +133,34 @@ const ProductDetails = () => {
           </div>
         )}
 
-        <div>
-          <p className="eyebrow">Sizes</p>
-          <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
-            {SIZE_OPTIONS.map((size) => {
-              const isAvailable = product.sizes?.includes(size);
-              return (
-                <span
-                  key={size}
-                  style={{
-                    position: "relative",
-                    border: "1px solid #e5e7eb",
-                    padding: "6px 10px",
-                    borderRadius: "999px",
-                    fontSize: "14px",
-                    background: isAvailable ? "#111827" : "#f8fafc",
-                    color: isAvailable ? "#ffffff" : "#9ca3af",
-                    textDecoration: isAvailable ? "none" : "line-through",
-                    textDecorationColor: "#9ca3af",
-                  }}
-                >
-                  {size}
-                </span>
-              );
-            })}
+        {!isBag && (
+          <div>
+            <p className="eyebrow">Sizes</p>
+            <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
+              {SIZE_OPTIONS.map((size) => {
+                const isAvailable = product.sizes?.includes(size);
+                return (
+                  <span
+                    key={size}
+                    style={{
+                      position: "relative",
+                      border: "1px solid #e5e7eb",
+                      padding: "6px 10px",
+                      borderRadius: "999px",
+                      fontSize: "14px",
+                      background: isAvailable ? "#111827" : "#f8fafc",
+                      color: isAvailable ? "#ffffff" : "#9ca3af",
+                      textDecoration: isAvailable ? "none" : "line-through",
+                      textDecorationColor: "#9ca3af",
+                    }}
+                  >
+                    {size}
+                  </span>
+                );
+              })}
+            </div>
           </div>
-        </div>
+        )}
 
         <a
           href={whatsappLink}

@@ -10,6 +10,7 @@ const emptyForm = {
   price: "",
   offerPrice: "",
   brand: "",
+  category: "Shoes",
   sizes: [],
   isBestSeller: false,
   images: [],
@@ -55,6 +56,7 @@ const BASE_BRAND_OPTIONS = [
   "Adidas",
   "Diesel",
 ];
+const CATEGORY_OPTIONS = ["Shoes", "Bags"];
 const SIZE_OPTIONS = Array.from({ length: 10 }, (_, idx) => 36 + idx);
 
 const Admin = () => {
@@ -79,6 +81,7 @@ const Admin = () => {
   const [isSavingSale, setIsSavingSale] = useState(false);
 
   const isEditing = useMemo(() => Boolean(form.id), [form.id]);
+  const isBag = useMemo(() => form.category === "Bags", [form.category]);
   const filteredProducts = useMemo(() => {
     const query = searchTerm.trim().toLowerCase();
     const filtered = !query
@@ -134,6 +137,14 @@ const Admin = () => {
 
   const updateField = (field, value) => {
     setForm((prev) => ({ ...prev, [field]: value }));
+  };
+
+  const updateCategory = (value) => {
+    setForm((prev) => ({
+      ...prev,
+      category: value,
+      sizes: value === "Bags" ? [] : prev.sizes,
+    }));
   };
 
   const addBrandOption = (value) => {
@@ -234,6 +245,7 @@ const Admin = () => {
       price: product.price,
       offerPrice: product.offerPrice,
       brand: product.brand || "",
+      category: product.category || "Shoes",
       sizes: Array.isArray(product.sizes) ? product.sizes : [],
       isBestSeller: Boolean(product.isBestSeller),
       images: product.images?.length ? product.images : [],
@@ -268,6 +280,7 @@ const Admin = () => {
       price: Number(form.price),
       offerPrice: Number(form.offerPrice),
       brand: form.brand.trim(),
+      category: form.category,
       sizes: form.sizes,
       isBestSeller: form.isBestSeller,
       images: form.images
@@ -421,7 +434,20 @@ const Admin = () => {
           >
             Logout
           </button>
-
+ <div className="form__label">
+            <span>Category</span>
+            <select
+              value={form.category}
+              onChange={(event) => updateCategory(event.target.value)}
+              className="form__input form__input--full form__select"
+            >
+              {CATEGORY_OPTIONS.map((category) => (
+                <option key={category} value={category}>
+                  {category}
+                </option>
+              ))}
+            </select>
+          </div>
           <label className="form__label">
             Name
             <input
@@ -429,7 +455,7 @@ const Admin = () => {
               value={form.name}
               onChange={(event) => updateField("name", event.target.value)}
               className="form__input form__input--full"
-              placeholder="Sneaker name"
+              placeholder="Product name"
               required
             />
           </label>
@@ -475,6 +501,8 @@ const Admin = () => {
             </div>
           </div>
 
+         
+
           <label className="form__label">
             Description
             <textarea
@@ -510,7 +538,8 @@ const Admin = () => {
             </label>
           </div>
 
-          <div className="form__label">
+                      {!isBag && (
+<div className="form__label">
             <p className="eyebrow">Sizes</p>
             <div className="size-grid">
               {SIZE_OPTIONS.map((size) => {
@@ -536,7 +565,7 @@ const Admin = () => {
                 );
               })}
             </div>
-          </div>
+          </div>)}
 
           <label className="form__label best-seller-toggle">
             <span>Best seller</span>
@@ -728,7 +757,9 @@ const Admin = () => {
           )}
         </form>
 
-        <div className="list">
+      </div>
+
+        {/* <div className="list">
           <h2>Sale history</h2>
           {saleHistory.length ? (
             saleHistory
@@ -750,7 +781,7 @@ const Admin = () => {
           ) : (
             <p className="helper">No sales created yet.</p>
           )}
-        </div>
+        </div> */}
 
         <div className="list">
           <div
@@ -760,6 +791,7 @@ const Admin = () => {
               alignItems: "center",
               gap: "12px",
               flexWrap: "wrap",
+              marginTop:'20px'
             }}
           >
             <h2>Current products</h2>
@@ -808,7 +840,6 @@ const Admin = () => {
             <p className="helper">No products match your search.</p>
           )}
         </div>
-      </div>
     </section>
   );
 };
