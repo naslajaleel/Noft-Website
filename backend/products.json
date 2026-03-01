@@ -7229,5 +7229,27 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772381356189",
+    "name": "ASICS KAYANO OGGREY",
+    "description": "",
+    "price": 3599,
+    "offerPrice": 3099,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381344500-asics-kayano-oggrey-1772381343276-dde3b451-7171-42ab-af4e-4845500028f2.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381345991-asics-kayano-oggrey-1772381345144-61a51aa0-d170-4422-b06a-fe0e0052bd12.jpeg"
+    ],
+    "brand": "Asics",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
