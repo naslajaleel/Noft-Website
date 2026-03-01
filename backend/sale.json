@@ -5,7 +5,7 @@
     "price": 600,
     "startDate": "2026-02-21",
     "endDate": "2026-02-25",
-    "enabled": true
+    "enabled": false
   },
   "history": [
     {
