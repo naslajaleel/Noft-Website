@@ -7081,5 +7081,26 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772380690120",
+    "name": "ADIDAS ORIGINALS SUPERSTAR UNDEFEATED WHITE BLACK",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772380680444-adidas-originals-superstar-undefeated-white-black-1772380679337-11dc31a5-64a0-4899-8048-a278c7ed9e32.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772380681832-adidas-originals-superstar-undefeated-white-black-1772380681017-cd17f96b-fda5-49aa-96dd-59e965b83272.jpeg"
+    ],
+    "brand": "Adidas",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
