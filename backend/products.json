@@ -7468,5 +7468,27 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772382211670",
+    "name": "ADIDAS ADIZERO ADIOS 9",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772382208068-adidas-adizero-adios-9-1772382206812-81cc0444-612d-48ea-9462-ab67ebdea0c2.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772382209328-adidas-adizero-adios-9-1772382208675-59b8e0e6-a2b2-4d6e-8328-4da00dbc70c4.jpeg"
+    ],
+    "brand": "Adidas",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
