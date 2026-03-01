@@ -7182,5 +7182,30 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772381173506",
+    "name": "ADIDAS ORIGINALS SAMBA 2023 GREY GREEN",
+    "description": "",
+    "price": 2699,
+    "offerPrice": 2199,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381164519-adidas-originals-samba-2023-grey-green-1772381163207-9fcfc5e2-ba07-40fd-b027-67558a9e3ef5.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381165860-adidas-originals-samba-2023-grey-green-1772381165079-a8cb5de2-23eb-4d98-b96a-d505f68672db.jpeg"
+    ],
+    "brand": "Adidas",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
