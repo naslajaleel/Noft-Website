@@ -7207,5 +7207,27 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772381292951",
+    "name": "ASICS KAYANO OG BLACK GREY",
+    "description": "",
+    "price": 3599,
+    "offerPrice": 3099,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381283524-asics-kayano-og-black-grey-1772381281542-a2562743-81d7-4372-bf5c-8609b3019fa0.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381285957-asics-kayano-og-black-grey-1772381284276-ebc84744-307e-44be-89cf-6e709e33efa3.jpeg"
+    ],
+    "brand": "Asics",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
