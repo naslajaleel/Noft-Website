@@ -7162,5 +7162,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772381063801",
+    "name": "NIKE ZOOM VOMERO BRED SPIDER-MAN",
+    "description": "",
+    "price": 3349,
+    "offerPrice": 2849,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381020435-nike-zoom-vomero-bred-spider-man-1772381018977-c826bc09-d55a-464f-adcf-aa9a67c4e331.jpeg"
+    ],
+    "brand": "Nike",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
