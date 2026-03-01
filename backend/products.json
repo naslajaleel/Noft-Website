@@ -7102,5 +7102,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772380800550",
+    "name": "ADIDAS ALEXANDER WANG LEATHER MULES BLACK",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772380789159-adidas-alexander-wang-leather-mules-1772380787892-a2793f26-c8c5-4b64-84a1-cd6285404b8e.jpeg"
+    ],
+    "brand": "Adidas",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
