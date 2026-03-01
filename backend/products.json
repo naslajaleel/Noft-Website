@@ -7446,5 +7446,27 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772382092522",
+    "name": "NIKE AIRFORCE BAPE CAMO 2025",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772382089170-nike-airforce-bape-camo-2025-1772382087710-fdabd5b1-ce62-4cc8-884d-448e821f7313.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772382090640-nike-airforce-bape-camo-2025-1772382089876-5887d85b-992b-490b-9af0-1ac242e46564.jpeg"
+    ],
+    "brand": "Nike",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
