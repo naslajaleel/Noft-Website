@@ -7142,5 +7142,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772380866601",
+    "name": "ADIDAS ALEXANDER WANG LEATHER MULES GREEN",
+    "description": "",
+    "price": 1999,
+    "offerPrice": 1499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772380863351-adidas-alexander-wang-leather-mules-green-1772380861971-906feda1-1318-484a-ac30-56dcfdbeff71.jpeg"
+    ],
+    "brand": "Adidas",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
