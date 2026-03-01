@@ -7272,5 +7272,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772381548421",
+    "name": "ALEXANDER MQUEEN SNEAKERS",
+    "description": "",
+    "price": 3999,
+    "offerPrice": 3499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381545925-alexander-mqueen-sneakers-1772381544556-f16a582d-0609-49e5-980a-7d075a0aebf1.jpeg"
+    ],
+    "brand": "Alaxander Mqueen",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
