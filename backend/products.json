@@ -7336,5 +7336,30 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772381777286",
+    "name": "ADIDAS ORIGINALS SUPERSTAR BAPE SKY BLUE",
+    "description": "",
+    "price": 3349,
+    "offerPrice": 2849,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381773830-adidas-originals-superstar-bape-sky-blue-1772381771840-c7ec7e92-5773-4f54-969f-681148091549.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381775556-adidas-originals-superstar-bape-sky-blue-1772381774581-d0d04c34-0133-435a-97d0-d4b9122a35a0.jpeg"
+    ],
+    "brand": "Adidas",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
