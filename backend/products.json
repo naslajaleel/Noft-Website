@@ -7292,5 +7292,27 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772381650600",
+    "name": "ASICS KAYANO NAVY",
+    "description": "",
+    "price": 3599,
+    "offerPrice": 3099,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381647081-asics-kayano-navy-1772381645707-becf2da1-cadc-44a1-b73f-3db8950e9179.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381648386-asics-kayano-navy-1772381647639-111969d1-bc8c-47f0-a5dd-346770c19d8b.jpeg"
+    ],
+    "brand": "Asics",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
