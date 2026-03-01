@@ -7361,5 +7361,26 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772381826603",
+    "name": "ADIDAS ORIGINALS SUPERSTAR 2nd GENERATION OREO",
+    "description": "",
+    "price": 3249,
+    "offerPrice": 2749,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381823662-adidas-originals-superstar-2nd-generation-oreo-1772381822317-dd8e1f47-01b5-4fce-92ac-05cedf1f212e.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381824752-adidas-originals-superstar-2nd-generation-oreo-1772381824179-4f5cb860-2d78-4b56-92e2-3bd80e13f4c0.jpeg"
+    ],
+    "brand": "Adidas",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
