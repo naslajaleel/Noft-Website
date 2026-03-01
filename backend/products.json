@@ -7404,5 +7404,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772381958625",
+    "name": "PUMA H STREET LIGHTWEIGHT SHOES",
+    "description": "",
+    "price": 3149,
+    "offerPrice": 2649,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381954609-puma-h-street-lightweight-shoes-1772381952978-4be15339-632f-48ee-a2c2-131045ecd855.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381956028-puma-h-street-lightweight-shoes-1772381955186-5d98bfca-7ac1-42c2-9826-3ee83d49b1c7.jpeg"
+    ],
+    "brand": "Puma",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
