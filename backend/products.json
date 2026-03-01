@@ -7425,5 +7425,26 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772382022659",
+    "name": "ADIDAS ORIGINALS SUPERSTAR X LOUIS VUITTON",
+    "description": "",
+    "price": 3249,
+    "offerPrice": 2749,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772382018838-adidas-originals-superstar-x-louis-vuitton-1772382010226-262d8f66-4831-4519-b8a7-f23d58efe9de.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772382020197-adidas-originals-superstar-x-louis-vuitton-1772382019359-556fe6ba-c33a-4a90-9e3f-77f22896cbce.jpeg"
+    ],
+    "brand": "Adidas",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
