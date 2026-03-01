@@ -7251,5 +7251,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772381473494",
+    "name": "ALO YOGA RUNNER HOLLYWOOD SHOES",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381469118-alo-yoga-runner-hollywood-shoes-1772381467752-a5bde544-7038-4bfd-85a0-fb042827d612.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381470467-alo-yoga-runner-hollywood-shoes-1772381469701-5978b243-5c6c-4e69-b779-89cd5de91aa0.jpeg"
+    ],
+    "brand": "Alo",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
