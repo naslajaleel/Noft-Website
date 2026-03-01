@@ -7314,5 +7314,27 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772381715548",
+    "name": "NIKE AIRFORCE PANDAPRANK CHERRY SWOOSH",
+    "description": "",
+    "price": 3499,
+    "offerPrice": 2999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381711709-nike-airforce-pandaprank-cherry-swoosh-1772381710131-a3933b74-3e05-48bf-bc91-e9d897f024d4.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772381713094-nike-airforce-pandaprank-cherry-swoosh-1772381712331-bb9b77c4-c676-43ae-8bc7-eb201bf12bd0.jpeg"
+    ],
+    "brand": "Nike",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
