@@ -7763,5 +7763,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772726209339",
+    "name": "CROCS LITERIDE 360 BLUE",
+    "description": "",
+    "price": 1799,
+    "offerPrice": 1299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772726204170-crocs-literide-360-blue-1772726202118-img_9176.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772726206398-crocs-literide-360-blue-1772726205007-img_9177.jpeg"
+    ],
+    "brand": "Crocs",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
