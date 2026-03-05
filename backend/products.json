@@ -7551,5 +7551,26 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772669092914",
+    "name": "PUMA EASY RIDER",
+    "description": "",
+    "price": 2649,
+    "offerPrice": 2149,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772669080746-puma-easy-rider-1772669078896-img_9076.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772669082248-puma-easy-rider-1772669081354-img_9077.jpeg"
+    ],
+    "brand": "Puma",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
