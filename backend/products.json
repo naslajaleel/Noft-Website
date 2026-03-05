@@ -7592,5 +7592,27 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772715693479",
+    "name": "NIKE CORTEZ FIR GREEN",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772715689440-nike-cortez-fir-green-1772715687981-img_9159.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772715690910-nike-cortez-fir-green-1772715690145-img_9158.jpeg"
+    ],
+    "brand": "Nike",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
