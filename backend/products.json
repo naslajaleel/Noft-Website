@@ -7679,5 +7679,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772715966613",
+    "name": "ADIDAS ORIGINALS SAMBA WHITE RED",
+    "description": "",
+    "price": 2599,
+    "offerPrice": 2099,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772715962675-adidas-originals-samba-white-red-1772715961235-img_9164.jpeg"
+    ],
+    "brand": "Adidas",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
