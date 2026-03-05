@@ -7720,5 +7720,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772716098318",
+    "name": "PUMA CLASSIC SUEDE SKY",
+    "description": "",
+    "price": 2599,
+    "offerPrice": 2099,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772716093889-puma-classic-suede-sky-1772716091584-img_9166.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772716095449-puma-classic-suede-sky-1772716094605-img_9167.jpeg"
+    ],
+    "brand": "Puma",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
