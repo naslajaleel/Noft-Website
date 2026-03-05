@@ -7784,5 +7784,25 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772726557592",
+    "name": "CROCS LITERIDE BASIC",
+    "description": "",
+    "price": 1799,
+    "offerPrice": 1299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772726554633-crocs-literide-basic-1772726551086-img_9179.jpeg"
+    ],
+    "brand": "Crocs",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
