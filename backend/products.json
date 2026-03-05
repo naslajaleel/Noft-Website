@@ -7510,5 +7510,26 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772668829705",
+    "name": "NEW BALANCE 1906 SALEHA BEMBURRY HOT",
+    "description": "",
+    "price": 3375,
+    "offerPrice": 2875,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772668826396-new-balance-1906-saleha-bemburry-hot-1772668824777-img_9074.jpeg"
+    ],
+    "brand": "New Balance",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
