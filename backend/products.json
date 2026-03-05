@@ -7634,5 +7634,29 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772715829569",
+    "name": "ADIDAS ORIGINALS SUPERSTAR BAPE WHITE BLACK",
+    "description": "",
+    "price": 3349,
+    "offerPrice": 2849,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772715827502-adidas-originals-superstar-bape-white-black-1772715826099-img_9161.jpeg"
+    ],
+    "brand": "Adidas",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
