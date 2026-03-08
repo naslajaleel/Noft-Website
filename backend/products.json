@@ -7819,5 +7819,20 @@
     "category": "Bags",
     "sizes": [],
     "isBestSeller": false
+  },
+  {
+    "id": "1772961708789",
+    "name": "Coach",
+    "description": "",
+    "price": 2799,
+    "offerPrice": 2299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772961703704-coach-1772961699976-img_9323.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772961706427-coach-1772961704465-img_9324.jpeg"
+    ],
+    "brand": "Coach",
+    "category": "Bags",
+    "sizes": [],
+    "isBestSeller": false
   }
 ]
