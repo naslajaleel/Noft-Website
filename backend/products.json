@@ -7804,5 +7804,20 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1772961640633",
+    "name": "DIOR JUMBO HD SADDLE BAG - BLACK AND WHITE",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772961634751-dior-jumbo-hd-saddle-bag-black-and-white-1772961629563-img_9322.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772961638349-dior-jumbo-hd-saddle-bag-black-and-white-1772961635374-img_9320.jpeg"
+    ],
+    "brand": "Dior",
+    "category": "Bags",
+    "sizes": [],
+    "isBestSeller": false
   }
 ]
