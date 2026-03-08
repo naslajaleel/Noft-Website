@@ -7848,5 +7848,20 @@
     "category": "Bags",
     "sizes": [],
     "isBestSeller": false
+  },
+  {
+    "id": "1772961883594",
+    "name": "COACH TAUPE LOGO CROSSBODY BAG",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772961866007-coach-taupe-logo-crossbody-bag-1772961863566-img_9326.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772961869596-coach-taupe-logo-crossbody-bag-1772961866588-img_9327.jpeg"
+    ],
+    "brand": "Coach",
+    "category": "Bags",
+    "sizes": [],
+    "isBestSeller": false
   }
 ]
