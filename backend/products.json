@@ -7892,5 +7892,20 @@
     "category": "Bags",
     "sizes": [],
     "isBestSeller": false
+  },
+  {
+    "id": "1772962155686",
+    "name": "SAINT LAURENT MEDIUM SUNSET CROCODILE-EMBOSSED LEATHER BAG",
+    "description": "",
+    "price": 2799,
+    "offerPrice": 2299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772962152026-saint-laurent-medium-sunset-crocodile-embossed-leather-bag-1772962150173-img_9331.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772962153705-saint-laurent-medium-sunset-crocodile-embossed-leather-bag-1772962152582-img_9332.jpeg"
+    ],
+    "brand": "YSL",
+    "category": "Bags",
+    "sizes": [],
+    "isBestSeller": false
   }
 ]
