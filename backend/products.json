@@ -7907,5 +7907,19 @@
     "category": "Bags",
     "sizes": [],
     "isBestSeller": false
+  },
+  {
+    "id": "1772962234178",
+    "name": "LOUIS VUITTON CHRISTOPHER  WEARABLE CROSSBODY UNISEX BAG",
+    "description": "",
+    "price": 1749,
+    "offerPrice": 1299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772962231653-louis-vuitton-christopher-wearable-crossbody-unisex-bag-1772962224603-img_9333.jpeg"
+    ],
+    "brand": "LV",
+    "category": "Bags",
+    "sizes": [],
+    "isBestSeller": false
   }
 ]
