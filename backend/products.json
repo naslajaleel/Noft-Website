@@ -7878,5 +7878,19 @@
     "category": "Bags",
     "sizes": [],
     "isBestSeller": false
+  },
+  {
+    "id": "1772962086776",
+    "name": "DIOR UNISEX BACKPACKS",
+    "description": "",
+    "price": 2249,
+    "offerPrice": 1749,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772962084299-dior-unisex-backpacks-1772962080332-img_9330.jpeg"
+    ],
+    "brand": "Dior",
+    "category": "Bags",
+    "sizes": [],
+    "isBestSeller": false
   }
 ]
