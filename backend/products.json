@@ -7863,5 +7863,20 @@
     "category": "Bags",
     "sizes": [],
     "isBestSeller": false
+  },
+  {
+    "id": "1772961960183",
+    "name": "GUCCI MARMONT BAG - 2 AMAZING COLOURS",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772961955803-gucci-marmont-bag-2-amazing-colours-1772961952234-img_9328.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772961958158-gucci-marmont-bag-2-amazing-colours-1772961956357-img_9329.jpeg"
+    ],
+    "brand": "Gucci",
+    "category": "Bags",
+    "sizes": [],
+    "isBestSeller": false
   }
 ]
