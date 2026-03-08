@@ -7834,5 +7834,19 @@
     "category": "Bags",
     "sizes": [],
     "isBestSeller": false
+  },
+  {
+    "id": "1772961796126",
+    "name": "CHRISTIAN DIOR 30 MONTAIGNE CHAIN BAG - BLUE COLOUR",
+    "description": "",
+    "price": 2899,
+    "offerPrice": 2399,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1772961794075-christian-dior-30-montaigne-chain-bag-blue-colour-1772961788557-img_9325.jpeg"
+    ],
+    "brand": "Christian Dior",
+    "category": "Bags",
+    "sizes": [],
+    "isBestSeller": false
   }
 ]
