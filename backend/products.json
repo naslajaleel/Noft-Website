@@ -7943,5 +7943,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1773225455735",
+    "name": "NIKE P-6000 TRAINER METALLIC BLACK TICK",
+    "description": "",
+    "price": 3348,
+    "offerPrice": 2849,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1773225452618-nike-p-6000-trainer-metallic-black-tick-1773225450757-img_9663.jpeg"
+    ],
+    "brand": "Nike",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
