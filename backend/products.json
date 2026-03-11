@@ -7922,5 +7922,26 @@
     "category": "Bags",
     "sizes": [],
     "isBestSeller": false
+  },
+  {
+    "id": "1773225377617",
+    "name": "ADIDAS GAZELLE INDOOR NAVY",
+    "description": "",
+    "price": 2349,
+    "offerPrice": 1749,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1773225374478-adidas-gazelle-indoor-navy-1773225355454-img_9662.jpeg"
+    ],
+    "brand": "Adidas",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
