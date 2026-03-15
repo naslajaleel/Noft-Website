@@ -7964,5 +7964,26 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1773563447414",
+    "name": "NIKE AIRFORCE ONE MOLTEN METAL SILVER",
+    "description": "",
+    "price": 3149,
+    "offerPrice": 2649,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1773563444487-nike-airforce-one-molten-metal-silver-1773563442985-ecc56fa4-7b47-43ed-8eb8-69ff9a0031f4.jpeg"
+    ],
+    "brand": "Nike",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
