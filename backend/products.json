@@ -7985,5 +7985,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1773572459705",
+    "name": "ONITSUKA TIGER MEXICO 66 - YELLOW BLACK",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2499,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1773572454821-onitsuka-tiger-mexico-66-yellow-black-1773572453663-5d620d54-d9d1-4df8-a2e8-e8a2f7f0c10b.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "category": "Shoes",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
