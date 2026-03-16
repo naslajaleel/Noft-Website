@@ -8020,5 +8020,20 @@
     "category": "Bags",
     "sizes": [],
     "isBestSeller": false
+  },
+  {
+    "id": "1773681844801",
+    "name": "BLACKPINK LISA'S FAVOURITE CELINE MEDIUM TILLY BAG",
+    "description": "",
+    "price": 2499,
+    "offerPrice": 1999,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1773681837666-blackpink-lisas-favourite-celine-medium-tilly-bag-1773681828516-img_0347.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1773681842262-blackpink-lisas-favourite-celine-medium-tilly-bag-1773681838404-img_0346.jpeg"
+    ],
+    "brand": "Celine",
+    "category": "Bags",
+    "sizes": [],
+    "isBestSeller": false
   }
 ]
