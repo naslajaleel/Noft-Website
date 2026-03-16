@@ -8005,5 +8005,20 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1773681733371",
+    "name": "CHANEL ICE-CREAM BAG - PINK AND BEIGE",
+    "description": "",
+    "price": 2599,
+    "offerPrice": 2099,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1773681727913-chanel-ice-cream-bag-pink-and-beige-1773681725517-img_0344.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1773681730414-chanel-ice-cream-bag-pink-and-beige-1773681728646-img_0345.jpeg"
+    ],
+    "brand": "Chanel",
+    "category": "Bags",
+    "sizes": [],
+    "isBestSeller": false
   }
 ]
