@@ -8035,5 +8035,20 @@
     "category": "Bags",
     "sizes": [],
     "isBestSeller": false
+  },
+  {
+    "id": "1773681936090",
+    "name": "FENDI CROSSBODY BAG - BLACK AND BROWN",
+    "description": "",
+    "price": 2699,
+    "offerPrice": 2199,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1773681931143-fendi-crossbody-bag-black-and-brown-1773681927266-img_0348.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1773681933962-fendi-crossbody-bag-black-and-brown-1773681931878-img_0349.jpeg"
+    ],
+    "brand": "Fendi",
+    "category": "Bags",
+    "sizes": [],
+    "isBestSeller": false
   }
 ]
