@@ -8151,5 +8151,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1774277242146",
+    "name": "ADIDAS ADIZERO BOSTON 13 BLUE WHITE",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774277238420-adidas-adizero-boston-13-blue-white-1774277236875-b5d5b474-60fe-411d-89ce-32785e6174b5.jpeg"
+    ],
+    "brand": "Adidas",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
