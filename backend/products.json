@@ -8091,5 +8091,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1774277118022",
+    "name": "ADIDAS ADIZERO BOSTON 13 WHITE GREEN",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774277109653-adidas-adizero-boston-13-white-green-1774277108181-146073bf-212e-4a63-8be5-133209a40482.jpeg"
+    ],
+    "brand": "Adidas",
+    "category": "Shoes",
+    "sizes": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
