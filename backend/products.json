@@ -8050,5 +8050,25 @@
     "category": "Bags",
     "sizes": [],
     "isBestSeller": false
+  },
+  {
+    "id": "1774276932727",
+    "name": "ONITSUKA TIGER MEXICO 66 BELLERINA",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2589,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774276929022-onitsuka-tiger-mexico-66-bellerina-1774276927353-img_1284.jpeg"
+    ],
+    "brand": "Onitsuka",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
