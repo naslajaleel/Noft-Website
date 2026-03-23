@@ -8070,5 +8070,26 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1774277025160",
+    "name": "NEW BALANCE 9060 PINK",
+    "description": "",
+    "price": 3310,
+    "offerPrice": 2810,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774277020691-new-balance-9060-pink-1774277019163-76f85c5d-b282-426a-b80d-9d71820cc1cb.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774277022188-new-balance-9060-pink-1774277021421-ca9d735a-40d4-454b-a9e6-3ea03b197803.jpeg"
+    ],
+    "brand": "New Balance",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
