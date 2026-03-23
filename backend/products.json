@@ -8111,5 +8111,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1774277157708",
+    "name": "ADIDAS ADIZERO BOSTON 13 WHITE SILVER",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774277154766-adidas-adizero-boston-13-white-silver-1774277153858-513df13a-8125-42ba-98e5-36ec93f48e27.jpeg"
+    ],
+    "brand": "Adidas",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
