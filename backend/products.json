@@ -8171,5 +8171,27 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1774353137545",
+    "name": "NEW BALANCE 509 BLUE AND LAVENDER",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774353130009-new-balance-509-blue-1774353125545-bf2453ed-ba14-40e8-8650-04a0c7f466bd.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774353134438-new-balance-509-blue-1774353131148-f9ca8535-c00b-4990-894d-60bb50b86e43.jpeg"
+    ],
+    "brand": "New Balance",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
