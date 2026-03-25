@@ -1,10 +1,10 @@
 {
   "current": {
-    "name": "Ramadan Feast",
-    "description": "Grab your favourite sneakers this Ramadan",
+    "name": "Vishnu craker sale",
+    "description": "Grab your favourite sneakers this Vishu",
     "price": 600,
-    "startDate": "2026-03-01",
-    "endDate": "2026-03-02",
+    "startDate": "2026-03-25",
+    "endDate": "2026-04-14",
     "enabled": true
   },
   "history": [
@@ -25,6 +25,15 @@
       "startDate": "2026-03-01",
       "endDate": "2026-03-02",
       "enabledAt": "2026-03-01T08:11:11.185Z"
+    },
+    {
+      "id": "1774449292515",
+      "name": "Vishnu craker sale",
+      "description": "Grab your favourite sneakers this Vishu",
+      "price": 600,
+      "startDate": "2026-03-25",
+      "endDate": "2026-04-14",
+      "enabledAt": "2026-03-25T14:34:52.515Z"
     }
   ]
 }
