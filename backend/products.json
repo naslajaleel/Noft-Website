@@ -8218,5 +8218,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1774806632149",
+    "name": "ADIDAS SAMBA JANE RED",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774806629116-adidas-samba-jane-red-1774806627618-212e96bc-3678-4175-b579-fcbc0ea82174.jpeg"
+    ],
+    "brand": "Adidas",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
