@@ -8321,5 +8321,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1774866274845",
+    "name": "NIKE P-6000 TRAINER BLACK PINK",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774866272178-nike-p-6000-trainer-black-pink-1774866269666-img_2067.jpeg"
+    ],
+    "brand": "Nike",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
