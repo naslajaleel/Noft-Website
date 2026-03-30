@@ -8465,5 +8465,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1774866773917",
+    "name": "NEW BALANCE 1906 X BRICKED WOODS",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774866771801-new-balance-1906-x-bricked-woods-1774866763572-img_2075.jpeg"
+    ],
+    "brand": "New Balance",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
