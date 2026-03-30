@@ -8301,5 +8301,25 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1774866218848",
+    "name": "NIKE P-6000 TRAINER BABY PINK",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774866215871-nike-p-6000-trainer-baby-pink-1774866211958-img_2066.jpeg"
+    ],
+    "brand": "Nike",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
