@@ -8361,5 +8361,26 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1774866437448",
+    "name": "LORA PIANA OG LEATHER LOAFERS",
+    "description": "",
+    "price": 2199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774866431212-lora-piana-og-leather-loafers-1774866427756-img_2069.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774866434009-lora-piana-og-leather-loafers-1774866432050-img_2070.jpeg"
+    ],
+    "brand": "Lora Piana",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "isBestSeller": false
   }
 ]
