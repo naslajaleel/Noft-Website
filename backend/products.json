@@ -8505,5 +8505,27 @@
       44
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1774867025061",
+    "name": "Crocss Bembury Semi Ua",
+    "description": "",
+    "price": 2999,
+    "offerPrice": 2299,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774867017771-crocss-bembury-semi-ua-1774867012865-img_2077.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774867022287-crocss-bembury-semi-ua-1774867018428-img_2078.jpeg"
+    ],
+    "brand": "Crocs",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
