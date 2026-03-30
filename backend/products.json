@@ -8280,5 +8280,26 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1774866162715",
+    "name": "NIKE P-6000 TRAINER ARMY NAVY",
+    "description": "",
+    "price": 3399,
+    "offerPrice": 2899,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774866159292-nike-p-6000-trainer-army-navy-1774866154875-img_2065.jpeg"
+    ],
+    "brand": "Nike",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
