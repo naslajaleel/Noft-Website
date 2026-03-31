@@ -8527,5 +8527,27 @@
       45
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1774968856749",
+    "name": "AIR JORDANS RETRO 4 NIGEL SILVERSTER BLACK CAT",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774968843630-product-1774968842289-29425ad1-1425-44e3-9a56-748c8b18a6f2.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1774968845413-product-1774968844510-90c519b8-ecb5-4a14-9ff1-53bbe9c50197.jpeg"
+    ],
+    "brand": "Nike",
+    "category": "Shoes",
+    "sizes": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "isBestSeller": false
   }
 ]
