@@ -3653,6 +3653,10 @@
     ],
     "brand": "Nike",
     "sizes": [
+      36,
+      37,
+      38,
+      39,
       40,
       41,
       42,
@@ -3660,7 +3664,8 @@
       44,
       45
     ],
-    "isBestSeller": false
+    "isBestSeller": false,
+    "category": "Shoes"
   },
   {
     "id": "1770408171555",
