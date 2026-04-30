@@ -8712,5 +8712,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1777565509659",
+    "name": "PUMA SPEED CAT BALLET PINK WHITE RED",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1777565506454-puma-speed-cat-ballet-pink-white-red-1777565504748-deef802b-bdfc-48b2-a63d-45ce87aaad71.jpeg"
+    ],
+    "brand": "Puma",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
