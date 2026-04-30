@@ -8591,5 +8591,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1777565201451",
+    "name": "PUMA SPEED CAT BALLET MAROON LACE",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1777565198035-puma-speed-cat-ballet-maroon-lace-1777565196386-ff9e4b29-82eb-41f9-88d4-a382a3404f80.jpeg"
+    ],
+    "brand": "Puma",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
