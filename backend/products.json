@@ -8611,5 +8611,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1777565249105",
+    "name": "PUMA SPEED CAT BALLET WHITE LACE",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1777565244387-puma-speed-cat-ballet-white-lace-1777565242854-e8904a7f-5607-48ab-9df5-84d19c765164.jpeg"
+    ],
+    "brand": "Puma",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
