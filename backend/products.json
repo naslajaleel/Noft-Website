@@ -8671,5 +8671,26 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1777565383600",
+    "name": "PUMA SPEED CAT BALLET BROWN",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1777565376845-puma-speed-cat-ballet-brown-1777565375502-fa5c0ad9-cd1f-4a7f-a92a-12f6de231c0d.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1777565378698-puma-speed-cat-ballet-brown-1777565377816-ee71e5d6-7888-419e-abe7-e1e770b149f0.jpeg"
+    ],
+    "brand": "Puma",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
