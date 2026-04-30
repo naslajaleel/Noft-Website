@@ -8692,5 +8692,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1777565422827",
+    "name": "PUMA SPEED CAT BALLET BROWN VOO",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1777565419648-puma-speed-cat-ballet-brown-voo-1777565418313-2f0fd45b-dd23-41af-9531-41304c580731.jpeg"
+    ],
+    "brand": "Puma",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
