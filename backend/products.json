@@ -8651,5 +8651,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1777565329104",
+    "name": "PUMA SPEED CAT BALLET BLACK WHITE",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1777565326069-puma-speed-cat-ballet-black-white-1777565324583-24c8146e-d06e-470b-b72a-5459610e6a06.jpeg"
+    ],
+    "brand": "Puma",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
