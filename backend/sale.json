@@ -1,11 +1,11 @@
 {
   "current": {
-    "name": "Vishnu craker sale",
-    "description": "Grab your favourite sneakers this Vishu",
+    "name": "BAKRID STARTER SALE",
+    "description": "Grab your favourite sneakers this BAKRID",
     "price": 600,
     "startDate": "2026-03-25",
     "endDate": "2026-04-14",
-    "enabled": false
+    "enabled": true
   },
   "history": [
     {
@@ -34,6 +34,15 @@
       "startDate": "2026-03-25",
       "endDate": "2026-04-14",
       "enabledAt": "2026-03-25T14:34:52.515Z"
+    },
+    {
+      "id": "1777612828887",
+      "name": "BAKRID STARTER SALE",
+      "description": "Grab your favourite sneakers this BAKRID",
+      "price": 600,
+      "startDate": "2026-03-25",
+      "endDate": "2026-04-14",
+      "enabledAt": "2026-05-01T05:20:28.887Z"
     }
   ]
 }
