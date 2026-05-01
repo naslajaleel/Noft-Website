@@ -3,9 +3,9 @@
     "name": "BAKRID STARTER SALE",
     "description": "Grab your favourite sneakers this BAKRID",
     "price": 600,
-    "startDate": "2026-03-25",
-    "endDate": "2026-04-14",
-    "enabled": false
+    "startDate": "2026-05-01",
+    "endDate": "2026-05-03",
+    "enabled": true
   },
   "history": [
     {
@@ -43,6 +43,15 @@
       "startDate": "2026-03-25",
       "endDate": "2026-04-14",
       "enabledAt": "2026-05-01T05:20:28.887Z"
+    },
+    {
+      "id": "1777612861019",
+      "name": "BAKRID STARTER SALE",
+      "description": "Grab your favourite sneakers this BAKRID",
+      "price": 600,
+      "startDate": "2026-05-01",
+      "endDate": "2026-05-03",
+      "enabledAt": "2026-05-01T05:21:01.019Z"
     }
   ]
 }
