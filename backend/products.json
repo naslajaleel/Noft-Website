@@ -8752,5 +8752,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1780902842805",
+    "name": "PUMA SPEED CAT BALLET VENUS",
+    "description": "",
+    "price": 3099,
+    "offerPrice": 2799,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1780902838961-puma-speed-cat-ballet-venus-1780902834056-img_6991.jpeg"
+    ],
+    "brand": "Puma",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
