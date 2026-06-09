@@ -8772,5 +8772,26 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1781023375500",
+    "name": "PUMA SPEED CAT BALLET POWER PUFF",
+    "description": "",
+    "price": 3299,
+    "offerPrice": 2699,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1781023360078-puma-speed-cat-ballet-power-puff-1781023343010-8c56ec2c-c150-4b8d-98eb-237d802c0aec.jpeg",
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1781023371464-puma-speed-cat-ballet-power-puff-1781023361464-3e7cf921-f309-4283-9aa3-eb24aab00c3e.jpeg"
+    ],
+    "brand": "Puma",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
