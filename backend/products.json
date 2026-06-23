@@ -8814,5 +8814,25 @@
       40
     ],
     "isBestSeller": false
+  },
+  {
+    "id": "1782205204781",
+    "name": "PUMA SPEED CAT BALLET METTALIC BROWN",
+    "description": "",
+    "price": 3199,
+    "offerPrice": 2599,
+    "images": [
+      "https://raw.githubusercontent.com/naslajaleel/Noft-Website/main/frontend/public/uploads/1782205199737-puma-speed-cat-ballet-mettalic-brown-1782205198222-img_7562.jpeg"
+    ],
+    "brand": "Puma",
+    "category": "Shoes",
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "isBestSeller": false
   }
 ]
